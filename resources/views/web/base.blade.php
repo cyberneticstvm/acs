@@ -16,9 +16,9 @@
 
     <!-- Favicons - Place favicon.ico in the root directory -->
     <link href="{{ asset('/web/assets/img/favicon.ico') }}" rel="shortcut icon">
-    <link rel="manifest" href="{{ '/web/assets/img/favicons/manifest.json' }}">
+    <link rel="manifest" href="{{ asset('/web/assets/img/favicons/manifest.json') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="{{ '/web/assets/img/favicons/ms-icon-144x144.png' }}">
+    <meta name="msapplication-TileImage" content="{{ asset('/web/assets/img/favicons/ms-icon-144x144.png') }}">
     <meta name="theme-color" content="#ffffff">
 
     <!--==============================
@@ -32,16 +32,16 @@
 	    All CSS File
 	============================== -->
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="{{ '/web/assets/css/bootstrap.min.css' }}">
+    <link rel="stylesheet" href="{{ asset('/web/assets/css/bootstrap.min.css') }}">
     <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="{{ '/web/assets/css/fontawesome.min.css' }}">
+    <link rel="stylesheet" href="{{ asset('/web/assets/css/fontawesome.min.css') }}">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="{{ '/web/assets/css/magnific-popup.min.css' }}">
+    <link rel="stylesheet" href="{{ asset('/web/assets/css/magnific-popup.min.css') }}">
     <!-- Slick Slider -->
-    <link rel="stylesheet" href="{{ '/web/assets/css/slick.min.css' }}">
+    <link rel="stylesheet" href="{{ asset('/web/assets/css/slick.min.css') }}">
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="{{ '/web/assets/css/style.css' }}">
-    <link rel="stylesheet" href="{{ '/web/assets/css/aurega.css' }}">
+    <link rel="stylesheet" href="{{ asset('/web/assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('/web/assets/css/aurega.css') }}">
 
 </head>
 
@@ -76,7 +76,7 @@
             <div class="widget footer-widget">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="index.html"><img src="{{ '/web/assets/img/aurega-logo-transparent.png' }}" alt="Aurega"></a>
+                        <a href="index.html"><img src="{{ asset('/web/assets/img/aurega-logo-transparent.png') }}" alt="Aurega"></a>
                     </div>
                     <p class="about-text">We provide specialized winterization services to safeguard your pool during the off-season, and when spring arrives, we handle the thorough opening process.</p>
 
@@ -94,7 +94,7 @@
                 <div class="recent-post-wrap">
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="{{ '/web/assets/img/blog/recent-post-2-1.jpg' }}" alt="Blog Image"></a>
+                            <a href="blog-details.html"><img src="{{ asset('/web/assets/img/blog/recent-post-2-1.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Installation of new Equipment</a></h4>
@@ -105,7 +105,7 @@
                     </div>
                     <div class="recent-post">
                         <div class="media-img">
-                            <a href="blog-details.html"><img src="{{ '/web/assets/img/blog/recent-post-2-2.jpg' }}" alt="Blog Image"></a>
+                            <a href="blog-details.html"><img src="{{ asset('/web/assets/img/blog/recent-post-2-2.jpg') }}" alt="Blog Image"></a>
                         </div>
                         <div class="media-body">
                             <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Installation of new Equipment</a></h4>
@@ -274,31 +274,31 @@
     All Js File
 ============================== -->
     <!-- Jquery -->
-    <script src="{{ '/web/assets/js/vendor/jquery-3.6.0.min.js' }}"></script>
+    <script src="{{ asset('/web/assets/js/vendor/jquery-3.6.0.min.js') }}"></script>
     <!-- Slick Slider -->
-    <script src="{{ '/web/assets/js/slick.min.js' }}"></script>
+    <script src="{{ asset('/web/assets/js/slick.min.js') }}"></script>
     <!-- Bootstrap -->
-    <script src="{{ '/web/assets/js/bootstrap.min.js' }}"></script>
+    <script src="{{ asset('/web/assets/js/bootstrap.min.js') }}"></script>
     <!-- Isotope Filter -->
-    <script src="{{ '/web/assets/js/isotope.pkgd.min.js' }}"></script>
+    <script src="{{ asset('/web/assets/js/isotope.pkgd.min.js') }}"></script>
     <!-- Magnific Popup -->
-    <script src="{{ '/web/assets/js/jquery.magnific-popup.min.js' }}"></script>
+    <script src="{{ asset('/web/assets/js/jquery.magnific-popup.min.js') }}"></script>
     <!-- Range Slider -->
-    <script src="{{ '/web/assets/js/jquery-ui.min.js' }}"></script>
+    <script src="{{ asset('/web/assets/js/jquery-ui.min.js') }}"></script>
     <!-- imagesloaded  -->
-    <script src="{{ '/web/assets/js/imagesloaded.pkgd.min.js' }}"></script>
+    <script src="{{ asset('/web/assets/js/imagesloaded.pkgd.min.js') }}"></script>
     <!-- odometer -->
-    <script src="{{ '/web/assets/js/odometer.js' }}"></script>
+    <script src="{{ asset('/web/assets/js/odometer.js') }}"></script>
     <!-- Nice Select -->
-    <script src="{{ '/web/assets/js/nice-select.min.js' }}"></script>
+    <script src="{{ asset('/web/assets/js/nice-select.min.js') }}"></script>
 
     <!-- circle-progress -->
-    <script src="{{ '/web/assets/js/circle-progress.js' }}"></script>
+    <script src="{{ asset('/web/assets/js/circle-progress.js') }}"></script>
 
-    <script src="{{ '/web/assets/js/jquery.ripples.js' }}"></script>
+    <script src="{{ asset('/web/assets/js/jquery.ripples.js') }}"></script>
 
     <!-- Main Js File -->
-    <script src="{{ '/web/assets/js/main.js' }}"></script>
+    <script src="{{ asset('/web/assets/js/main.js') }}"></script>
 
 </body>
 
