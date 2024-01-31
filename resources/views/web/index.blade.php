@@ -3,14 +3,14 @@
 <!--==============================
 Hero Area
 ==============================-->
-<div class="th-hero-wrapper  hero-4" data-bg-src="{{ '/web/assets/img/bg/hero_bg_2_1.jpg' }}">
+<div class="th-hero-wrapper  hero-4" data-bg-src="{{ asset('/web/assets/img/bg/hero_bg_2_1.jpg') }}">
     <div class="hero-slider-4 th-carousel" id="heroSlide4" data-slide-show="1" data-md-slide-show="1" data-fade="true">
 
         <div class="th-hero-slide">
             <div class="th-hero-bg">
-                <img src="{{ '/web/assets/img/hero/hero_overlay_2_1.png' }}" alt="Hero Image">
+                <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
                 <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
-                    <img src="{{ '/web/assets/img/shape/hero_shape_2.png' }}" alt="">
+                    <img src="{{ asset('/web/assets/img/shape/hero_shape_2.png') }}" alt="">
                 </div>
             </div>
             <div class="container">
@@ -29,7 +29,7 @@ Hero Area
                     </div>
                     <div class="col-xl-5">
                         <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.2s">
-                            <img src="{{ '/web/assets/img/hero/business-setup1.webp' }}" alt="Aurega Business Setup">
+                            <img src="{{ asset('/web/assets/img/hero/business-setup1.webp') }}" alt="Aurega Business Setup">
                         </div>
                     </div>
                 </div>
@@ -38,9 +38,9 @@ Hero Area
 
         <div class="th-hero-slide">
             <div class="th-hero-bg">
-                <img src="{{ '/web/assets/img/hero/hero_overlay_2_1.png' }}" alt="Hero Image">
+                <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
                 <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
-                    <img src="{{ '/web/assets/img/shape/hero_shape_2.png' }}" alt="">
+                    <img src="{{ asset('/web/assets/img/shape/hero_shape_2.png') }}" alt="">
                 </div>
             </div>
             <div class="container">
@@ -59,7 +59,7 @@ Hero Area
                     </div>
                     <div class="col-xl-5">
                         <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.2s">
-                            <img src="{{ '/web/assets/img/hero/pro-service.webp' }}" alt="Aurega PRO Service">
+                            <img src="{{ asset('/web/assets/img/hero/pro-service.webp') }}" alt="Aurega PRO Service">
                         </div>
                     </div>
                 </div>
