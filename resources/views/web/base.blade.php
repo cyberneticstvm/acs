@@ -78,14 +78,14 @@
                     <div class="about-logo">
                         <a href="index.html"><img src="{{ asset('/web/assets/img/aurega-logo-transparent.png') }}" alt="Aurega"></a>
                     </div>
-                    <p class="about-text">We provide specialized winterization services to safeguard your pool during the off-season, and when spring arrives, we handle the thorough opening process.</p>
+                    <p class="about-text text-justify">Aurega Group is the global gateway to multidisciplinary business requirements. We're one of the most trusted business setup advisory establishments which give comprehensive professional services to individuals, associations and large corporates.</p>
 
                     <div class="th-social  footer-social">
-                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.behance.net/"><i class="fa-brands fa-behance"></i></a>
+                        <a href="https://www.facebook.com/auregagroup/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/Auregagroup" target="_blank"><i class="fab fa-x"></i></a>
+                        <a href="https://www.linkedin.com/company/auregaglobal/" target="_blank"><i class="fab fa-linkedin-in"></i> </a>
+                        <a href="https://www.instagram.com/auregagroup/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@auregagroup7318" target="_blank"><i class="fab fa-youtube"></i> </a>
                     </div>
                 </div>
             </div>
@@ -172,66 +172,87 @@
         <div class="logo-shape"></div>
     </header>
     @yield("content")
-    <footer class="footer-wrapper footer-layout2">
+    <div class="newsletter-area bg-theme">
+        <div class="container">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-6 col-xl-6">
+                    <div class="newsletter-wrapper">
+                        <h6 class="newsletter-title text-white mb-0">Request a call back. We will reach out you shortly.</h6>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-6">
+                    <div class="newsletter-form-wrapper">
+                        <form class="newsletter-form">
+                            <input class="form-control " type="text" placeholder="Enter your Email / Mobile" required="">
+                            <button type="submit" class="th-btn style3">Request</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-wrapper footer-layout1">
         <div class="widget-area">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-md-6 col-xl-4 footer-border">
+                    <div class="col-md-6 col-xl-4">
+                        <div class="widget footer-widget">
+                            <div class="th-widget-about">
+                                <div class="about-logo">
+                                    <a href="index.html"><img src="{{ asset('/web/assets/img/aurega-logo-transparent.png') }}" alt="Poolax"></a>
+                                </div>
+                                <p class="about-text text-justify">Aurega Group is the global gateway to multidisciplinary business requirements. We're one of the most trusted business setup advisory establishments which give comprehensive professional services to individuals, associations and large corporates.</p>
+
+                                <div class="th-social  footer-social">
+                                    <a href="https://www.facebook.com/auregagroup/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://twitter.com/Auregagroup" target="_blank"><i class="fab fa-x"></i></a>
+                                    <a href="https://www.linkedin.com/company/auregaglobal/" target="_blank"><i class="fab fa-linkedin-in"></i> </a>
+                                    <a href="https://www.instagram.com/auregagroup/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.youtube.com/@auregagroup7318" target="_blank"><i class="fab fa-youtube"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-2">
                         <div class="widget widget_nav_menu  footer-widget">
-                            <h3 class="widget_title">Quick link</h3>
+                            <h3 class="widget_title">Quick links</h3>
                             <div class="menu-all-pages-container">
-                                <ul class="menu style2">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="contact.html">Maintenance</a></li>
-                                    <li><a href="gallery.html">gallery</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="testimonials.html">Testimonials</a></li>
-                                    <li><a href="contact.html">Teams & Conditions</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="contact.html">Repair</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                    <li><a href="contact.html">Privacy Policy</a></li>
+                                <ul class="menu">
+                                    <li><a href="{{ route('index') }}">UAE Free Zone</a></li>
+                                    <li><a href="{{ route('index') }}">Mainland</a></li>
+                                    <li><a href="{{ route('index') }}">Offshore</a></li>
+                                    <li><a href="{{ route('index') }}">Careers</a></li>
+                                    <li><a href="{{ route('index') }}">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-4 footer-border">
-                        <div class="widget footer-widget">
-                            <div class="th-widget-about">
-                                <div class="about-logo text-center">
-                                    <a href="index.html"><img src="assets/img/logo-white2.svg" alt="Poolax"></a>
-                                </div>
-                                <p class="text-center">Provide specialized winterization services Sign Up to get updates & news about us.</p>
-                                <div class="footer-search-contact mt-25">
-                                    <form>
-                                        <input class="form-control" type="email" placeholder="Enter your email">
-                                    </form>
-                                    <div class="">
-                                        <button type="submit" class="th-btn"><i class="fa-light fa-paper-plane"></i></button>
-                                    </div>
-                                </div>
-                                <div class="th-social footer-social mt-30 text-center">
-                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="https://www.behance.net/"><i class="fa-brands fa-behance"></i></a>
-                                </div>
+                    <div class="col-md-6 col-xl-auto">
+                        <div class="widget widget_nav_menu footer-widget">
+                            <h3 class="widget_title">Popular Services</h3>
+                            <div class="menu-all-pages-container">
+                                <ul class="menu">
+                                    <li><a href="{{ route('index') }}">Business Setup</a></li>
+                                    <li><a href="{{ route('index') }}">Golden Visa</a></li>
+                                    <li><a href="{{ route('index') }}">PRO Services</a></li>
+                                    <li><a href="{{ route('index') }}">Company Incorporation</a></li>
+                                    <li><a href="{{ route('index') }}">Trademark Registration</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-4 footer-border">
+                    <div class="col-md-6 col-xl-3">
                         <div class="widget footer-widget">
                             <h3 class="widget_title">Contact Us</h3>
                             <div class="th-widget-about">
-                                <p class="footer-info"><i class="fas fa-map-marker-alt"></i>445 S E St unit 12, Santa Rosa CA
-                                    95404, United States</p>
+                                <p class="footer-info"><i class="fas fa-map-marker-alt"></i>#106, Bay Square 11, Business Bay, Dubai</p>
                                 <div class="footer-info"> <i class="fa-solid fa-phone"></i>
                                     <p class="footer-info_text">
-                                        <a href="tel:+16326543554" class="text-inherit">+(163)-2654-3654</a>
-                                        <a href="tel:+16326543564" class="text-inherit">+(163)-2654-3564</a>
+                                        <a href="tel:+971528686158" class="text-inherit">+(971) 52 868 6158</a>
+                                        <a href="tel:+971506939558" class="text-inherit">+(971) 50 693 9558</a>
                                     </p>
                                 </div>
-                                <p class="footer-info"><i class="fas fa-envelope"></i><a class="text-inherit" href="mailto:help24/7@Poolax.com">help24/7@Poolax.com</a></p>
+                                <p class="footer-info"><i class="fas fa-envelope"></i><a class="text-inherit" href="mailto:mkt@auregagroup.com">mkt@auregagroup.com</a></p>
 
                             </div>
                         </div>
@@ -243,15 +264,14 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12">
-                        <p class="copyright-text text-white text-center">© 2023 <a href="https://themeforest.net/user/themeholy">Poolax</a>. All Rights
-                            Reserved.</p>
+                        <p class="copyright-text text-white text-center">Copyright © {{ date('Y') }} <a href="{{ route('index') }}" class="text-gold">Aurega Corporate Service</a>. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="shape-mockup" data-top="0%" data-left="0%"><img src="assets/img/shape/footer_shape_2_1.png" alt="shape">
+        <div class="shape-mockup" data-top="0%" data-left="0%"><img src="{{ asset('/web/assets/img/shape/footer_shape_1.png') }}" alt="shape">
         </div>
-        <div class="shape-mockup d-none d-xl-block" data-bottom="12%" data-right="0%"><img src="assets/img/shape/footer_shape_2_2.png" alt="shape"></div>
+        <div class="shape-mockup d-none d-xl-block" data-bottom="12%" data-right="0%"><img src="{{ asset('/web/assets/img/shape/footer_shape_2.png') }}" alt="shape"></div>
     </footer>
 
 

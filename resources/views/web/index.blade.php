@@ -82,8 +82,8 @@ feature Area
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
                 <div class="title-area text-center">
-                    <span class="sub-title">Our Core Features</span>
-                    <h2 class="sec-title">Quality feature Crystal Clear Results</h2>
+                    <span class="sub-title">Our commitment to our clients</span>
+                    <h2 class="sec-title">Your Gateway to Seamless Business Setup in UAE</h2>
                 </div>
             </div>
         </div>
@@ -91,13 +91,13 @@ feature Area
             <div class="col-md-6 col-lg-4">
                 <div class="feature-card wow fadeInUp">
                     <div class="feature-card_img global-img">
-                        <img src="assets/img/service/feature_1_1.jpg" alt="feature">
+                        <img src="{{ asset('/web/assets/img/service/medium-shot-men-women-work.webp') }}" alt="feature">
                     </div>
                     <div class="feature-card_content">
-                        <div class="feature-card_icon"><img src="assets/img/icon/feature_2_1.svg" alt="feature"> </div>
-                        <h3 class="box-title"><a href="service-details.html">Residential Pool Service</a></h3>
-                        <p class="feature-card_text">Residential pool service refers maintenance of swimming pools </p>
-                        <a href="service-details.html" class="th-btn border">Read More</a>
+                        <div class="feature-card_icon"><i class="fa-sharp fa-light fa-badge-check fa-2xl text-info"></i></div>
+                        <h3 class="box-title"><a href="{{ route('index') }}">Trusted Business Setup Advisory Services</a></h3>
+                        <p class="feature-card_text">When it comes to setting up a business in Dubai, navigating through the intricate processes and legal requirements can be overwhelming.</p>
+                        <a href="{{ route('index') }}" class="th-btn border">Read More</a>
                     </div>
                 </div>
             </div>
@@ -105,12 +105,12 @@ feature Area
             <div class="col-md-6 col-lg-4">
                 <div class="feature-card wow fadeInDown">
                     <div class="feature-card_img global-img">
-                        <img src="assets/img/service/feature_1_2.jpg" alt="feature">
+                        <img src="{{ asset('/web/assets/img/service/medium-shot-smiley-woman-with-passport.webp') }}" alt="feature">
                     </div>
                     <div class="feature-card_content">
-                        <div class="feature-card_icon"><img src="assets/img/icon/feature_2_2.svg" alt="feature"> </div>
-                        <h3 class="box-title"><a href="service-details.html">Commercial Pool Service</a></h3>
-                        <p class="feature-card_text">Commercial pool service refers to the maintenance, cleaning </p>
+                        <div class="feature-card_icon"><i class="fa-sharp fa-light fa-badge-check fa-2xl text-info"></i></div>
+                        <h3 class="box-title"><a href="service-details.html">Expert Company Formation in Dubai</a></h3>
+                        <p class="feature-card_text">As specialists in company formation in Dubai, we understand the unique dynamics of the local business landscape.</p>
                         <a href="service-details.html" class="th-btn border">Read More</a>
                     </div>
                 </div>
@@ -119,12 +119,12 @@ feature Area
             <div class="col-md-6 col-lg-4">
                 <div class="feature-card wow fadeInUp">
                     <div class="feature-card_img global-img">
-                        <img src="assets/img/service/feature_1_3.jpg" alt="feature">
+                        <img src="{{ asset('/web/assets/img/service/male-female-office-workers.webp') }}" alt="feature">
                     </div>
                     <div class="feature-card_content">
-                        <div class="feature-card_icon"><img src="assets/img/icon/feature_2_3.svg" alt="feature"> </div>
-                        <h3 class="box-title"><a href="service-details.html">Fast Servicing Process</a></h3>
-                        <p class="feature-card_text">A fast servicing process, whether or commercial pool</p>
+                        <div class="feature-card_icon"><i class="fa-sharp fa-light fa-badge-check fa-2xl text-info"></i></div>
+                        <h3 class="box-title"><a href="service-details.html">Comprehensive Business Setup Companies in UAE</a></h3>
+                        <p class="feature-card_text">Expanding your business to the UAE can be a game-changer, but it requires comprehensive solutions.</p>
                         <a href="service-details.html" class="th-btn border">Read More</a>
                     </div>
                 </div>
@@ -136,15 +136,15 @@ feature Area
 <!--==============================
 About Area  
 ==============================-->
-<div class="about-sec overflow-hidden space" id="about-sec" data-bg-src="assets/img/bg/about_bg_1.jpg">
+<div class="about-sec overflow-hidden space" id="about-sec" data-bg-src="{{ asset('/web/assets/img/bg/about_bg_1.jpg') }}">
     <div class="container">
         <div class="row">
             <div class="col-xl-6">
                 <div class="wow fadeInLeft">
                     <div class="title-area mb-25">
-                        <span class="sub-title style1">About Us Our Comoany</span>
-                        <h2 class="sec-title mb-20">Discover The Difference In Our Pool Maintenance</h2>
-                        <p class="">Welcome to Poolax, your trusted partner in pool service and maintenance. With a passion for pools and a commitment to excellence, we have been serving united states and the surrounding areas for 25 years.</p>
+                        <span class="sub-title style1">Know who we are</span>
+                        <h2 class="sec-title mb-20">Aurega Corporate Service</h2>
+                        <p class="text-justify">At <a href="{{ route('index') }}">Aurega Group</a>, we take pride in being your premier partner for all your business setup Dubai needs in the UAE. With decades of experience in serving the global market, we have earned a reputation as one of the most trusted business setup advisory establishments worldwide. Our commitment to excellence and dedication to our clients have made us a preferred choice for individuals, associations, and large corporations seeking to establish their presence in this thriving region.</p>
                     </div>
                     <div class="checklist style2">
                         <ul>
@@ -154,18 +154,17 @@ About Area
                             <li>Transparent Pricing</li>
                             <li>Customized Solutions</li>
                             <li>Prompt and Reliable</li>
-                            <li>Quality Products and Equipment</li>
                         </ul>
                     </div>
                     <div class="btn-group justify-content-start">
-                        <a href="about.html" class="th-btn">More About Us</a>
+                        <a href="{{ route('about') }}" class="th-btn">More About Us</a>
                         <div class="feature-wrapper">
                             <div class="icon-btn">
-                                <a class="" href="tel:+46825476243"><i class="fa-light fa-phone"></i></a>
+                                <a class="" href="tel:+971528686158"><i class="fa-light fa-phone"></i></a>
                             </div>
                             <div class="media-body">
-                                <span class="header-info_label">Call any time for pool services</span>
-                                <p class="header-info_link"><a href="tel:+46825476243">(+468) 254 76243</a></p>
+                                <span class="header-info_label">Call to make an appointment</span>
+                                <p class="header-info_link"><a href="tel:+971528686158">(+971) 52 868 6158</a></p>
                             </div>
                         </div>
                     </div>
@@ -175,13 +174,13 @@ About Area
             <div class="col-xl-6 wow fadeInRight">
                 <div class="img-box2">
                     <div class="img1 global-img">
-                        <img src="assets/img/normal/about_2_1.jpg" alt="About">
+                        <img src="{{ asset('/web/assets/img/normal/bg1.webp') }}" alt="About">
                     </div>
                     <div class="img2 global-img movingX">
-                        <img src="assets/img/normal/about_2_2.jpg" alt="About">
+                        <img src="{{ asset('/web/assets/img/normal/bg2.webp') }}" alt="About">
                     </div>
                     <div class="img3 global-img jump">
-                        <img src="assets/img/normal/about_2_3.jpg" alt="About">
+                        <img src="{{ asset('/web/assets/img/normal/bg3.webp') }}" alt="About">
                     </div>
                 </div>
             </div>
@@ -191,17 +190,17 @@ About Area
 <!--==============================
 Counter Area  
 ==============================-->
-<div class="overflow-hidden" data-bg-src="assets/img/bg/counter_bg_1.jpg">
+<div class="overflow-hidden" data-bg-src="asset('/web/assets/img/bg/counter_bg_1.jpg') }}">
     <div class="container">
         <div class="counter-sec">
 
             <div class="th-counterup wow fadeInLeft">
                 <div class="inner">
                     <div class="content">
-                        <h3 class="counter"><span class="odometer" data-count="2,564">00</span>
-                            <span class="counter-number">+</span>
+                        <h3 class="counter"><span class="odometer" data-count="100">00</span>
+                            <span class="counter-number">%</span>
                         </h3>
-                        <p class="counter-card_text">Successfully Projects Complete</p>
+                        <p class="counter-card_text">Customer Satisfaction</p>
                     </div>
                 </div>
             </div>
@@ -210,7 +209,7 @@ Counter Area
             <div class="th-counterup wow fadeInLeft">
                 <div class="inner">
                     <div class="content">
-                        <h3 class="counter"><span class="odometer" data-count="164">00</span>
+                        <h3 class="counter"><span class="odometer" data-count="50">00</span>
                             <span class="counter-number">+</span>
                         </h3>
                         <p class="counter-card_text">Expert Team Members</p>
@@ -222,10 +221,10 @@ Counter Area
             <div class="th-counterup wow fadeInLeft">
                 <div class="inner">
                     <div class="content">
-                        <h3 class="counter"><span class="odometer" data-count="2,985">00</span>
+                        <h3 class="counter"><span class="odometer" data-count="5,000">00</span>
                             <span class="counter-number">+</span>
                         </h3>
-                        <p class="counter-card_text">Our Satisfied Customers</p>
+                        <p class="counter-card_text">Satisfied Customers</p>
                     </div>
                 </div>
             </div>
@@ -234,10 +233,10 @@ Counter Area
             <div class="th-counterup wow fadeInLeft">
                 <div class="inner">
                     <div class="content">
-                        <h3 class="counter"><span class="odometer" data-count="80">00</span>
+                        <h3 class="counter"><span class="odometer" data-count="15">00</span>
                             <span class="counter-number">+</span>
                         </h3>
-                        <p class="counter-card_text">Best Company Awards</p>
+                        <p class="counter-card_text">Years in Business</p>
                     </div>
                 </div>
             </div>
@@ -259,16 +258,14 @@ Team Area
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInUp">
                     <div class="team-img">
-                        <img src="assets/img/team/team_1_1.jpg" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/team_1_1.jpg') }}" alt="Team">
                     </div>
                     <h3 class="box-title"><a href="team-details.html">Emanuel Maclin</a></h3>
-                    <span class="team-desig">Pool Technician</span>
+                    <span class="team-desig">Business Consultant</span>
                     <div class="team-social">
                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.behance.net/"><i class="fa-brands fa-behance"></i></a>
-                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i> </a>
                     </div>
                 </div>
             </div>
@@ -276,16 +273,14 @@ Team Area
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInDown">
                     <div class="team-img">
-                        <img src="assets/img/team/team_1_2.jpg" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/team_1_2.jpg') }}" alt="Team">
                     </div>
                     <h3 class="box-title"><a href="team-details.html">Jonson Anderson</a></h3>
-                    <span class="team-desig">Pool Technician</span>
+                    <span class="team-desig">PRO Assistant</span>
                     <div class="team-social">
                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.behance.net/"><i class="fa-brands fa-behance"></i></a>
-                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i> </a>
                     </div>
                 </div>
             </div>
@@ -293,16 +288,14 @@ Team Area
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInUp">
                     <div class="team-img">
-                        <img src="assets/img/team/team_1_3.jpg" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/team_1_3.jpg') }}" alt="Team">
                     </div>
                     <h3 class="box-title"><a href="team-details.html">Charlie William</a></h3>
-                    <span class="team-desig">Pool Technician</span>
+                    <span class="team-desig">Golden Visa Expert</span>
                     <div class="team-social">
                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.behance.net/"><i class="fa-brands fa-behance"></i></a>
-                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i> </a>
                     </div>
                 </div>
             </div>
@@ -310,16 +303,14 @@ Team Area
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInDown">
                     <div class="team-img">
-                        <img src="assets/img/team/team_1_4.jpg" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/team_1_4.jpg') }}" alt="Team">
                     </div>
                     <h3 class="box-title"><a href="team-details.html">Daniel Thomas</a></h3>
-                    <span class="team-desig">Pool Technician</span>
+                    <span class="team-desig">Business Consultant</span>
                     <div class="team-social">
                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.behance.net/"><i class="fa-brands fa-behance"></i></a>
-                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i> </a>
                     </div>
                 </div>
             </div>
@@ -327,16 +318,14 @@ Team Area
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInUp">
                     <div class="team-img">
-                        <img src="assets/img/team/team_1_5.jpg" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/team_1_5.jpg') }}" alt="Team">
                     </div>
                     <h3 class="box-title"><a href="team-details.html">Daniel Thomas</a></h3>
-                    <span class="team-desig">Pool Technician</span>
+                    <span class="team-desig">Visa Expert</span>
                     <div class="team-social">
                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.behance.net/"><i class="fa-brands fa-behance"></i></a>
-                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i> </a>
                     </div>
                 </div>
             </div>
@@ -347,71 +336,71 @@ Team Area
 <!--==============================
 Service Area  
 ==============================-->
-<section class="service-sec overflow-hidden space" id="service-sec" data-bg-src="assets/img/bg/service_bg_2.jpg">
+<section class="service-sec overflow-hidden space" id="service-sec" data-bg-src="{{ asset('/web/assets/img/bg/service_bg_2.jpg') }}">
     <div class="container">
         <div class="title-area text-center">
-            <span class="sub-title">Our Best Services</span>
-            <h2 class="sec-title">Our Best Pool Services For You!</h2>
+            <span class="sub-title">What we do</span>
+            <h2 class="sec-title">Business Setup Is Just The Beginning!</h2>
         </div>
         <div class="row gy-4 justify-content-between align-items-center">
             <div class="service-card_wrap style2">
-                <div class="service-card style1 wow fadeInUp" data-bg-src="assets/img/shape/service_shape_2.png">
+                <div class="service-card style1 wow fadeInUp" data-bg-src="{{ asset('/web/assets/img/shape/service_shape_2.png') }}">
                     <div class="service-card_img">
-                        <img src="assets/img/service/service_2_1.jpg" alt="image">
+                        <img src="{{ asset('/web/assets/img/bg/bg5.webp') }}" alt="image">
                     </div>
                     <div class="service-card_content">
                         <div class="service-card_icon">
-                            <img src="assets/img/icon/service_2_1.svg" alt="Icon">
+                            <img src="{{ asset('/web/assets/img/icon/service_2_1.svg') }}" alt="Icon">
                         </div>
-                        <h3 class="box-title"><a href="service-details.html">Pool Cleaning</a></h3>
-                        <p class="service-card_text">Skimming involves removing leaves, twigs, insects, and other debris from the surface of the pool using a skimmer net or skimming tool.</p>
-                        <a href="service-details.html" class="th-btn border">Read More</a>
+                        <h3 class="box-title"><a href="service-details.html">Dubai Mainland</a></h3>
+                        <p class="service-card_text text-justify">A Dubai mainland company is licensed by the Department of Economic Development (DED) in the respective Emirate of the United Arab Emirates. This type of company offers numerous benefits, such as a broad scope of trade, 100% ownership, and location flexibility. Entrepreneurs often opt for mainland company formation in the UAE due to these advantages.</p>
+                        <a href="{{ route('index') }}" class="th-btn border">Read More</a>
                     </div>
                 </div>
                 <div class="service-card_wrap">
 
-                    <div class="service-card wow fadeInRight" data-bg-src="assets/img/shape/service_shape_3.png">
+                    <div class="service-card wow fadeInRight" data-bg-src="{{ asset('/web/assets/img/shape/service_shape_3.png') }}">
                         <div class="service-card_content">
                             <div class="service-card_icon">
-                                <img src="assets/img/icon/service_2_2.svg" alt="Icon">
+                                <img src="{{ asset('/web/assets/img/icon/service_2_2.svg') }}" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Water Analysis</a></h3>
+                            <h3 class="box-title"><a href="service-details.html">Free Zone</a></h3>
                             <p class="service-card_text">The first step in water analysis is collecting source of interest.</p>
                             <a href="service-details.html" class="th-btn border">Read More</a>
                         </div>
                     </div>
 
 
-                    <div class="service-card wow fadeInRight" data-bg-src="assets/img/shape/service_shape_3.png">
+                    <div class="service-card wow fadeInRight" data-bg-src="{{ asset('/web/assets/img/shape/service_shape_3.png') }}">
                         <div class="service-card_content">
                             <div class="service-card_icon">
-                                <img src="assets/img/icon/service_2_3.svg" alt="Icon">
+                                <img src="{{ asset('/web/assets/img/icon/service_2_3.svg') }}" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Equipment Install</a></h3>
+                            <h3 class="box-title"><a href="service-details.html">Offshore</a></h3>
                             <p class="service-card_text">Please schedule the equipment installation for next week equipment.</p>
                             <a href="service-details.html" class="th-btn border">Read More</a>
                         </div>
                     </div>
 
 
-                    <div class="service-card wow fadeInRight" data-bg-src="assets/img/shape/service_shape_3.png">
+                    <div class="service-card wow fadeInRight" data-bg-src="{{ asset('/web/assets/img/shape/service_shape_3.png') }}">
                         <div class="service-card_content">
                             <div class="service-card_icon">
-                                <img src="assets/img/icon/service_2_4.svg" alt="Icon">
+                                <img src="{{ asset('/web/assets/img/icon/service_2_4.svg') }}" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Tile & Surface Cleaning</a></h3>
+                            <h3 class="box-title"><a href="service-details.html">Abu Dhabi Mainland</a></h3>
                             <p class="service-card_text">For professional tile and surface cleaning services, their original.</p>
                             <a href="service-details.html" class="th-btn border">Read More</a>
                         </div>
                     </div>
 
 
-                    <div class="service-card wow fadeInRight" data-bg-src="assets/img/shape/service_shape_3.png">
+                    <div class="service-card wow fadeInRight" data-bg-src="{{ asset('/web/assets/img/shape/service_shape_3.png') }}">
                         <div class="service-card_content">
                             <div class="service-card_icon">
-                                <img src="assets/img/icon/service_2_5.svg" alt="Icon">
+                                <img src="{{ asset('/web/assets/img/icon/service_2_5.svg') }}" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Drain & Clean</a></h3>
+                            <h3 class="box-title"><a href="service-details.html">International</a></h3>
                             <p class="service-card_text">Efficient drain and clean services keep your systems running smoothly</p>
                             <a href="service-details.html" class="th-btn border">Read More</a>
                         </div>
@@ -426,7 +415,7 @@ Service Area
 <!--==============================
 Feature Area  
 ==============================-->
-<div class=" space-top why-area2 bg-top-center" data-bg-src="assets/img/bg/why_bg_2.jpg">
+<div class=" space-top why-area2 bg-top-center" data-bg-src="{{ asset('/web/assets/img/bg/bg4.webp') }}">
     <div class="container">
         <div class="row justify-content-end">
             <div class="col-xl-7 wow fadeInLeft">
@@ -556,7 +545,7 @@ Testimonial Area
                     <div>
                         <div class="testi-card">
                             <div class="testi-card_img">
-                                <img src="assets/img/testimonial/testi_2_1.jpg" alt="Avater">
+                                <img src="{{ asset('/web/assets/img/testimonial/testi_2_1.jpg') }}" alt="Avater">
                             </div>
                             <div class="testi-card_content">
                                 <p class="testi-card_text">“We're here to make pool maintenance easy & hassle free for
@@ -568,14 +557,14 @@ Testimonial Area
                                 <div class="testi-card_review">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 </div>
-                                <div class="testi-quote"><img src="assets/img/shape/quote-2.svg" alt=""></div>
+                                <div class="testi-quote"><img src="{{ asset('/web/assets/img/shape/quote-2.svg') }}" alt=""></div>
                             </div>
                         </div>
                     </div>
                     <div>
                         <div class="testi-card">
                             <div class="testi-card_img">
-                                <img src="assets/img/testimonial/testi_2_2.jpg" alt="Avater">
+                                <img src="{{ asset('/web/assets/img/testimonial/testi_2_2.jpg') }}" alt="Avater">
                             </div>
                             <div class="testi-card_content">
                                 <p class="testi-card_text">“We're here to make pool maintenance easy & hassle free for
@@ -587,14 +576,14 @@ Testimonial Area
                                 <div class="testi-card_review">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 </div>
-                                <div class="testi-quote"><img src="assets/img/shape/quote-2.svg" alt=""></div>
+                                <div class="testi-quote"><img src="{{ asset('/web/assets/img/shape/quote-2.svg') }}" alt=""></div>
                             </div>
                         </div>
                     </div>
                     <div>
                         <div class="testi-card">
                             <div class="testi-card_img">
-                                <img src="assets/img/testimonial/testi_2_3.jpg" alt="Avater">
+                                <img src="{{ asset('/web/assets/img/testimonial/testi_2_3.jpg') }}" alt="Avater">
                             </div>
                             <div class="testi-card_content">
                                 <p class="testi-card_text">“We're here to make pool maintenance easy & hassle free for
@@ -606,15 +595,15 @@ Testimonial Area
                                 <div class="testi-card_review">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                 </div>
-                                <div class="testi-quote"><img src="assets/img/shape/quote-2.svg" alt=""></div>
+                                <div class="testi-quote"><img src="{{ asset('/web/assets/img/shape/quote-2.svg') }}" alt=""></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="testi-card-tab" data-thnavfor=".testi-card-slide">
-                    <button class="tab-btn active" type="button"><img src="assets/img/testimonial/testi_thumb_2_1.png" alt="tab-btn image"></button>
-                    <button class="tab-btn" type="button"><img src="assets/img/testimonial/testi_thumb_2_2.png" alt="tab-btn image"></button>
-                    <button class="tab-btn" type="button"><img src="assets/img/testimonial/testi_thumb_2_3.png" alt="tab-btn image"></button>
+                    <button class="tab-btn active" type="button"><img src="{{ asset('/web/assets/img/testimonial/testi_thumb_2_1.png') }}" alt="tab-btn image"></button>
+                    <button class="tab-btn" type="button"><img src="{{ asset('/web/assets/img/testimonial/testi_thumb_2_2.png') }}" alt="tab-btn image"></button>
+                    <button class="tab-btn" type="button"><img src="{{ asset('/web/assets/img/testimonial/testi_thumb_2_3.png') }}" alt="tab-btn image"></button>
                 </div>
             </div>
         </div>
@@ -623,7 +612,7 @@ Testimonial Area
 <!--==============================
 Process Area  
 ==============================-->
-<section class="space overflow-hidden position-relative space" data-bg-src="assets/img/bg/process_bg_1.jpg">
+<section class="space overflow-hidden position-relative space" data-bg-src="{{ asset('/web/assets/img/bg/process_bg_1.jpg') }}">
     <div class="container">
         <div class="title-area text-center">
             <span class="sub-title">Work Process</span>
@@ -631,7 +620,7 @@ Process Area
         </div>
         <div class="step-wrap">
             <div class="process-line">
-                <img src="assets/img/shape/process-line.png" alt="">
+                <img src="{{ asset('/web/assets/img/shape/process-line.png') }}" alt="">
             </div>
             <div class="process-card_wrapp">
                 <div class="process-card">
@@ -643,7 +632,7 @@ Process Area
                         <p class="process-card_text">We begin by understanding your specific pool needs and gathering essential information.</p>
                     </div>
                     <div class="process-card_img">
-                        <img src="assets/img/icon/process_1_1.svg" alt="Process">
+                        <img src="{{ asset('/web/assets/img/icon/process_1_1.svg') }}" alt="Process">
                     </div>
                 </div>
                 <div class="process-card">
@@ -655,7 +644,7 @@ Process Area
                         <p class="process-card_text">Our certified technicians perform routine pool cleaning and skimming. This includes removing debris.</p>
                     </div>
                     <div class="process-card_img">
-                        <img src="assets/img/icon/process_1_2.svg" alt="Process">
+                        <img src="{{ asset('/web/assets/img/icon/process_1_2.svg') }}" alt="Process">
                     </div>
                 </div>
                 <div class="process-card">
@@ -667,7 +656,7 @@ Process Area
                         <p class="process-card_text">This involves adjusting pH, alkalinity, and chlorine levels to maintain a safe and comfortable swimming.</p>
                     </div>
                     <div class="process-card_img">
-                        <img src="assets/img/icon/process_1_3.svg" alt="Process">
+                        <img src="{{ asset('/web/assets/img/icon/process_1_3.svg') }}" alt="Process">
                     </div>
                 </div>
                 <div class="process-card">
@@ -679,7 +668,7 @@ Process Area
                         <p class="process-card_text">We inspect critical pool equipment, including pumps, motors, heaters, and filters, to ensure everything</p>
                     </div>
                     <div class="process-card_img">
-                        <img src="assets/img/icon/process_1_4.svg" alt="Process">
+                        <img src="{{ asset('/web/assets/img/icon/process_1_4.svg') }}" alt="Process">
                     </div>
                 </div>
             </div>
@@ -689,7 +678,7 @@ Process Area
 <!--==============================
 Cta Area  
 ==============================-->
-<section class="cta-area" data-bg-src="assets/img/bg/cta_bg_1.jpg">
+<section class="cta-area" data-bg-src="{{ asset('/web/assets/img/bg/cta_bg_1.jpg') }}">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-xl-7 col-lg-6 mb-5 mb-lg-0">
@@ -720,7 +709,7 @@ Blog Area
             <div class="col-md-6 col-xl-4">
                 <div class="blog-box wow fadeInUp">
                     <div class="blog-img global-img">
-                        <img src="assets/img/blog/blog_2_1.jpg" alt="blog image">
+                        <img src="{{ asset('/web/assets/img/blog/blog_2_1.jpg') }}" alt="blog image">
                     </div>
                     <div class="blog-box_content">
                         <div class="blog-wrapper">
@@ -741,7 +730,7 @@ Blog Area
             <div class="col-md-6 col-xl-4">
                 <div class="blog-box wow fadeInDown">
                     <div class="blog-img global-img">
-                        <img src="assets/img/blog/blog_2_2.jpg" alt="blog image">
+                        <img src="{{ asset('/web/assets/img/blog/blog_2_2.jpg') }}" alt="blog image">
                     </div>
                     <div class="blog-box_content">
                         <div class="blog-wrapper">
@@ -762,7 +751,7 @@ Blog Area
             <div class="col-md-6 col-xl-4">
                 <div class="blog-box wow fadeInUp">
                     <div class="blog-img global-img">
-                        <img src="assets/img/blog/blog_2_3.jpg" alt="blog image">
+                        <img src="{{ asset('/web/assets/img/blog/blog_2_3.jpg') }}" alt="blog image">
                     </div>
                     <div class="blog-box_content">
                         <div class="blog-wrapper">
@@ -784,36 +773,4 @@ Blog Area
     </div>
 
 </section>
-<!--==============================
-Brand Area  
-==============================-->
-<div class="brand-area overflow-hidden">
-    <div class="container">
-        <div class="title-area text-center">
-            <span class="brand-title">
-                <span class="counter-card_number"><span class="counter-number">10</span>k+<span class="counter-title">Our Trusted Partner</span></span>
-            </span>
-        </div>
-        <div class="row brand-slide th-carousel" data-slide-show="5" data-lg-slide-show="4" data-md-slide-show="3" data-sm-slide-show="2" data-xs-slide-show="2">
-            <div class="col-auto brand-img style2  wow fadeInLeft">
-                <img src="assets/img/brand/brand_1_1.png" alt="Brand Logo">
-            </div>
-            <div class="col-auto brand-img style2  wow fadeInLeft">
-                <img src="assets/img/brand/brand_1_2.png" alt="Brand Logo">
-            </div>
-            <div class="col-auto brand-img style2  wow fadeInLeft">
-                <img src="assets/img/brand/brand_1_3.png" alt="Brand Logo">
-            </div>
-            <div class="col-auto brand-img style2  wow fadeInLeft">
-                <img src="assets/img/brand/brand_1_4.png" alt="Brand Logo">
-            </div>
-            <div class="col-auto brand-img style2  wow fadeInLeft">
-                <img src="assets/img/brand/brand_1_5.png" alt="Brand Logo">
-            </div>
-        </div>
-    </div>
-</div>
-<!--==============================
-			Footer Area
-==============================-->
 @endsection
