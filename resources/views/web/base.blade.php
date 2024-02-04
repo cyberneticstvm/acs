@@ -218,11 +218,11 @@
                             <h3 class="widget_title">Quick links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="{{ route('index') }}">UAE Free Zone</a></li>
-                                    <li><a href="{{ route('index') }}">Mainland</a></li>
-                                    <li><a href="{{ route('index') }}">Offshore</a></li>
-                                    <li><a href="{{ route('index') }}">Careers</a></li>
-                                    <li><a href="{{ route('index') }}">Contact Us</a></li>
+                                    <li><a href="{{ route('freezone') }}">UAE Free Zone</a></li>
+                                    <li><a href="{{ route('mainland') }}">Mainland</a></li>
+                                    <li><a href="{{ route('offshore') }}">Offshore</a></li>
+                                    <li><a href="{{ route('careers') }}">Careers</a></li>
+                                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -232,11 +232,11 @@
                             <h3 class="widget_title">Popular Services</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="{{ route('index') }}">Business Setup</a></li>
-                                    <li><a href="{{ route('index') }}">Golden Visa</a></li>
-                                    <li><a href="{{ route('index') }}">PRO Services</a></li>
-                                    <li><a href="{{ route('index') }}">Company Incorporation</a></li>
-                                    <li><a href="{{ route('index') }}">Trademark Registration</a></li>
+                                    <li><a href="{{ route('business.consulting') }}">Business Setup</a></li>
+                                    <li><a href="{{ route('golden.visa') }}">Golden Visa</a></li>
+                                    <li><a href="{{ route('pro.service') }}">PRO Services</a></li>
+                                    <li><a href="{{ route('company.incorporation') }}">Company Incorporation</a></li>
+                                    <li><a href="{{ route('trademark') }}">Trademark Registration</a></li>
                                 </ul>
                             </div>
                         </div>

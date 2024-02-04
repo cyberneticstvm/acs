@@ -352,9 +352,9 @@ Service Area
                         <div class="service-card_icon">
                             <img src="{{ asset('/web/assets/img/icon/dubai.webp') }}" alt="Icon">
                         </div>
-                        <h3 class="box-title"><a href="service-details.html">Dubai Mainland</a></h3>
+                        <h3 class="box-title"><a href="{{ route('mainland') }}">Dubai Mainland</a></h3>
                         <p class="service-card_text text-justify">A Dubai mainland company is licensed by the Department of Economic Development (DED) in the respective Emirate of the United Arab Emirates. This type of company offers numerous benefits, such as a broad scope of trade, 100% ownership, and location flexibility. Entrepreneurs often opt for mainland company formation in the UAE due to these advantages.</p>
-                        <a href="{{ route('index') }}" class="th-btn border">Read More</a>
+                        <a href="{{ route('mainland') }}" class="th-btn border">Read More</a>
                     </div>
                 </div>
                 <div class="service-card_wrap">
@@ -364,9 +364,9 @@ Service Area
                             <div class="service-card_icon">
                                 <img src="{{ asset('/web/assets/img/icon/dubai.webp') }}" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Free Zone</a></h3>
+                            <h3 class="box-title"><a href="{{ route('freezone') }}">Free Zone</a></h3>
                             <p class="service-card_text text-justify">Navigating the intricate landscape of company incorporation in the UAE's free zones can be challenging.</p>
-                            <a href="service-details.html" class="th-btn border">Read More</a>
+                            <a href="{{ route('freezone') }}" class="th-btn border">Read More</a>
                         </div>
                     </div>
 
@@ -376,9 +376,9 @@ Service Area
                             <div class="service-card_icon">
                                 <img src="{{ asset('/web/assets/img/icon/dubai.webp') }}" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Offshore</a></h3>
+                            <h3 class="box-title"><a href="{{ route('offshore') }}">Offshore</a></h3>
                             <p class="service-card_text text-justify">Dubai, renowned as a global business hub, has always been at the forefront of offering unparalleled opportunities.</p>
-                            <a href="service-details.html" class="th-btn border">Read More</a>
+                            <a href="{{ route('offshore') }}" class="th-btn border">Read More</a>
                         </div>
                     </div>
 
@@ -388,9 +388,9 @@ Service Area
                             <div class="service-card_icon">
                                 <img src="{{ asset('/web/assets/img/icon/dubai.webp') }}" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">Abu Dhabi Mainland</a></h3>
+                            <h3 class="box-title"><a href="{{ route('mainland') }}">Abu Dhabi Mainland</a></h3>
                             <p class="service-card_text text-justify">Abu Dhabi, the capital of the United Arab Emirates, is one of the best places to consider when starting a business.</p>
-                            <a href="service-details.html" class="th-btn border">Read More</a>
+                            <a href="{{ route('mainland') }}" class="th-btn border">Read More</a>
                         </div>
                     </div>
 
@@ -400,9 +400,9 @@ Service Area
                             <div class="service-card_icon">
                                 <img src="{{ asset('/web/assets/img/icon/dubai.webp') }}" alt="Icon">
                             </div>
-                            <h3 class="box-title"><a href="service-details.html">International</a></h3>
+                            <h3 class="box-title"><a href="{{ route('mainland') }}">International</a></h3>
                             <p class="service-card_text text-justify">To further accelerate and diversify of economic growth, some countries have established various free zones.</p>
-                            <a href="service-details.html" class="th-btn border">Read More</a>
+                            <a href="{{ route('mainland') }}" class="th-btn border">Read More</a>
                         </div>
                     </div>
 
