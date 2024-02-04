@@ -4,7 +4,7 @@
 <div class="th-menu-wrapper">
     <div class="th-menu-area">
         <div class="mobile-logo">
-            <a href="index.html"><img src="{{ '/web/assets/img/aurega-logo-small.webp' }}" alt="Poolax"></a>
+            <a href="{{ route('index') }}"><img src="{{ asset('/web/assets/img/aurega-logo-small.webp') }}" alt="Aurega"></a>
             <div class="close-menu">
                 <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             </div>

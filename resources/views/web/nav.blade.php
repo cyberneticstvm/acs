@@ -4,7 +4,7 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-auto">
                     <div class="header-logo">
-                        <a href="index.html"><img src="{{ asset('/web/assets/img/aurega-logo-small.webp') }}" alt="Poolax"></a>
+                        <a href="{{ route('index') }}"><img src="{{ asset('/web/assets/img/aurega-logo-small.webp') }}" alt="Aurega"></a>
                     </div>
                 </div>
                 <div class="col-auto me-lg-auto">
