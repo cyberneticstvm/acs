@@ -350,7 +350,7 @@ Service Area
                     </div>
                     <div class="service-card_content">
                         <div class="service-card_icon">
-                            <img src="{{ asset('/web/assets/img/icon/service_2_1.svg') }}" alt="Icon">
+                            <img src="{{ asset('/web/assets/img/icon/dubai.webp') }}" alt="Icon">
                         </div>
                         <h3 class="box-title"><a href="service-details.html">Dubai Mainland</a></h3>
                         <p class="service-card_text text-justify">A Dubai mainland company is licensed by the Department of Economic Development (DED) in the respective Emirate of the United Arab Emirates. This type of company offers numerous benefits, such as a broad scope of trade, 100% ownership, and location flexibility. Entrepreneurs often opt for mainland company formation in the UAE due to these advantages.</p>
@@ -362,10 +362,10 @@ Service Area
                     <div class="service-card wow fadeInRight" data-bg-src="{{ asset('/web/assets/img/shape/service_shape_3.png') }}">
                         <div class="service-card_content">
                             <div class="service-card_icon">
-                                <img src="{{ asset('/web/assets/img/icon/service_2_2.svg') }}" alt="Icon">
+                                <img src="{{ asset('/web/assets/img/icon/dubai.webp') }}" alt="Icon">
                             </div>
                             <h3 class="box-title"><a href="service-details.html">Free Zone</a></h3>
-                            <p class="service-card_text">The first step in water analysis is collecting source of interest.</p>
+                            <p class="service-card_text text-justify">Navigating the intricate landscape of company incorporation in the UAE's free zones can be challenging.</p>
                             <a href="service-details.html" class="th-btn border">Read More</a>
                         </div>
                     </div>
@@ -374,10 +374,10 @@ Service Area
                     <div class="service-card wow fadeInRight" data-bg-src="{{ asset('/web/assets/img/shape/service_shape_3.png') }}">
                         <div class="service-card_content">
                             <div class="service-card_icon">
-                                <img src="{{ asset('/web/assets/img/icon/service_2_3.svg') }}" alt="Icon">
+                                <img src="{{ asset('/web/assets/img/icon/dubai.webp') }}" alt="Icon">
                             </div>
                             <h3 class="box-title"><a href="service-details.html">Offshore</a></h3>
-                            <p class="service-card_text">Please schedule the equipment installation for next week equipment.</p>
+                            <p class="service-card_text text-justify">Dubai, renowned as a global business hub, has always been at the forefront of offering unparalleled opportunities.</p>
                             <a href="service-details.html" class="th-btn border">Read More</a>
                         </div>
                     </div>
@@ -386,10 +386,10 @@ Service Area
                     <div class="service-card wow fadeInRight" data-bg-src="{{ asset('/web/assets/img/shape/service_shape_3.png') }}">
                         <div class="service-card_content">
                             <div class="service-card_icon">
-                                <img src="{{ asset('/web/assets/img/icon/service_2_4.svg') }}" alt="Icon">
+                                <img src="{{ asset('/web/assets/img/icon/dubai.webp') }}" alt="Icon">
                             </div>
                             <h3 class="box-title"><a href="service-details.html">Abu Dhabi Mainland</a></h3>
-                            <p class="service-card_text">For professional tile and surface cleaning services, their original.</p>
+                            <p class="service-card_text text-justify">Abu Dhabi, the capital of the United Arab Emirates, is one of the best places to consider when starting a business.</p>
                             <a href="service-details.html" class="th-btn border">Read More</a>
                         </div>
                     </div>
@@ -398,10 +398,10 @@ Service Area
                     <div class="service-card wow fadeInRight" data-bg-src="{{ asset('/web/assets/img/shape/service_shape_3.png') }}">
                         <div class="service-card_content">
                             <div class="service-card_icon">
-                                <img src="{{ asset('/web/assets/img/icon/service_2_5.svg') }}" alt="Icon">
+                                <img src="{{ asset('/web/assets/img/icon/dubai.webp') }}" alt="Icon">
                             </div>
                             <h3 class="box-title"><a href="service-details.html">International</a></h3>
-                            <p class="service-card_text">Efficient drain and clean services keep your systems running smoothly</p>
+                            <p class="service-card_text text-justify">To further accelerate and diversify of economic growth, some countries have established various free zones.</p>
                             <a href="service-details.html" class="th-btn border">Read More</a>
                         </div>
                     </div>
@@ -415,59 +415,15 @@ Service Area
 <!--==============================
 Feature Area  
 ==============================-->
-<div class=" space-top why-area2 bg-top-center" data-bg-src="{{ asset('/web/assets/img/bg/bg4.webp') }}">
+<div class=" space-top why-area2 bg-top-center" data-bg-src="{{ asset('/web/assets/img/bg/bg6.webp') }}">
     <div class="container">
         <div class="row justify-content-end">
             <div class="col-xl-7 wow fadeInLeft">
                 <div class="pe-xl-5">
                     <div class="title-area text-center text-xl-start mb-25">
-                        <span class="sub-title style1">Experience of Pool Services</span>
-                        <h2 class="sec-title text-white">25 Years Experiences of Pool Cleaning & Services</h2>
-                        <p>Our team consists of certified technicians with a wealth of experience in pool maintenance
-                            and servicing. We stay updated on the latest industry trends and best practices to deliver
-                            exceptional results.</p>
-                    </div>
-                    <div class="skill-card style2">
-                        <div class="skill-feature style2">
-                            <div class="progress-bar" data-percentage="85%">
-                                <h4 class="progress-title-holder">Equipment Installation <span class="progress-number-wrapper">
-                                        <span class="progress-number-mark">
-                                            <span class="percent"></span>
-                                        </span>
-                                    </span>
-                                </h4>
-                                <div class="progress-content-outter">
-                                    <div class="progress-content"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-feature style2">
-                            <div class="progress-bar" data-percentage="90%">
-                                <h4 class="progress-title-holder">Pool Cleaning <span class="progress-number-wrapper">
-                                        <span class="progress-number-mark">
-                                            <span class="percent"></span>
-                                        </span>
-                                    </span>
-                                </h4>
-                                <div class="progress-content-outter">
-                                    <div class="progress-content"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-feature style2">
-                            <div class="progress-bar" data-percentage="65%">
-                                <h4 class="progress-title-holder">Water Analysis <span class="progress-number-wrapper">
-                                        <span class="progress-number-mark">
-                                            <span class="percent"></span>
-                                        </span>
-                                    </span>
-                                </h4>
-                                <div class="progress-content-outter">
-                                    <div class="progress-content"></div>
-                                </div>
-                            </div>
-                        </div>
-
+                        <span class="sub-title style1">Experience and Experts</span>
+                        <h2 class="sec-title text-white">15+ Years of Experience in Business Consulting Services</h2>
+                        <p class="text-justify">Aurega Corporate Service has established itself as the one-stop shop for companies seeking business solutions. Our services cover every aspect of business setup, from seamless licensing processes to customised value-added solutions. With flexible payment plans and tailored services, we empower companies to promote, sustain and accelerate their operations.</p>
                     </div>
                 </div>
                 <div class="info-card-wrap style2">
@@ -477,7 +433,7 @@ Feature Area
                         </div>
                         <div class="info-card_content">
                             <p class="info-card_text">Phone Number:</p>
-                            <a href="tel:+46825476243" class="info-card_link">(+468) 254 76243</a>
+                            <a href="tel:+971528686158" class="info-card_link text-white">+(971) 52 868 6158</a>
                         </div>
                     </div>
                     <div class="info-card">
@@ -486,41 +442,39 @@ Feature Area
                         </div>
                         <div class="info-card_content">
                             <p class="info-card_text">Email Address</p>
-                            <a href="mailto:info@polax.com" class="info-card_link">info@polax.com</a>
+                            <a href="mailto:mkt@auregagroup.com" class="info-card_link text-white">mkt@auregagroup.com</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-xl-5 wow fadeInRight">
                 <div class="appointment-form style2">
-                    <h3 class="form-title text-center">Booking Appointment</h3>
+                    <h5 class="form-title text-center">Talk to Our Business Setup Advisors</h5>
                     <div class="row">
                         <div class="form-group col-12">
                             <i class="fa-light fa-user"></i>
-                            <input type="text" placeholder="Your Name" class="form-control">
+                            <input type="text" placeholder="Your Full Name" class="form-control">
+                        </div>
+                        <div class="form-group col-12">
+                            <i class="fa-light fa-mobile"></i>
+                            <input type="text" placeholder="Your Mobile Number" class="form-control">
                         </div>
                         <div class="form-group col-12">
                             <i class="fa-light fa-envelope"></i>
-                            <input type="text" placeholder="Your Email" class="form-control">
+                            <input type="text" placeholder="Your Email ID" class="form-control">
                         </div>
                         <div class="form-group col-12">
                             <i class="fa-regular fa-tag"></i>
                             <select name="subject" id="subject" class="form-select nice-select">
-                                <option value="" disabled selected hidden>Select Subject</option>
-                                <option value="Equipment Install">Equipment Install</option>
-                                <option value="Commercial Pool">Commercial Pool</option>
-                                <option value="Water Analysis">Water Analysis</option>
-                                <option value="Pool Maintenance">Pool Maintenance</option>
-                                <option value="Drain & Clean">Drain & Clean</option>
-                                <option value="Pool Inspections">Pool Inspectionsn</option>
+                                <option value="" disabled selected hidden>Select Service</option>
                             </select>
                         </div>
                         <div class="form-group col-12">
-                            <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write message...."></textarea>
+                            <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write your message...."></textarea>
                             <i class="fal fa-comment"></i>
                         </div>
                         <div class="form-btn col-12">
-                            <button class="th-btn fw-btn">Appointment Now</button>
+                            <button class="th-btn fw-btn">Submit</button>
                         </div>
                     </div>
                 </div>
@@ -628,8 +582,8 @@ Process Area
                         <span class="number">01</span>
                     </div>
                     <div class="process-card_content">
-                        <h2 class="box-title">Initial Consultatio</h2>
-                        <p class="process-card_text">We begin by understanding your specific pool needs and gathering essential information.</p>
+                        <h2 class="box-title">Business Activity</h2>
+                        <p class="process-card_text">We begin by understanding your specific needs and gathering essential information.</p>
                     </div>
                     <div class="process-card_img">
                         <img src="{{ asset('/web/assets/img/icon/process_1_1.svg') }}" alt="Process">
@@ -640,11 +594,11 @@ Process Area
                         <span class="number">02</span>
                     </div>
                     <div class="process-card_content">
-                        <h2 class="box-title">Regular Cleaning</h2>
-                        <p class="process-card_text">Our certified technicians perform routine pool cleaning and skimming. This includes removing debris.</p>
+                        <h2 class="box-title">Jurisdiction</h2>
+                        <p class="process-card_text">Choose the Jurisdiction best suited for your business. If you are not sre about that, we will helps you to choose the best.</p>
                     </div>
                     <div class="process-card_img">
-                        <img src="{{ asset('/web/assets/img/icon/process_1_2.svg') }}" alt="Process">
+                        <img src="{{ asset('/web/assets/img/icon/jurisdiction.webp') }}" alt="Process">
                     </div>
                 </div>
                 <div class="process-card">
@@ -652,11 +606,11 @@ Process Area
                         <span class="number">03</span>
                     </div>
                     <div class="process-card_content">
-                        <h2 class="box-title">Water Analysis</h2>
-                        <p class="process-card_text">This involves adjusting pH, alkalinity, and chlorine levels to maintain a safe and comfortable swimming.</p>
+                        <h2 class="box-title">Office Space</h2>
+                        <p class="process-card_text">We will help you to find out budget friendly office space in specified Jurisdiction according to your busniness needs.</p>
                     </div>
                     <div class="process-card_img">
-                        <img src="{{ asset('/web/assets/img/icon/process_1_3.svg') }}" alt="Process">
+                        <img src="{{ asset('/web/assets/img/icon/office.webp') }}" alt="Process">
                     </div>
                 </div>
                 <div class="process-card">
@@ -664,11 +618,11 @@ Process Area
                         <span class="number">04</span>
                     </div>
                     <div class="process-card_content">
-                        <h2 class="box-title">Equipment Inspection</h2>
-                        <p class="process-card_text">We inspect critical pool equipment, including pumps, motors, heaters, and filters, to ensure everything</p>
+                        <h2 class="box-title">Business Name</h2>
+                        <p class="process-card_text">Name your business and start. We will obtain the Trade License for you to establishing your business.</p>
                     </div>
                     <div class="process-card_img">
-                        <img src="{{ asset('/web/assets/img/icon/process_1_4.svg') }}" alt="Process">
+                        <img src="{{ asset('/web/assets/img/icon/bname.svg') }}" alt="Process">
                     </div>
                 </div>
             </div>
@@ -678,19 +632,19 @@ Process Area
 <!--==============================
 Cta Area  
 ==============================-->
-<section class="cta-area" data-bg-src="{{ asset('/web/assets/img/bg/cta_bg_1.jpg') }}">
+<section class="cta-area" data-bg-src="{{ asset('/web/assets/img/bg/bg4.webp') }}">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-xl-7 col-lg-6 mb-5 mb-lg-0">
                 <div class="title-area mb-0 text-center text-lg-start">
-                    <span class="sub-title style1">Feel Free to Contact Use</span>
-                    <h2 class="sec-title text-white">Get Premium Pool Services From With Us!</h2>
+                    <span class="sub-title style1 text-gold">Feel Free to Contact Use</span>
+                    <h2 class="sec-title text-white">Get Premium Services From With Us!</h2>
                 </div>
             </div>
             <div class="col-xl-5 col-lg-6">
                 <div class="btn-group justify-content-lg-end justify-content-center">
-                    <a href="service.html" class="th-btn style4">Get Our Services</a>
-                    <a href="contact.html" class="th-btn th-border">Contact Us</a>
+                    <a href="{{ route('index') }}" class="th-btn style4">Get Our Services</a>
+                    <a href="{{ route('index') }}" class="th-btn th-border">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -709,7 +663,7 @@ Blog Area
             <div class="col-md-6 col-xl-4">
                 <div class="blog-box wow fadeInUp">
                     <div class="blog-img global-img">
-                        <img src="{{ asset('/web/assets/img/blog/blog_2_1.jpg') }}" alt="blog image">
+                        <img src="{{ asset('/web/assets/img/blog/one.webp') }}" alt="blog image">
                     </div>
                     <div class="blog-box_content">
                         <div class="blog-wrapper">
@@ -720,7 +674,7 @@ Blog Area
                             <a href="blog.html"><i class="fa-regular fa-user"></i>By Jonson</a>
                             <a href="blog.html"><i class="fa-regular fa-comments"></i>Comments (3)</a>
                         </div>
-                        <h3 class="box-title"><a href="blog-details.html">How to Prepare Your Pool for Winter A Step-by-Step Guide</a></h3>
+                        <h3 class="box-title"><a href="blog-details.html">UAE Removes Dh1 Million Minimum Down Payment for Golden Visa</a></h3>
                         <a href="blog-details.html" class="th-btn border">Read More</a>
                     </div>
                 </div>
@@ -730,7 +684,7 @@ Blog Area
             <div class="col-md-6 col-xl-4">
                 <div class="blog-box wow fadeInDown">
                     <div class="blog-img global-img">
-                        <img src="{{ asset('/web/assets/img/blog/blog_2_2.jpg') }}" alt="blog image">
+                        <img src="{{ asset('/web/assets/img/blog/one.webp') }}" alt="blog image">
                     </div>
                     <div class="blog-box_content">
                         <div class="blog-wrapper">
@@ -741,7 +695,7 @@ Blog Area
                             <a href="blog.html"><i class="fa-regular fa-user"></i>By Jonson</a>
                             <a href="blog.html"><i class="fa-regular fa-comments"></i>Comments (3)</a>
                         </div>
-                        <h3 class="box-title"><a href="blog-details.html">How to Revamp Your Pool Area for a Stylish Makeover</a></h3>
+                        <h3 class="box-title"><a href="blog-details.html">Prioritizing 'Demographic Diversity': A Requirement for UAE Work Visas</a></h3>
                         <a href="blog-details.html" class="th-btn border">Read More</a>
                     </div>
                 </div>
@@ -751,7 +705,7 @@ Blog Area
             <div class="col-md-6 col-xl-4">
                 <div class="blog-box wow fadeInUp">
                     <div class="blog-img global-img">
-                        <img src="{{ asset('/web/assets/img/blog/blog_2_3.jpg') }}" alt="blog image">
+                        <img src="{{ asset('/web/assets/img/blog/one.webp') }}" alt="blog image">
                     </div>
                     <div class="blog-box_content">
                         <div class="blog-wrapper">
@@ -762,7 +716,7 @@ Blog Area
                             <a href="blog.html"><i class="fa-regular fa-user"></i>By Jonson</a>
                             <a href="blog.html"><i class="fa-regular fa-comments"></i>Comments (3)</a>
                         </div>
-                        <h3 class="box-title"><a href="blog-details.html">The Science of Pool Chemistry Keeping Your Water</a></h3>
+                        <h3 class="box-title"><a href="blog-details.html">Companies with 20-49 Staff Obliged to Employ One Emirati in 2024</a></h3>
                         <a href="blog-details.html" class="th-btn border">Read More</a>
                     </div>
                 </div>
