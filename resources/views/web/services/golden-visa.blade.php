@@ -144,7 +144,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-6">
+            <div class="col-md-12 col-lg-12">
                 <div class="testi-item">
                     <h4 class="mb-20">Discover the Golden Visa Dubai - A Tax-Free Haven</h4>
                     <p class="testi-item_text text-justify">The Golden Visa Dubai isn't just about dreams; it's about wise financial choices too. Benefit from the UAE's tax-free environment, allowing you to optimize your investments and secure your financial future with confidence.</p>
