@@ -13,3 +13,7 @@
 .th-counterup .content .counter {
     color: #000 !important;
 }
+
+.hidden {
+    display: none !important;
+}

@@ -26,5 +26,32 @@
         <div class="bubble-10"></div>
     </div>
 </div>
+<section class="th-blog-list space-top space-extra-bottom">
+    <div class="container">
+        <div class="row">
+            @forelse($blogs as $key => $blog)
+            <div class="col-xl-12">
+                <div class="th-blog blog-list-single has-post-thumbnail">
+                    <div class="blog-img">
+                        <a href="{{ route('blogs.blog', $blog->slug) }}"><img src="{{ asset($blog->featured_image) }}" alt="Blog Image"></a>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <a href="{{ route('blogs.blog', $blog->slug) }}"><i class="fa-light fa-file"></i>{{ $blog->categoryname->name }}</a>
+                            <a href="{{ route('blogs.blog', $blog->slug) }}"><i class="fa-regular fa-calendar"></i>{{ $blog->created_at->format('d, M Y') }}</a>
+                            <a href="{{ route('blogs.blog', $blog->slug) }}"><i class="fa-regular fa-comments"></i>comments({{ $blog->comments->count() }})</a>
+                        </div>
+                        <h2 class="blog-title"><a href="{{ route('blogs.blog', $blog->slug) }}">{{ $blog->title }}</a>
+                        </h2>
+                        <a href="{{ route('blogs.blog', $blog->slug) }}" class="th-btn border">READ MORE</a>
+                    </div>
+                </div>
+                {!! $blogs->links() !!}
+            </div>
+            @empty
 
+            @endforelse
+        </div>
+    </div>
+</section>
 @endsection

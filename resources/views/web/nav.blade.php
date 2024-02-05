@@ -37,7 +37,7 @@
                             <li class="menu-item-has-children">
                                 <a href="#">Resources</a>
                                 <ul class="sub-menu">
-                                    <li><a href="{{ route('blogs') }}">Blogs</a></li>
+                                    <li><a href="{{ route('blogs', 'Blog') }}">Blogs</a></li>
                                     <li><a href="{{ route('members') }}">Team Members</a></li>
                                     <li><a href="{{ route('partners') }}">Our Partenrs</a></li>
                                     <li><a href="{{ route('careers') }}">Careers</a></li>

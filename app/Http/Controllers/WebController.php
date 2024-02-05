@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
 use Illuminate\Http\Request;
 
 class WebController extends Controller
@@ -123,13 +124,25 @@ class WebController extends Controller
         return view('web.resources.careers', compact('title', 'canonical_url', 'description', 'keywords'));
     }
 
-    function blogs()
+    function blogs($type)
     {
         $title = 'Aurega Corporate Services - Blogs';
-        $canonical_url = "https://www.auregacs.com/blogs";
+        $canonical_url = "https://www.auregacs.com/blogs/" . $type;
         $description = "Blogs Aurega Corporate Services in Dubai UAE";
         $keywords = "";
-        return view('web.resources.blogs', compact('title', 'canonical_url', 'description', 'keywords'));
+        $blogs = Blog::where('type', $type)->where('status', 1)->latest()->paginate(10);
+        return view('web.resources.blogs', compact('title', 'canonical_url', 'description', 'keywords', 'blogs'));
+    }
+
+    public function blogDetails($slug)
+    {
+        $blog = Blog::where('slug', $slug)->latest()->firstOrFail();
+        $title = $blog->title;
+        $canonical_url = "https://www.auregacs.com/resources/blog/" . $slug;
+        $description = $blog->description;
+        $keywords = $blog->keywords;
+        $blogs = Blog::where('id', '!=', $blog->id)->where('type', 'Blog')->where('status', 1)->latest()->limit(10)->get();
+        return view('web.resources.blog', compact('title', 'canonical_url', 'description', 'keywords', 'blog', 'blogs'));
     }
 
     function contact()
