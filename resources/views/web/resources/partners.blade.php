@@ -26,5 +26,13 @@
         <div class="bubble-10"></div>
     </div>
 </div>
-
+<div class="about-sec overflow-hidden space" id="about-sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 wow fadeInLeft">
+                <h5>Coming Soon</h5>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection

@@ -20,8 +20,8 @@ class WebController extends Controller
 
     public function __construct()
     {
-        //$this->email = 'mkt@auregagroup.com';
-        $this->email = 'mail@cybernetics.me';
+        $this->email = 'mkt@auregagroup.com';
+        //$this->email = 'mail@cybernetics.me';
     }
 
     function index()
