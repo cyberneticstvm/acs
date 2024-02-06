@@ -37,6 +37,11 @@ Route::middleware(['web'])->group(function () {
         Route::get('/resources/careers', 'careers')->name('careers');
         Route::get('/resources/blogs/{type}', 'blogs')->name('blogs');
         Route::get('/resources/blog/{slug}', 'blogDetails')->name('blogs.blog');
+
+        Route::post('/callback', 'callback')->name('callback');
+        Route::post('/blog/comment', 'blogComment')->name('blog.comment');
+        Route::post('/contact', 'contactSubmit')->name('contact.submit');
+        Route::get('/response', 'responseMessage')->name('response.message');
     });
 });
 

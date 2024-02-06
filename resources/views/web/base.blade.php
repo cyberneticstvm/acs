@@ -42,11 +42,27 @@
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="{{ asset('/web/assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('/web/assets/css/aurega.css') }}">
+    <link href="{{ asset('/web/assets/css/mystickyelement.css') }}" rel="stylesheet">
 
 </head>
 
 <body class="theme2">
 
+    <!-- Whatsapp -->
+    <div class="mystickyelements-fixed mystickyelements-position-right mystickyelements-position-screen-center mystickyelements-position-mobile-right mystickyelements-on-hover mystickyelements-size-medium mystickyelements-mobile-size-medium mystickyelements-templates-default">
+        <div class="mystickyelement-lists-wrap">
+            <ul class="mystickyelements-lists mystickyno-minimize">
+                <li id="mystickyelements-social-whatsapp" class="mystickyelements-social-icon-li mystickyelements-social-whatsapp  element-desktop-on element-mobile-on">
+                    <span class="mystickyelements-social-icon social-whatsapp social-custom" style="background: #30D5C8">
+                        <a href="https://api.whatsapp.com/send?phone=971528686158&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+                    </span>
+                    <span class="mystickyelements-social-text" style="background: #30D5C8;">
+                        <a href="https://api.whatsapp.com/send?phone=971528686158&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank" rel="noopener">WhatsApp</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <!--[if lte IE 9]>
     	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -92,41 +108,33 @@
             <div class="widget footer-widget">
                 <h3 class="widget_title">Recent Posts</h3>
                 <div class="recent-post-wrap">
-                    <div class="recent-post">
-                        <div class="media-img">
-                            <a href="blog-details.html"><img src="{{ asset('/web/assets/img/blog/recent-post-2-1.jpg') }}" alt="Blog Image"></a>
+                    @forelse(recentPosts()->take(2) as $key => $item)
+                    <div class="recent-post row">
+                        <div class="media-img col-12">
+                            <a href="{{ route('blogs.blog', $item->slug) }}"><img src="{{ asset($item->featured_image) }}" alt="Blog Image"></a>
                         </div>
-                        <div class="media-body">
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Installation of new Equipment</a></h4>
+                        <div class="media-body col-12">
+                            <h4 class="post-title"><a class="text-inherit" href="{{ route('blogs.blog', $item->slug) }}">{{ $item->title }}</a></h4>
                             <div class="recent-post-meta">
-                                <a href="blog.html"><i class="fal fa-calendar-days"></i>12 Oct, 2023</a>
+                                <a href="{{ route('blogs.blog', $item->slug) }}"><i class="fal fa-calendar-days"></i>{{ $item->created_at->format('d, M Y') }}</a>
                             </div>
                         </div>
                     </div>
-                    <div class="recent-post">
-                        <div class="media-img">
-                            <a href="blog-details.html"><img src="{{ asset('/web/assets/img/blog/recent-post-2-2.jpg') }}" alt="Blog Image"></a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Installation of new Equipment</a></h4>
-                            <div class="recent-post-meta">
-                                <a href="blog.html"><i class="fal fa-calendar-days"></i>22 Oct, 2023</a>
-                            </div>
-                        </div>
-                    </div>
+                    @empty
+                    @endforelse
                 </div>
             </div>
             <div class="widget footer-widget">
-                <h4 class="widget_title">Newsletter</h4>
+                <h4 class="widget_title">Request a call back</h4>
                 <div class="newsletter-widget">
-                    <p class="md-10">Sign Up to get updates & news about us . Get Latest Deals from Walker's Inbox to our mail address.</p>
                     <div class="footer-search-contact mt-25">
-                        <form>
-                            <input class="form-control" type="email" placeholder="Enter your email">
+                        <form method="post" action="{{ route('callback') }}">
+                            @csrf
+                            <input class="form-control" name="email_mobile" type="text" placeholder="Enter your Email / Mobile" required="">
+                            <div class="footer-btn mt-10">
+                                <button type="submit" class="th-btn style4 fw-btn btn-submit">Request</button>
+                            </div>
                         </form>
-                        <div class="footer-btn mt-10">
-                            <button type="submit" class="th-btn style4 fw-btn">Subscribe Now</button>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -182,9 +190,10 @@
                 </div>
                 <div class="col-lg-6 col-xl-6">
                     <div class="newsletter-form-wrapper">
-                        <form class="newsletter-form">
-                            <input class="form-control " type="text" placeholder="Enter your Email / Mobile" required="">
-                            <button type="submit" class="th-btn style3">Request</button>
+                        <form class="newsletter-form" method="post" action="{{ route('callback') }}">
+                            @csrf
+                            <input class="form-control" name="email_mobile" type="text" placeholder="Enter your Email / Mobile" required="">
+                            <button type="submit" class="th-btn style3 btn-submit">Request</button>
                         </form>
                     </div>
                 </div>
@@ -319,6 +328,25 @@
 
     <!-- Main Js File -->
     <script src="{{ asset('/web/assets/js/main.js') }}"></script>
+
+    <script>
+        $(function() {
+            "use strict"
+            $('form').submit(function() {
+                $(".btn-submit").attr("disabled", true);
+                $(".btn-submit").html("Loading...<span class='spinner-border spinner-border-sm' role='status' aria-hidden='true'></span>");
+            });
+            $(".mystickyelements-fixed").hover(function() {
+                $("#mystickyelements-social-whatsapp").addClass("elements-active elements-hover-active");
+                $(".mystickyelements-fixed").addClass("mystickyelements-on-click");
+            });
+
+            $(".mystickyelements-fixed").mouseleave(function() {
+                $("#mystickyelements-social-whatsapp").removeClass("elements-active elements-hover-active");
+                $(".mystickyelements-fixed").removeClass("mystickyelements-on-click");
+            });
+        })
+    </script>
 
 </body>
 

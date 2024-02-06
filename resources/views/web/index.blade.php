@@ -450,33 +450,40 @@ Feature Area
             <div class="col-xl-5 wow fadeInRight">
                 <div class="appointment-form style2">
                     <h5 class="form-title text-center">Talk to Our Business Setup Advisors</h5>
-                    <div class="row">
-                        <div class="form-group col-12">
-                            <i class="fa-light fa-user"></i>
-                            <input type="text" placeholder="Your Full Name" class="form-control">
+                    <form class="" method="post" action="{{ route('contact.submit') }}">
+                        @csrf
+                        <div class="row">
+                            <div class="form-group col-12">
+                                <i class="fa-light fa-user"></i>
+                                <input type="text" placeholder="Your Full Name" name="name" class="form-control">
+                            </div>
+                            <div class="form-group col-12">
+                                <i class="fa-light fa-mobile"></i>
+                                <input type="text" placeholder="Your Contact Number" name="contact_number" class="form-control">
+                            </div>
+                            <div class="form-group col-12">
+                                <i class="fa-light fa-envelope"></i>
+                                <input type="text" placeholder="Your Email ID" name="email" class="form-control">
+                            </div>
+                            <div class="form-group col-12">
+                                <i class="fa-regular fa-tag"></i>
+                                <select name="service" class="form-select nice-select">
+                                    <option value="" disabled selected hidden>Select Service</option>
+                                    @forelse($services as $key => $item)
+                                    <option value="{{ $item->id }}">{{ $item->name }}</option>
+                                    @empty
+                                    @endforelse
+                                </select>
+                            </div>
+                            <div class="form-group col-12">
+                                <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write your message...."></textarea>
+                                <i class="fal fa-comment"></i>
+                            </div>
+                            <div class="form-btn col-12">
+                                <button class="th-btn fw-btn btn-submit">Submit</button>
+                            </div>
                         </div>
-                        <div class="form-group col-12">
-                            <i class="fa-light fa-mobile"></i>
-                            <input type="text" placeholder="Your Mobile Number" class="form-control">
-                        </div>
-                        <div class="form-group col-12">
-                            <i class="fa-light fa-envelope"></i>
-                            <input type="text" placeholder="Your Email ID" class="form-control">
-                        </div>
-                        <div class="form-group col-12">
-                            <i class="fa-regular fa-tag"></i>
-                            <select name="subject" id="subject" class="form-select nice-select">
-                                <option value="" disabled selected hidden>Select Service</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-12">
-                            <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write your message...."></textarea>
-                            <i class="fal fa-comment"></i>
-                        </div>
-                        <div class="form-btn col-12">
-                            <button class="th-btn fw-btn">Submit</button>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -643,8 +650,8 @@ Cta Area
             </div>
             <div class="col-xl-5 col-lg-6">
                 <div class="btn-group justify-content-lg-end justify-content-center">
-                    <a href="{{ route('index') }}" class="th-btn style4">Get Our Services</a>
-                    <a href="{{ route('index') }}" class="th-btn th-border">Contact Us</a>
+                    <a href="{{ route('contact') }}" class="th-btn style4">Get Our Services</a>
+                    <a href="{{ route('contact') }}" class="th-btn th-border">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -660,69 +667,29 @@ Blog Area
             <h2 class="sec-title">Our Latest News & Updates</h2>
         </div>
         <div class="row slider-shadow th-carousel" id="blogSlide1" data-slide-show="2" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="1" data-arrows="true">
+            @forelse($blogs as $key => $blog)
             <div class="col-md-6 col-xl-4">
                 <div class="blog-box wow fadeInUp">
                     <div class="blog-img global-img">
-                        <img src="{{ asset('/web/assets/img/blog/one.webp') }}" alt="blog image">
+                        <img src="{{ asset($blog->featured_image) }}" alt="blog image">
                     </div>
                     <div class="blog-box_content">
                         <div class="blog-wrapper">
-                            <span class="blog-box_date">12</span>
-                            <span class="blog-box_month">Oct, 2023</span>
+                            <span class="blog-box_date">{{ $blog->created_at->format('d') }}</span>
+                            <span class="blog-box_month">{{ $blog->created_at->format('M Y') }}</span>
                         </div>
                         <div class="blog-meta">
-                            <a href="blog.html"><i class="fa-regular fa-user"></i>By Jonson</a>
-                            <a href="blog.html"><i class="fa-regular fa-comments"></i>Comments (3)</a>
+                            <a href="blog.html"><i class="fa-regular fa-file"></i>{{ $blog->categoryname->name }}</a>
+                            <a href="blog.html"><i class="fa-regular fa-comments"></i>Comments ({{ $blog->comments->count() }})</a>
                         </div>
-                        <h3 class="box-title"><a href="blog-details.html">UAE Removes Dh1 Million Minimum Down Payment for Golden Visa</a></h3>
-                        <a href="blog-details.html" class="th-btn border">Read More</a>
+                        <h3 class="box-title"><a href="{{ route('blogs.blog', $blog->slug) }}">{{ $blog->title }}</a></h3>
+                        <a href="{{ route('blogs.blog', $blog->slug) }}" class="th-btn border">Read More</a>
                     </div>
                 </div>
-
             </div>
+            @empty
 
-            <div class="col-md-6 col-xl-4">
-                <div class="blog-box wow fadeInDown">
-                    <div class="blog-img global-img">
-                        <img src="{{ asset('/web/assets/img/blog/one.webp') }}" alt="blog image">
-                    </div>
-                    <div class="blog-box_content">
-                        <div class="blog-wrapper">
-                            <span class="blog-box_date">24</span>
-                            <span class="blog-box_month">oct 2023</span>
-                        </div>
-                        <div class="blog-meta">
-                            <a href="blog.html"><i class="fa-regular fa-user"></i>By Jonson</a>
-                            <a href="blog.html"><i class="fa-regular fa-comments"></i>Comments (3)</a>
-                        </div>
-                        <h3 class="box-title"><a href="blog-details.html">Prioritizing 'Demographic Diversity': A Requirement for UAE Work Visas</a></h3>
-                        <a href="blog-details.html" class="th-btn border">Read More</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="blog-box wow fadeInUp">
-                    <div class="blog-img global-img">
-                        <img src="{{ asset('/web/assets/img/blog/one.webp') }}" alt="blog image">
-                    </div>
-                    <div class="blog-box_content">
-                        <div class="blog-wrapper">
-                            <span class="blog-box_date">26</span>
-                            <span class="blog-box_month">nov 2023</span>
-                        </div>
-                        <div class="blog-meta">
-                            <a href="blog.html"><i class="fa-regular fa-user"></i>By Jonson</a>
-                            <a href="blog.html"><i class="fa-regular fa-comments"></i>Comments (3)</a>
-                        </div>
-                        <h3 class="box-title"><a href="blog-details.html">Companies with 20-49 Staff Obliged to Employ One Emirati in 2024</a></h3>
-                        <a href="blog-details.html" class="th-btn border">Read More</a>
-                    </div>
-                </div>
-
-            </div>
-
+            @endforelse
         </div>
     </div>
 

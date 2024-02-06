@@ -70,27 +70,31 @@
                         <h3 class="blog-inner-title mb-2"><i class="fa-solid fa-reply"></i>Leave a Comment</h3>
                         <p class="form-text">Your email address will not be published. Required fields are marked</p>
                     </div>
-                    <div class="row gy-4">
-                        <div class="col-md-6 form-group">
-                            <i class="fal fa-user"></i>
-                            <input type="text" placeholder="Your Name*" class="form-control">
+                    <form method="post" action="{{ route('blog.comment') }}">
+                        @csrf
+                        <input type="hidden" name="blog_id" value="{{ encrypt($blog->id) }}" />
+                        <div class="row gy-4">
+                            <div class="col-md-6 form-group">
+                                <i class="fal fa-user"></i>
+                                <input type="text" placeholder="Your Name*" name="name" class="form-control">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <i class="fal fa-envelope"></i>
+                                <input type="text" placeholder="Your Email*" name="email" class="form-control">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <i class="fal fa-mobile"></i>
+                                <input type="text" placeholder="Contact Number*" name="contact_number" class="form-control">
+                            </div>
+                            <div class="col-12 form-group">
+                                <i class="fa-sharp fa-light fa-comments"></i>
+                                <textarea placeholder="Write a Comment*" name="comment" class="form-control"></textarea>
+                            </div>
+                            <div class="col-12 form-group mb-0">
+                                <button class="th-btn btn-submit">Send Message</button>
+                            </div>
                         </div>
-                        <div class="col-md-6 form-group">
-                            <i class="fal fa-envelope"></i>
-                            <input type="text" placeholder="Your Email*" class="form-control">
-                        </div>
-                        <div class="col-md-12 form-group">
-                            <i class="fal fa-mobile"></i>
-                            <input type="text" placeholder="Contact Number*" class="form-control">
-                        </div>
-                        <div class="col-12 form-group">
-                            <i class="fa-sharp fa-light fa-comments"></i>
-                            <textarea placeholder="Write a Comment*" class="form-control"></textarea>
-                        </div>
-                        <div class="col-12 form-group mb-0">
-                            <button class="th-btn">Send Message</button>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
             <div class="col-lg-4">

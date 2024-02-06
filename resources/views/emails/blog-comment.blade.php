@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Aurega Accounting and Tax Advisory - We have got new comment on a Blog</title>
+    <title>Aurega Corporate Service - We have got new comment on a Blog</title>
 </head>
 
 <body>
@@ -13,7 +13,7 @@
     <br />
     <br />
     Regards,<br />
-    Aurega Accounting and Tax Advisory.
+    Aurega Corporate Service.
 </body>
 
 </html>

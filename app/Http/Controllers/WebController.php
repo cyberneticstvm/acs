@@ -2,18 +2,37 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\BlogCommentEmail;
+use App\Mail\ContactUsEmail;
+use App\Mail\RequestCallbackEmail;
 use App\Models\Blog;
+use App\Models\Callback;
+use App\Models\Category;
+use App\Models\Comment;
+use App\Models\Contact;
+use Exception;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class WebController extends Controller
 {
+    protected $email;
+
+    public function __construct()
+    {
+        //$this->email = 'mkt@auregagroup.com';
+        $this->email = 'mail@cybernetics.me';
+    }
+
     function index()
     {
         $title = "Business Setup in Dubai | Company Formation in UAE | Aurega";
         $description = "Your Gateway to Seamless Business Setup in UAE | Discover a seamless business setup experience in UAE with Aurega Group. Your trusted gateway to success.";
         $keywords = "business setup dubai, company formation in dubai, business set up in uae, company setup dubai, business setup uae, business setup services in dubai, business set up companies in uae, business setup in dubai uae";
         $canonical_url = "https://www.auregacs.com";
-        return view('web.index', compact('title', 'description', 'keywords', 'canonical_url'));
+        $blogs = Blog::where('type', 'Blog')->where('status', 1)->latest()->get();
+        $services = Category::all();
+        return view('web.index', compact('title', 'description', 'keywords', 'canonical_url', 'blogs', 'services'));
     }
 
     function about()
@@ -151,6 +170,71 @@ class WebController extends Controller
         $canonical_url = "https://www.auregacs.com/contact";
         $description = "Contact Aurega Corporate Services in Dubai UAE";
         $keywords = "";
-        return view('web.contact', compact('title', 'canonical_url', 'description', 'keywords'));
+        $services = Category::all();
+        return view('web.contact', compact('title', 'canonical_url', 'description', 'keywords', 'services'));
+    }
+
+    function callback(Request $request)
+    {
+        $this->validate($request, [
+            'email_mobile' => 'required',
+        ]);
+        try {
+            $input = $request->all();
+            Callback::create($input);
+            Mail::to($this->email)->send(new RequestCallbackEmail($request));
+        } catch (Exception $e) {
+            return redirect()->route('response.message')->with("error", $e->getMessage());
+        }
+        return redirect()->route('response.message')->with("success", "We have recieved your callback request successfully. Our team will reach out you shortly.");
+    }
+
+    public function contactSubmit(Request $request)
+    {
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'required|email:rfs,dns',
+            'contact_number' => 'required',
+            'message' => 'required',
+            'service' => 'required',
+        ]);
+        try {
+            $input = $request->all();
+            $contact = Contact::create($input);
+            Mail::to($this->email)->send(new ContactUsEmail($contact));
+        } catch (Exception $e) {
+            return redirect()->route('response.message')->with("error", $e->getMessage());
+        }
+        return redirect()->route('response.message')->with("success", "We have recieved your message successfully. Our team will reach out you shortly.");
+    }
+
+    public function blogComment(Request $request)
+    {
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'required|email:rfs,dns',
+            'contact_number' => 'required',
+            'comment' => 'required',
+        ]);
+        try {
+            $blog = Blog::findOrFail(decrypt($request->blog_id));
+            $input = $request->all();
+            $input['blog_id'] = $blog->id;
+            $input['status'] = 'pending';
+            $owner = Comment::create($input);
+            Mail::to($this->email)->send(new BlogCommentEmail($owner));
+        } catch (Exception $e) {
+            return redirect()->route('response.message')->with("error", $e->getMessage());
+        }
+        return redirect()->route('response.message')->with("success", "Comments posted successfully.");
+    }
+
+    function responseMessage()
+    {
+        $title = "Aurega Corporate Service - Response Message";
+        $keywords = "Business Setup, Golden Visa, Company Incorporation";
+        $description = "Aurega Corporate Service";
+        $canonical_url = "https://www.auregacs.com/response";
+        return view('web.response', compact('title', 'keywords', 'description', 'canonical_url'));
     }
 }

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Aurega Accounting and Tax Advisory Request Callback</title>
+    <title>Aurega Corporate Service Request Callback</title>
 </head>
 
 <body>
@@ -12,7 +12,7 @@
     <br />
     <br />
     Regards,<br />
-    Aurega Accounting and Tax Advisory.
+    Aurega Corporate Service.
 </body>
 
 </html>

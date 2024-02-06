@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Aurega Accounting and Tax Advisory Contact Us</title>
+    <title>Aurega Corporate Service Contact Us</title>
 </head>
 
 <body>
@@ -11,11 +11,12 @@
     <p>Name: {{ $data->name }}</p>
     <p>Email: {{ $data->email }}</p>
     <p>Contact Number: {{ $data->contact_number }}</p>
+    <p>Service: {{ $data->servicename->name }}</p>
     <p>Message: {{ $data->message }}</p>
     <br />
     <br />
     Regards,<br />
-    Aurega Accounting and Tax Advisory.
+    Aurega Corporate Service.
 </body>
 
 </html>
