@@ -325,9 +325,10 @@
     <script src="{{ asset('/web/assets/js/circle-progress.js') }}"></script>
 
     <script src="{{ asset('/web/assets/js/jquery.ripples.js') }}"></script>
+    <script src="{{ asset('/web/assets/js/jquery.ripples.js') }}"></script>
 
     <!-- Main Js File -->
-    <script src="{{ asset('/web/assets/js/main.js') }}"></script>
+    <script src="{{ asset('/web/assets/js/sharer.js') }}"></script>
 
     <script>
         $(function() {

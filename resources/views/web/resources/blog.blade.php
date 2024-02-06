@@ -54,10 +54,10 @@
                                 <div class="col-sm-auto text-xl-end">
                                     <span class="share-links-title">Share:</span>
                                     <ul class="social-links">
-                                        <li><a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="javascript:void(0)" data-sharer="facebook" data-title="{{ $blog->slug }}" data-url="{{ route('blogs.blog', $blog->slug) }}"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="javascript:void(0)" data-sharer="twitter" data-title="{{ $blog->slug }}" data-url="{{ route('blogs.blog', $blog->slug) }}"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="javascript:void(0)" data-sharer="linkedin" data-title="{{ $blog->slug }}" data-url="{{ route('blogs.blog', $blog->slug) }}"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="https://api.whatsapp.com/send?phone=971528686158&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
                                     </ul><!-- End Social Share -->
                                 </div><!-- Share Links Area end -->
                             </div>
