@@ -116,7 +116,7 @@ Version: 1.0.0
   --section-space-mobile: 80px;
   --section-title-space: 60px;
   --ripple-ani-duration: 5s;
-  --gold-color: gold;
+  --gold-color: #D4AF37;
 }
 
 .theme2 {
@@ -6968,7 +6968,8 @@ ol.wp-block-rss {
 }
 
 .main-menu ul.sub-menu li a:before {
-  content: "\f5c5";
+  /*content: "\f5c5";*/
+  content: "\2192";
   position: absolute;
   top: 8px;
   left: 10px;

@@ -95,9 +95,9 @@ feature Area
                     </div>
                     <div class="feature-card_content">
                         <div class="feature-card_icon"><i class="fa-sharp fa-light fa-badge-check fa-2xl text-info"></i></div>
-                        <h3 class="box-title"><a href="{{ route('index') }}">Trusted Business Setup Advisory Services</a></h3>
+                        <h3 class="box-title"><a href="{{ route('pro.service') }}">Trusted Business Setup Advisory Services</a></h3>
                         <p class="feature-card_text">When it comes to setting up a business in Dubai, navigating through the intricate processes and legal requirements can be overwhelming.</p>
-                        <a href="{{ route('index') }}" class="th-btn border">Read More</a>
+                        <a href="{{ route('pro.service') }}" class="th-btn border">Read More</a>
                     </div>
                 </div>
             </div>
@@ -109,9 +109,9 @@ feature Area
                     </div>
                     <div class="feature-card_content">
                         <div class="feature-card_icon"><i class="fa-sharp fa-light fa-badge-check fa-2xl text-info"></i></div>
-                        <h3 class="box-title"><a href="service-details.html">Expert Company Formation in Dubai</a></h3>
+                        <h3 class="box-title"><a href="{{ route('company.incorporation') }}">Expert Company Formation in Dubai</a></h3>
                         <p class="feature-card_text">As specialists in company formation in Dubai, we understand the unique dynamics of the local business landscape.</p>
-                        <a href="service-details.html" class="th-btn border">Read More</a>
+                        <a href="{{ route('company.incorporation') }}" class="th-btn border">Read More</a>
                     </div>
                 </div>
             </div>
@@ -123,9 +123,9 @@ feature Area
                     </div>
                     <div class="feature-card_content">
                         <div class="feature-card_icon"><i class="fa-sharp fa-light fa-badge-check fa-2xl text-info"></i></div>
-                        <h3 class="box-title"><a href="service-details.html">Comprehensive Business Setup Companies in UAE</a></h3>
+                        <h3 class="box-title"><a href="{{ route('business.consulting') }}">Comprehensive Business Setup Companies in UAE</a></h3>
                         <p class="feature-card_text">Expanding your business to the UAE can be a game-changer, but it requires comprehensive solutions.</p>
-                        <a href="service-details.html" class="th-btn border">Read More</a>
+                        <a href="{{ route('business.consulting') }}" class="th-btn border">Read More</a>
                     </div>
                 </div>
             </div>
@@ -645,7 +645,7 @@ Cta Area
             <div class="col-xl-7 col-lg-6 mb-5 mb-lg-0">
                 <div class="title-area mb-0 text-center text-lg-start">
                     <span class="sub-title style1 text-gold">Feel Free to Contact Use</span>
-                    <h2 class="sec-title text-white">Get Premium Services From With Us!</h2>
+                    <h2 class="sec-title text-white">Get Premium Services From Aurega!</h2>
                 </div>
             </div>
             <div class="col-xl-5 col-lg-6">

@@ -13,18 +13,18 @@
             </div>
         </div>
     </div>
-    <div class="animation-bubble">
-        <div class="bubble-1"></div>
-        <div class="bubble-2"></div>
-        <div class="bubble-3"></div>
-        <div class="bubble-4"></div>
-        <div class="bubble-5"></div>
-        <div class="bubble-6"></div>
-        <div class="bubble-7"></div>
-        <div class="bubble-8"></div>
-        <div class="bubble-9"></div>
-        <div class="bubble-10"></div>
-    </div>
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
 </div>
 <div class="about-sec overflow-hidden space" id="about-sec" data-bg-src="{{ asset('/web/assets/img/bg/about_bg_1.jpg') }}">
     <div class="container">

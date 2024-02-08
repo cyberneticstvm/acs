@@ -42,6 +42,7 @@
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="{{ asset('/web/assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('/web/assets/css/aurega.css') }}">
+    <link rel="stylesheet" href="{{ asset('/web/assets/css/animation.css') }}">
     <link href="{{ asset('/web/assets/css/mystickyelement.css') }}" rel="stylesheet">
 
 </head>
@@ -53,10 +54,10 @@
         <div class="mystickyelement-lists-wrap">
             <ul class="mystickyelements-lists mystickyno-minimize">
                 <li id="mystickyelements-social-whatsapp" class="mystickyelements-social-icon-li mystickyelements-social-whatsapp  element-desktop-on element-mobile-on">
-                    <span class="mystickyelements-social-icon social-whatsapp social-custom" style="background: #30D5C8">
+                    <span class="mystickyelements-social-icon social-whatsapp social-custom" style="background: #D4AF37">
                         <a href="https://api.whatsapp.com/send?phone=971528686158&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
                     </span>
-                    <span class="mystickyelements-social-text" style="background: #30D5C8;">
+                    <span class="mystickyelements-social-text" style="background: #D4AF37;">
                         <a href="https://api.whatsapp.com/send?phone=971528686158&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank" rel="noopener">WhatsApp</a>
                     </span>
                 </li>
