@@ -258,78 +258,42 @@ Team Area
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInUp">
                     <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/team_1_1.jpg') }}" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/ashraf.jpeg') }}" alt="Team">
                     </div>
-                    <h3 class="box-title"><a href="team-details.html">Emanuel Maclin</a></h3>
-                    <span class="team-desig">Business Consultant</span>
-                    <div class="team-social">
-                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    <h3 class="box-title"><a href="https://www.auregagroup.com/about-aurega-group/leadership" target="_blank">Mr. Ashraf M. Rahman</a></h3>
+                    <span class="team-desig">Chairman & CEO</span>
                 </div>
             </div>
             <!-- Single Item -->
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInDown">
                     <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/team_1_2.jpg') }}" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/dipesh.jpg') }}" alt="Team">
                     </div>
-                    <h3 class="box-title"><a href="team-details.html">Jonson Anderson</a></h3>
-                    <span class="team-desig">PRO Assistant</span>
-                    <div class="team-social">
-                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    <h3 class="box-title"><a href="https://www.auregagroup.com/board-members" target="_blank">Mr. Dipesh Samji</a></h3>
+                    <span class="team-desig">CEO - Aurega Global Chauffeur</span>
                 </div>
             </div>
             <!-- Single Item -->
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInUp">
                     <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/team_1_3.jpg') }}" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/sufia.jpg') }}" alt="Team">
                     </div>
-                    <h3 class="box-title"><a href="team-details.html">Charlie William</a></h3>
-                    <span class="team-desig">Golden Visa Expert</span>
-                    <div class="team-social">
-                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    <h3 class="box-title"><a href="https://www.auregagroup.com/board-members" target="_blank">Ms. Sufia Alam I</a></h3>
+                    <span class="team-desig">CFO & Senior Tax Accounting Manager</span>
                 </div>
             </div>
             <!-- Single Item -->
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInDown">
                     <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/team_1_4.jpg') }}" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/yogesh.jpg') }}" alt="Team">
                     </div>
-                    <h3 class="box-title"><a href="team-details.html">Daniel Thomas</a></h3>
-                    <span class="team-desig">Business Consultant</span>
-                    <div class="team-social">
-                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    <h3 class="box-title"><a href="https://www.auregagroup.com/board-members" target="_blank">Mr. Yogesh Bhola</a></h3>
+                    <span class="team-desig">Managing Director</span>
                 </div>
             </div>
-            <!-- Single Item -->
-            <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-box wow fadeInUp">
-                    <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/team_1_5.jpg') }}" alt="Team">
-                    </div>
-                    <h3 class="box-title"><a href="team-details.html">Daniel Thomas</a></h3>
-                    <span class="team-desig">Visa Expert</span>
-                    <div class="team-social">
-                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
