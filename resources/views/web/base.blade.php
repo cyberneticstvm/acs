@@ -247,6 +247,8 @@
                                     <li><a href="{{ route('pro.service') }}">PRO Services</a></li>
                                     <li><a href="{{ route('company.incorporation') }}">Company Incorporation</a></li>
                                     <li><a href="{{ route('trademark') }}">Trademark Registration</a></li>
+                                    <li><a href="{{ route('hr.service') }}">HR and Recruitment</a></li>
+                                    <li><a href="{{ route('digital.service') }}">Digital Marketing</a></li>
                                 </ul>
                             </div>
                         </div>
