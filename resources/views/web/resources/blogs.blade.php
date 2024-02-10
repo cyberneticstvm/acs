@@ -37,7 +37,7 @@
                     </div>
                     <div class="blog-content">
                         <div class="blog-meta">
-                            <a href="{{ route('blogs.blog', $blog->slug) }}"><i class="fa-light fa-file"></i>{{ $blog->categoryname->name }}</a>
+                            <a href="{{ route('blogs.blog', $blog->slug) }}"><i class="fa-light fa-file"></i>{{ $blog->categoryname?->name }}</a>
                             <a href="{{ route('blogs.blog', $blog->slug) }}"><i class="fa-regular fa-calendar"></i>{{ $blog->created_at->format('d, M Y') }}</a>
                             <a href="{{ route('blogs.blog', $blog->slug) }}"><i class="fa-regular fa-comments"></i>comments({{ $blog->comments->count() }})</a>
                         </div>
