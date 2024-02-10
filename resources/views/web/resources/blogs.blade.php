@@ -46,11 +46,11 @@
                         <a href="{{ route('blogs.blog', $blog->slug) }}" class="th-btn border">READ MORE</a>
                     </div>
                 </div>
-                {!! $blogs->links() !!}
             </div>
             @empty
 
             @endforelse
+            {!! $blogs->links() !!}
         </div>
     </div>
 </section>
