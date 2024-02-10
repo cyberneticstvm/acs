@@ -116,6 +116,24 @@ class WebController extends Controller
         return view('web.services.trademark-registration', compact('title', 'canonical_url', 'description', 'keywords'));
     }
 
+    function hr()
+    {
+        $title = 'HR and Recruitment in UAE | Aurega';
+        $canonical_url = "https://www.auregacs.com/services/hr-and-recruitment";
+        $description = "HR and Recruitment consultants in UAE";
+        $keywords = "HR, Recruitment, Human Resource companies in uae";
+        return view('web.services.hr', compact('title', 'canonical_url', 'description', 'keywords'));
+    }
+
+    function digital()
+    {
+        $title = 'Digital Marketing and Software Consulting in UAE | Aurega';
+        $canonical_url = "https://www.auregacs.com/services/digital-merkting-and-software-consulting";
+        $description = "Digital Marketing and Software Consultants in UAE";
+        $keywords = "Digital Marketing, Software Consulting, Web Development, Software Development, Mobile App Development";
+        return view('web.services.digital', compact('title', 'canonical_url', 'description', 'keywords'));
+    }
+
     function partners()
     {
         $title = 'Aurega Corporate Services - Partners';

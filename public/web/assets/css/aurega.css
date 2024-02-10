@@ -17,3 +17,11 @@
 .hidden {
     display: none !important;
 }
+
+.team-box:before {
+    background-color: transparent !important;
+}
+
+.footer-widget .widget_title:before {
+    background: linear-gradient(90deg, var(--gold-color) -8.86%, rgba(1, 129, 245, 0) 107.59%) !important;
+}

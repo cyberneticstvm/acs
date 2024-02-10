@@ -133,7 +133,7 @@
                             @csrf
                             <input class="form-control" name="email_mobile" type="text" placeholder="Enter your Email / Mobile" required="">
                             <div class="footer-btn mt-10">
-                                <button type="submit" class="th-btn style4 fw-btn btn-submit">Request</button>
+                                <button type="submit" class="th-btn btn-dark fw-btn btn-submit">Request</button>
                             </div>
                         </form>
                     </div>
@@ -194,7 +194,7 @@
                         <form class="newsletter-form" method="post" action="{{ route('callback') }}">
                             @csrf
                             <input class="form-control" name="email_mobile" type="text" placeholder="Enter your Email / Mobile" required="">
-                            <button type="submit" class="th-btn style3 btn-submit">Request</button>
+                            <button type="submit" class="th-btn btn-submit">Request</button>
                         </form>
                     </div>
                 </div>
@@ -224,7 +224,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-2">
-                        <div class="widget widget_nav_menu  footer-widget">
+                        <div class="widget widget_nav_menu footer-widget">
                             <h3 class="widget_title">Quick links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">

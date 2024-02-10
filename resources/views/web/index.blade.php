@@ -10,7 +10,7 @@ Hero Area
             <div class="th-hero-bg">
                 <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
                 <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
-                    <img src="{{ asset('/web/assets/img/shape/hero_shape_2.png') }}" alt="">
+                    <img src="{{ asset('/web/assets/img/shape/hero_shape_3.webp') }}" alt="">
                 </div>
             </div>
             <div class="container">
@@ -40,7 +40,7 @@ Hero Area
             <div class="th-hero-bg">
                 <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
                 <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
-                    <img src="{{ asset('/web/assets/img/shape/hero_shape_2.png') }}" alt="">
+                    <img src="{{ asset('/web/assets/img/shape/hero_shape_3.webp') }}" alt="">
                 </div>
             </div>
             <div class="container">
@@ -268,32 +268,83 @@ Team Area
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInDown">
                     <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/dipesh.jpg') }}" alt="Team">
-                    </div>
-                    <h3 class="box-title"><a href="https://www.auregagroup.com/board-members" target="_blank">Mr. Dipesh Samji</a></h3>
-                    <span class="team-desig">CEO - Aurega Global Chauffeur</span>
-                </div>
-            </div>
-            <!-- Single Item -->
-            <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-box wow fadeInUp">
-                    <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/sufia.jpg') }}" alt="Team">
-                    </div>
-                    <h3 class="box-title"><a href="https://www.auregagroup.com/board-members" target="_blank">Ms. Sufia Alam I</a></h3>
-                    <span class="team-desig">CFO & Senior Tax Accounting Manager</span>
-                </div>
-            </div>
-            <!-- Single Item -->
-            <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-box wow fadeInDown">
-                    <div class="team-img">
                         <img src="{{ asset('/web/assets/img/team/yogesh.jpg') }}" alt="Team">
                     </div>
                     <h3 class="box-title"><a href="https://www.auregagroup.com/board-members" target="_blank">Mr. Yogesh Bhola</a></h3>
                     <span class="team-desig">Managing Director</span>
                 </div>
             </div>
+            <!-- Single Item -->
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInDown">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/tony.jpeg') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="https://www.auregagroup.com/Team-Members" target="_blank">Mr. Tony Chakhtoura</a></h3>
+                    <span class="team-desig">Business Development Manager</span>
+                </div>
+            </div>
+            <!-- Single Item -->
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/mohammed.jpeg') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="https://www.auregagroup.com/Team-Members" target="_blank">Mr. Mohammed Khalid</a></h3>
+                    <span class="team-desig">Operations Manager</span>
+                </div>
+            </div>
+            <!-- Single Item -->
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/archana.jpeg') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="https://www.auregagroup.com/Team-Members" target="_blank">Ms. Archana Uday</a></h3>
+                    <span class="team-desig">Client Engagement Manager</span>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/hafas.jpg') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="https://www.auregagroup.com/Team-Members" target="_blank">Mr. Hafas Ansar</a></h3>
+                    <span class="team-desig">Business Development Manager</span>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/purushu.jpg') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="https://www.auregagroup.com/Team-Members" target="_blank">Mr. Purushothaman Arunagiri</a></h3>
+                    <span class="team-desig">Accounts and Admin Manager</span>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/renil.jpg') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="https://www.auregagroup.com/Team-Members" target="_blank">Mr. Renil Thomas</a></h3>
+                    <span class="team-desig">Accountant (VAT & TAX)</span>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInDown">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/rohit.jpeg') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="https://www.auregagroup.com/Team-Members" target="_blank">Mr. Rohit Kavale</a></h3>
+                    <span class="team-desig">Head of Finance and Taxation</span>
+                </div>
+            </div>
+
+
         </div>
     </div>
 </section>
@@ -456,84 +507,256 @@ Feature Area
 <!--============================== 
 Testimonial Area  
 ==============================-->
-<div class="testi-area2 position-relative overflow-hidden space">
+<section class="overflow-hidden space">
     <div class="container">
-        <div class="row align-items-end">
-            <div class="col-lg-12">
-                <div class="testi-card_wrapper">
-                    <div class="title-area">
-                        <span class="sub-title style1">Testimonials</span>
-                        <h2 class="sec-title">Our Trusted Clients Feedback</h2>
+        <div class="title-area text-center">
+            <span class="sub-title">Testimonials</span>
+            <h2 class="sec-title">Our Trusted Clients Feedback</h2>
+        </div>
+        <div class="row testi-slide2 slider-shadow th-carousel" id="testiSlide1" data-slide-show="3" data-lg-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1">
+            <div class="col-md-6 col-lg-4">
+                <div class="testi-item">
+                    <p class="testi-item_text text-justify">Aurega's expertise and professionalism shone through in setting up my café. Their prompt service and attention to detail were commendable. Excellent customer service. Highly recommended for business setup.</p>
+                    <div class="testi-item_wrapp">
+                        <div class="testi-item_profile">
+                            <img src="{{ asset('/web/assets/img/testimonial/male.webp') }}" alt="testimonial">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="box-title">Prakash Raja</h3>
+                            <span class="testi-item_desig">Food & Beverage</span>
+                            <div class="star-icon">
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-quote">
+                        <img src="{{ asset('/web/assets/img/icon/quote_3.svg') }}" alt="">
                     </div>
                 </div>
-                <div class="testi-card-slide th-carousel" data-arrows="true" data-xl-arrows="true" data-ml-arrows="true" data-fade="true" data-slide-show="1">
-                    <div>
-                        <div class="testi-card">
-                            <div class="testi-card_img">
-                                <img src="{{ asset('/web/assets/img/testimonial/testi_2_1.jpg') }}" alt="Avater">
-                            </div>
-                            <div class="testi-card_content">
-                                <p class="testi-card_text">“We're here to make pool maintenance easy & hassle free for
-                                    you. Contact us today to schedule a service or to learn more about our maintenance
-                                    plan. Thank you for considering poolax as your trusted pool service and maintenance
-                                    partner. We look forward to serving you!”</p>
-                                <h3 class="testi-card_name">Alex Michel</h3>
-                                <span class="testi-card_desig">Ui/Ux Designer</span>
-                                <div class="testi-card_review">
-                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                                </div>
-                                <div class="testi-quote"><img src="{{ asset('/web/assets/img/shape/quote-2.svg') }}" alt=""></div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="testi-item">
+                    <p class="testi-item_text text-justify">Very professional and prompt service guided me through every step. Their expertise in tech startups is unmatched.</p>
+                    <div class="testi-item_wrapp">
+                        <div class="testi-item_profile">
+                            <img src="{{ asset('/web/assets/img/testimonial/male.webp') }}" alt="testimonial">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="box-title">Mitesh Patel</h3>
+                            <span class="testi-item_desig">Tech</span>
+                            <div class="star-icon">
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="testi-card">
-                            <div class="testi-card_img">
-                                <img src="{{ asset('/web/assets/img/testimonial/testi_2_2.jpg') }}" alt="Avater">
-                            </div>
-                            <div class="testi-card_content">
-                                <p class="testi-card_text">“We're here to make pool maintenance easy & hassle free for
-                                    you. Contact us today to schedule a service or to learn more about our maintenance
-                                    plan. Thank you for considering poolax as your trusted pool service and maintenance
-                                    partner. We look forward to serving you!”</p>
-                                <h3 class="testi-card_name">David Milton</h3>
-                                <span class="testi-card_desig">Ui/Ux Designer</span>
-                                <div class="testi-card_review">
-                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                                </div>
-                                <div class="testi-quote"><img src="{{ asset('/web/assets/img/shape/quote-2.svg') }}" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="testi-card">
-                            <div class="testi-card_img">
-                                <img src="{{ asset('/web/assets/img/testimonial/testi_2_3.jpg') }}" alt="Avater">
-                            </div>
-                            <div class="testi-card_content">
-                                <p class="testi-card_text">“We're here to make pool maintenance easy & hassle free for
-                                    you. Contact us today to schedule a service or to learn more about our maintenance
-                                    plan. Thank you for considering poolax as your trusted pool service and maintenance
-                                    partner. We look forward to serving you!”</p>
-                                <h3 class="testi-card_name">Abraham Khalil</h3>
-                                <span class="testi-card_desig">Ui/Ux Designer</span>
-                                <div class="testi-card_review">
-                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                                </div>
-                                <div class="testi-quote"><img src="{{ asset('/web/assets/img/shape/quote-2.svg') }}" alt=""></div>
-                            </div>
-                        </div>
+                    <div class="testi-quote">
+                        <img src="{{ asset('/web/assets/img/icon/quote_3.svg') }}" alt="">
                     </div>
                 </div>
-                <div class="testi-card-tab" data-thnavfor=".testi-card-slide">
-                    <button class="tab-btn active" type="button"><img src="{{ asset('/web/assets/img/testimonial/testi_thumb_2_1.png') }}" alt="tab-btn image"></button>
-                    <button class="tab-btn" type="button"><img src="{{ asset('/web/assets/img/testimonial/testi_thumb_2_2.png') }}" alt="tab-btn image"></button>
-                    <button class="tab-btn" type="button"><img src="{{ asset('/web/assets/img/testimonial/testi_thumb_2_3.png') }}" alt="tab-btn image"></button>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="testi-item">
+                    <p class="testi-item_text text-justify">Aurega corporate services helped me in setting up my auto repair shop was commendable. From A-Z, they handled everything promptly and efficiently. Exceptional customer service. Very satisfied with their services.</p>
+                    <div class="testi-item_wrapp">
+                        <div class="testi-item_profile">
+                            <img src="{{ asset('/web/assets/img/testimonial/male.webp') }}" alt="testimonial">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="box-title">Abbas Mahmood </h3>
+                            <span class="testi-item_desig">Automotive</span>
+                            <div class="star-icon">
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-quote">
+                        <img src="{{ asset('/web/assets/img/icon/quote_3.svg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="testi-item">
+                    <p class="testi-item_text text-justify">Aurega's expertise and promptness in setting up my financial consultancy were remarkable. Their professional service and excellent customer support made the process stress-free. Highly recommended for business setup.</p>
+                    <div class="testi-item_wrapp">
+                        <div class="testi-item_profile">
+                            <img src="{{ asset('/web/assets/img/testimonial/female.webp') }}" alt="testimonial">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="box-title">Andy Nguyen </h3>
+                            <span class="testi-item_desig">Finance</span>
+                            <div class="star-icon">
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-quote">
+                        <img src="{{ asset('/web/assets/img/icon/quote_3.svg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="testi-item">
+                    <p class="testi-item_text text-justify">Their prompt service and industry expertise were remarkable. I recommend them.</p>
+                    <div class="testi-item_wrapp">
+                        <div class="testi-item_profile">
+                            <img src="{{ asset('/web/assets/img/testimonial/female.webp') }}" alt="testimonial">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="box-title">Jessica Rodriguez </h3>
+                            <span class="testi-item_desig">Hospitality</span>
+                            <div class="star-icon">
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-quote">
+                        <img src="{{ asset('/web/assets/img/icon/quote_3.svg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="testi-item">
+                    <p class="testi-item_text text-justify">Professional guidance and swift setup process simplified launching my real estate venture. Thank you Aurega.</p>
+                    <div class="testi-item_wrapp">
+                        <div class="testi-item_profile">
+                            <img src="{{ asset('/web/assets/img/testimonial/male.webp') }}" alt="testimonial">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="box-title">Deepak Seth </h3>
+                            <span class="testi-item_desig">Real Estate</span>
+                            <div class="star-icon">
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-quote">
+                        <img src="{{ asset('/web/assets/img/icon/quote_3.svg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="testi-item">
+                    <p class="testi-item_text text-justify">Aurega service's expertise in healthcare made setting up my clinic hassle-free. Their promptness and excellent service are commendable.</p>
+                    <div class="testi-item_wrapp">
+                        <div class="testi-item_profile">
+                            <img src="{{ asset('/web/assets/img/testimonial/male.webp') }}" alt="testimonial">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="box-title">Ayman Halim </h3>
+                            <span class="testi-item_desig">Healthcare</span>
+                            <div class="star-icon">
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-quote">
+                        <img src="{{ asset('/web/assets/img/icon/quote_3.svg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="testi-item">
+                    <p class="testi-item_text text-justify">My e-commerce business was set up well by Aurega. They guided me through startup challenges.</p>
+                    <div class="testi-item_wrapp">
+                        <div class="testi-item_profile">
+                            <img src="{{ asset('/web/assets/img/testimonial/male.webp') }}" alt="testimonial">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="box-title">Tyler Jackson</h3>
+                            <span class="testi-item_desig">E-commerce</span>
+                            <div class="star-icon">
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-quote">
+                        <img src="{{ asset('/web/assets/img/icon/quote_3.svg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="testi-item">
+                    <p class="testi-item_text text-justify">Aurega corporate service made establishing my tutoring center effortless. Their expertise and customer service were exceptional.</p>
+                    <div class="testi-item_wrapp">
+                        <div class="testi-item_profile">
+                            <img src="{{ asset('/web/assets/img/testimonial/female.webp') }}" alt="testimonial">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="box-title">Olivia Brown</h3>
+                            <span class="testi-item_desig">Education</span>
+                            <div class="star-icon">
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-quote">
+                        <img src="{{ asset('/web/assets/img/icon/quote_3.svg') }}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="testi-item">
+                    <p class="testi-item_text text-justify">Aurega's professionalism and expertise ensured a seamless setup for my consulting firm. Their prompt assistance exceeded my expectations.</p>
+                    <div class="testi-item_wrapp">
+                        <div class="testi-item_profile">
+                            <img src="{{ asset('/web/assets/img/testimonial/male.webp') }}" alt="testimonial">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="box-title">Sunil Kumar </h3>
+                            <span class="testi-item_desig">Consulting</span>
+                            <div class="star-icon">
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                                <a href="#"><i class="fa-solid fa-star"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-quote">
+                        <img src="{{ asset('/web/assets/img/icon/quote_3.svg') }}" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 <!--==============================
 Process Area  
 ==============================-->
