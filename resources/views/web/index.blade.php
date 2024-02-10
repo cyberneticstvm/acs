@@ -866,8 +866,8 @@ Blog Area
                             <span class="blog-box_month">{{ $blog->created_at->format('M Y') }}</span>
                         </div>
                         <div class="blog-meta">
-                            <a href="blog.html"><i class="fa-regular fa-file"></i>{{ $blog->categoryname->name }}</a>
-                            <a href="blog.html"><i class="fa-regular fa-comments"></i>Comments ({{ $blog->comments->count() }})</a>
+                            <a href="{{ route('blogs.blog', $blog->slug) }}"><i class="fa-regular fa-file"></i>{{ $blog->categoryname?->name }}</a>
+                            <a href="{{ route('blogs.blog', $blog->slug) }}"><i class="fa-regular fa-comments"></i>Comments ({{ $blog->comments->count() }})</a>
                         </div>
                         <h3 class="box-title"><a href="{{ route('blogs.blog', $blog->slug) }}">{{ $blog->title }}</a></h3>
                         <a href="{{ route('blogs.blog', $blog->slug) }}" class="th-btn border">Read More</a>
