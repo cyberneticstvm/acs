@@ -116,7 +116,8 @@ Version: 1.0.0
   --section-space-mobile: 80px;
   --section-title-space: 60px;
   --ripple-ani-duration: 5s;
-  --gold-color: #D4AF37;
+  /*--gold-color: #D4AF37;*/
+  --gold-color: #d8b06e;
 }
 
 .theme2 {
