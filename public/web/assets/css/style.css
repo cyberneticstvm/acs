@@ -10897,7 +10897,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child>.th-post-
   background-color: var(--theme-color);
   width: 665px;
   height: 665px;
-  border: 18px solid var(--white-color);
+  border: 18px solid var(--gold-color);
   border-radius: 50%;
   overflow: hidden;
   z-index: 4;

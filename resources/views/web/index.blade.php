@@ -29,7 +29,7 @@ Hero Area
                     </div>
                     <div class="col-xl-5">
                         <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.2s">
-                            <img src="{{ asset('/web/assets/img/hero/business-setup1.webp') }}" alt="Aurega Business Setup">
+                            <img src="{{ asset('/web/assets/img/hero/business-setup.webp') }}" alt="Aurega Business Setup">
                         </div>
                     </div>
                 </div>
@@ -59,12 +59,164 @@ Hero Area
                     </div>
                     <div class="col-xl-5">
                         <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.2s">
-                            <img src="{{ asset('/web/assets/img/hero/pro-service.webp') }}" alt="Aurega PRO Service">
+                            <img src="{{ asset('/web/assets/img/hero/pro.webp') }}" alt="Aurega PRO Service">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="th-hero-slide">
+            <div class="th-hero-bg">
+                <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
+                <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
+                    <img src="{{ asset('/web/assets/img/shape/hero_shape_3.webp') }}" alt="">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-xl-7">
+                        <div class="hero-style4">
+                            <span class="hero-subtitle text-gold" data-ani="slideindown" data-ani-delay="0.7s">Quality Service, Clear Results</span>
+                            <h1 class="hero-title mb-0" data-ani="slideindown" data-ani-delay="0.4s">
+                                Golden Visa in </h1>
+                            <h2 class="hero-big-title text-white" data-ani="slideindown" data-ani-delay="0.6s">
+                                Dubai</h2>
+                            <div class="btn-group mt-30" data-ani="slideindown" data-ani-delay="0.5s">
+                                <a href="{{ route('index') }}" class="th-btn style4 border-radius">Make An Appointment</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.2s">
+                            <img src="{{ asset('/web/assets/img/hero/golden-visa.webp') }}" alt="Aurega Golden Visa">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="th-hero-slide">
+            <div class="th-hero-bg">
+                <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
+                <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
+                    <img src="{{ asset('/web/assets/img/shape/hero_shape_3.webp') }}" alt="">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-xl-7">
+                        <div class="hero-style4">
+                            <span class="hero-subtitle text-gold" data-ani="slideindown" data-ani-delay="0.7s">Quality Service, Clear Results</span>
+                            <h1 class="hero-title mb-0" data-ani="slideindown" data-ani-delay="0.4s">
+                                Business Consulting in </h1>
+                            <h2 class="hero-big-title text-white" data-ani="slideindown" data-ani-delay="0.6s">
+                                Dubai</h2>
+                            <div class="btn-group mt-30" data-ani="slideindown" data-ani-delay="0.5s">
+                                <a href="{{ route('index') }}" class="th-btn style4 border-radius">Make An Appointment</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.2s">
+                            <img src="{{ asset('/web/assets/img/hero/business-consulting.webp') }}" alt="Aurega PRO Service">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="th-hero-slide">
+            <div class="th-hero-bg">
+                <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
+                <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
+                    <img src="{{ asset('/web/assets/img/shape/hero_shape_3.webp') }}" alt="">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-xl-7">
+                        <div class="hero-style4">
+                            <span class="hero-subtitle text-gold" data-ani="slideindown" data-ani-delay="0.7s">Quality Service, Clear Results</span>
+                            <h1 class="hero-title mb-0" data-ani="slideindown" data-ani-delay="0.4s">
+                                Trademark Registration in </h1>
+                            <h2 class="hero-big-title text-white" data-ani="slideindown" data-ani-delay="0.6s">
+                                Dubai</h2>
+                            <div class="btn-group mt-30" data-ani="slideindown" data-ani-delay="0.5s">
+                                <a href="{{ route('index') }}" class="th-btn style4 border-radius">Make An Appointment</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.2s">
+                            <img src="{{ asset('/web/assets/img/hero/trade-mark.webp') }}" alt="Aurega Trademark Service">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="th-hero-slide">
+            <div class="th-hero-bg">
+                <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
+                <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
+                    <img src="{{ asset('/web/assets/img/shape/hero_shape_3.webp') }}" alt="">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-xl-7">
+                        <div class="hero-style4">
+                            <span class="hero-subtitle text-gold" data-ani="slideindown" data-ani-delay="0.7s">Quality Service, Clear Results</span>
+                            <h1 class="hero-title mb-0" data-ani="slideindown" data-ani-delay="0.4s">
+                                HR & Recruitment in </h1>
+                            <h2 class="hero-big-title text-white" data-ani="slideindown" data-ani-delay="0.6s">
+                                Dubai</h2>
+                            <div class="btn-group mt-30" data-ani="slideindown" data-ani-delay="0.5s">
+                                <a href="{{ route('index') }}" class="th-btn style4 border-radius">Make An Appointment</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.2s">
+                            <img src="{{ asset('/web/assets/img/hero/hr.webp') }}" alt="Aurega HR and Recruitment Service">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="th-hero-slide">
+            <div class="th-hero-bg">
+                <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
+                <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
+                    <img src="{{ asset('/web/assets/img/shape/hero_shape_3.webp') }}" alt="">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-xl-7">
+                        <div class="hero-style4">
+                            <span class="hero-subtitle text-gold" data-ani="slideindown" data-ani-delay="0.7s">Quality Service, Clear Results</span>
+                            <h1 class="hero-title mb-0" data-ani="slideindown" data-ani-delay="0.4s">
+                                Digital Marketing in </h1>
+                            <h2 class="hero-big-title text-white" data-ani="slideindown" data-ani-delay="0.6s">
+                                Dubai</h2>
+                            <div class="btn-group mt-30" data-ani="slideindown" data-ani-delay="0.5s">
+                                <a href="{{ route('index') }}" class="th-btn style4 border-radius">Make An Appointment</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.2s">
+                            <img src="{{ asset('/web/assets/img/hero/digital-marketing.webp') }}" alt="Aurega Digital Marketing Service">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
     <div class="icon-box">
         <button data-slick-prev="#heroSlide4" class="slick-arrow default"><i class="fa-regular fa-arrow-right"></i></button>

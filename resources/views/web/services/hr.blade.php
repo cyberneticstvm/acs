@@ -73,13 +73,13 @@
             <div class="col-xl-6 wow fadeInRight">
                 <div class="img-box2">
                     <div class="img1 global-img">
-                        <img src="{{ asset('/web/assets/img/normal/bg1.webp') }}" alt="About">
+                        <img src="{{ asset('/web/assets/img/normal/hr-bg-1.webp') }}" alt="About">
                     </div>
                     <div class="img2 global-img movingX">
-                        <img src="{{ asset('/web/assets/img/normal/bg2.webp') }}" alt="About">
+                        <img src="{{ asset('/web/assets/img/normal/hr-bg-2.webp') }}" alt="About">
                     </div>
                     <div class="img3 global-img jump">
-                        <img src="{{ asset('/web/assets/img/normal/bg3.webp') }}" alt="About">
+                        <img src="{{ asset('/web/assets/img/normal/hr-bg-3.webp') }}" alt="About">
                     </div>
                 </div>
             </div>
