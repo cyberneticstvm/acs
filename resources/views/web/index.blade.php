@@ -410,9 +410,9 @@ Team Area
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInUp">
                     <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/ashraf.jpeg') }}" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/acs-team/15.jpg') }}" alt="Team">
                     </div>
-                    <h3 class="box-title"><a href="https://www.auregagroup.com/about-aurega-group/leadership" target="_blank">Mr. Ashraf M. Rahman</a></h3>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Ashraf M. Rahman</a></h3>
                     <span class="team-desig">Chairman & CEO</span>
                 </div>
             </div>
@@ -420,9 +420,9 @@ Team Area
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInDown">
                     <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/yogesh.jpg') }}" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/acs-team/17.jpg') }}" alt="Team">
                     </div>
-                    <h3 class="box-title"><a href="https://www.auregagroup.com/board-members" target="_blank">Mr. Yogesh Bhola</a></h3>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Yogesh Bhola</a></h3>
                     <span class="team-desig">Managing Director</span>
                 </div>
             </div>
@@ -430,72 +430,60 @@ Team Area
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInDown">
                     <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/tony.jpeg') }}" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/acs-team/6.png') }}" alt="Team">
                     </div>
-                    <h3 class="box-title"><a href="https://www.auregagroup.com/Team-Members" target="_blank">Mr. Tony Chakhtoura</a></h3>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Tony Chakhtoura</a></h3>
                     <span class="team-desig">Business Development Manager</span>
                 </div>
             </div>
-            <!-- Single Item -->
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInUp">
                     <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/mohammed.jpeg') }}" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/acs-team/12.png') }}" alt="Team">
                     </div>
-                    <h3 class="box-title"><a href="https://www.auregagroup.com/Team-Members" target="_blank">Mr. Mohammed Khalid</a></h3>
-                    <span class="team-desig">Operations Manager</span>
-                </div>
-            </div>
-            <!-- Single Item -->
-            <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-box wow fadeInUp">
-                    <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/archana.jpeg') }}" alt="Team">
-                    </div>
-                    <h3 class="box-title"><a href="https://www.auregagroup.com/Team-Members" target="_blank">Ms. Archana Uday</a></h3>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Ms. Archana Uday</a></h3>
                     <span class="team-desig">Client Engagement Manager</span>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInUp">
                     <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/hafas.jpg') }}" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/acs-team/2.png') }}" alt="Team">
                     </div>
-                    <h3 class="box-title"><a href="https://www.auregagroup.com/Team-Members" target="_blank">Mr. Hafas Ansar</a></h3>
-                    <span class="team-desig">Business Development Manager</span>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-box wow fadeInUp">
-                    <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/purushu.jpg') }}" alt="Team">
-                    </div>
-                    <h3 class="box-title"><a href="https://www.auregagroup.com/Team-Members" target="_blank">Mr. Purushothaman Arunagiri</a></h3>
-                    <span class="team-desig">Accounts and Admin Manager</span>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-box wow fadeInUp">
-                    <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/renil.jpg') }}" alt="Team">
-                    </div>
-                    <h3 class="box-title"><a href="https://www.auregagroup.com/Team-Members" target="_blank">Mr. Renil Thomas</a></h3>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Renil Thomas</a></h3>
                     <span class="team-desig">Accountant (VAT & TAX)</span>
                 </div>
             </div>
 
             <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-box wow fadeInDown">
+                <div class="th-team team-box wow fadeInUp">
                     <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/rohit.jpeg') }}" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/acs-team/1.png') }}" alt="Team">
                     </div>
-                    <h3 class="box-title"><a href="https://www.auregagroup.com/Team-Members" target="_blank">Mr. Rohit Kavale</a></h3>
-                    <span class="team-desig">Head of Finance and Taxation</span>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Joseph Camano</a></h3>
+                    <span class="team-desig">Client Relations Executive</span>
                 </div>
             </div>
 
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/acs-team/3.png') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Purushothaman Arunagiri</a></h3>
+                    <span class="team-desig">Accounts and Admin Manager </span>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/acs-team/14.png') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Shihan Banadra</a></h3>
+                    <span class="team-desig">Attorney-at-Law and Legal Consultant</span>
+                </div>
+            </div>
 
         </div>
     </div>

@@ -33,7 +33,7 @@
                                     <li><a href="{{ route('pro.service') }}">PRO Services</a></li>
                                     <li><a href="{{ route('trademark') }}">Trademark Regstration & Intellectual Property</a></li>
                                     <li><a href="{{ route('hr.service') }}">HR and Recruitment</a></li>
-                                    <li><a href="{{ route('digital.service') }}">Digital Marketing and Software Consulting</a></li>
+                                    <li><a href="{{ route('digital.service') }}">Digital Marketing & Web Development</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
