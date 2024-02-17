@@ -485,6 +485,26 @@ Team Area
                 </div>
             </div>
 
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/ribin.jpg') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Mohamed Ribin</a></h3>
+                    <span class="team-desig">Team Leader Operations</span>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/acs-team/hafas.jpg') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Hafas Ansar</a></h3>
+                    <span class="team-desig">Business Development Manager</span>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>

@@ -191,6 +191,48 @@
                 </div>
             </div>
         </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-3">
+                <div class="product-big-img global-img">
+                    <div class="img"><img src="{{ asset('/web/assets/img/team/ribin.jpg') }}" alt="Product Image"></div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="product-about">
+                    <p class="text text-justify">Mr. Mohamed Ribin, currently serving as the Team Leader Operations at Aurega, brings a wealth of expertise and academic qualifications to his role. Holding a Bachelor of Commerce (B.Com) degree with a specialization in Finance and Accounting, Mr. Ribin possesses a strong foundation in financial principles and management.</p>
+                    <p class="text text-justify">Furthermore, his ongoing pursuit of the ACCA (Association of Chartered Certified Accountants) qualification demonstrates his commitment to continuous professional development and further enhances his proficiency in financial and accounting matters.</p>
+                    <p class="text text-justify">In his capacity as Team Leader Operations, Mr. Ribin assumes a pivotal role in overseeing and optimizing various operational aspects within Aurega Corporate Services L.L.C. His responsibilities align closely with the typical job profile in Finance & Operations and in the services industry, encompassing strategic planning, resource management, process improvement, quality assurance, customer relationship management, risk management, vendor management, team leadership, financial management, and compliance and regulatory affairs.</p>
+                    <p class="text text-justify">Mr. Ribin's educational background, complemented by his leadership position at Aurega, underscores his dedication to professional growth and his unwavering commitment to excellence in operational management within the organization. Through his leadership and expertise, he plays a crucial role in driving operational excellence, optimizing resources, and delivering high-quality services that exceed customer expectations.</p>
+                    <p class="text text-justify">Overall, Mr. Ribin's combination of academic qualifications, ongoing professional development, and leadership capabilities positions him as a valuable asset to Aurega, contributing significantly to the organization's success in the services industry.</p>
+
+                    <div class="product_meta text-end">
+                        <span class="sku_wrapper">Mr. Mohamed Ribin</span>
+                        <span class="posted_in">Team Leader Operations</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-3">
+                <div class="product-big-img global-img">
+                    <div class="img"><img src="{{ asset('/web/assets/img/team/acs-team/hafas.jpg') }}" alt="Product Image"></div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="product-about">
+                    <p class="text text-justify">Mr. Hafas Ansar holds multiple roles within the professional sphere, notably serving as a Company Incorporation Specialist, Golden Visa Specialist, and Business Development Manager at Aurega Corporate Services L.L.C. Simultaneously, he is undertaking studies towards an MBA in Logistics, Materials, and Supply Chain Management from Bharathiar University.</p>
+                    <p class="text text-justify">As a proficient Business Development Manager, exhibits a strong dedication to propelling business growth and expansion. His multifaceted role involves strategic activities focused on identifying and capitalizing on new opportunities for revenue generation and market penetration. With a keen eye for market analysis, Mr. Ansar conducts thorough research to discern emerging trends and assess competitive landscapes. Leveraging various channels, he excels in lead generation, effectively building a pipeline of potential clients and opportunities.</p>
+                    <p class="text text-justify">Mr. Ansar's emphasis on nurturing client relationships fosters trust and credibility, leading to enduring partnerships and repeat business. A skilled negotiator, he adeptly navigates strategic discussions to secure favorable terms and partnerships. Actively seeking out strategic collaborations, Mr. Ansar harnesses synergies to drive mutual growth and success. Overall, his blend of analytical acumen, relationship-building skills, and strategic vision makes him a valuable asset in achieving business objectives.</p>
+
+                    <div class="product_meta text-end">
+                        <span class="sku_wrapper">Mr. Hafas Ansar</span>
+                        <span class="posted_in">Business Development Manager</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 @endsection
