@@ -217,7 +217,7 @@
         <div class="row mt-5">
             <div class="col-lg-3">
                 <div class="product-big-img global-img">
-                    <div class="img"><img src="{{ asset('/web/assets/img/team/acs-team/hafas.jpg') }}" alt="Product Image"></div>
+                    <div class="img"><img src="{{ asset('/web/assets/img/team/hafas.jpg') }}" alt="Product Image"></div>
                 </div>
             </div>
             <div class="col-lg-9">
