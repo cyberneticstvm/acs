@@ -8,7 +8,7 @@ Hero Area
 
         <div class="th-hero-slide">
             <div class="th-hero-bg">
-                <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
+                <img src="{{ asset('/web/assets/img/hero/hero_overlay_black.webp') }}" alt="Hero Image">
                 <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
                     <img src="{{ asset('/web/assets/img/shape/hero_shape_3.webp') }}" alt="">
                 </div>
@@ -38,7 +38,7 @@ Hero Area
 
         <div class="th-hero-slide">
             <div class="th-hero-bg">
-                <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
+                <img src="{{ asset('/web/assets/img/hero/hero_overlay_black.webp') }}" alt="Hero Image">
                 <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
                     <img src="{{ asset('/web/assets/img/shape/hero_shape_3.webp') }}" alt="">
                 </div>
@@ -68,7 +68,7 @@ Hero Area
 
         <div class="th-hero-slide">
             <div class="th-hero-bg">
-                <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
+                <img src="{{ asset('/web/assets/img/hero/hero_overlay_black.webp') }}" alt="Hero Image">
                 <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
                     <img src="{{ asset('/web/assets/img/shape/hero_shape_3.webp') }}" alt="">
                 </div>
@@ -98,7 +98,7 @@ Hero Area
 
         <div class="th-hero-slide">
             <div class="th-hero-bg">
-                <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
+                <img src="{{ asset('/web/assets/img/hero/hero_overlay_black.webp') }}" alt="Hero Image">
                 <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
                     <img src="{{ asset('/web/assets/img/shape/hero_shape_3.webp') }}" alt="">
                 </div>
@@ -128,7 +128,7 @@ Hero Area
 
         <div class="th-hero-slide">
             <div class="th-hero-bg">
-                <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
+                <img src="{{ asset('/web/assets/img/hero/hero_overlay_black.webp') }}" alt="Hero Image">
                 <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
                     <img src="{{ asset('/web/assets/img/shape/hero_shape_3.webp') }}" alt="">
                 </div>
@@ -158,7 +158,7 @@ Hero Area
 
         <div class="th-hero-slide">
             <div class="th-hero-bg">
-                <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
+                <img src="{{ asset('/web/assets/img/hero/hero_overlay_black.webp') }}" alt="Hero Image">
                 <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
                     <img src="{{ asset('/web/assets/img/shape/hero_shape_3.webp') }}" alt="">
                 </div>
@@ -188,7 +188,7 @@ Hero Area
 
         <div class="th-hero-slide">
             <div class="th-hero-bg">
-                <img src="{{ asset('/web/assets/img/hero/hero_overlay_2_1.png') }}" alt="Hero Image">
+                <img src="{{ asset('/web/assets/img/hero/hero_overlay_black.webp') }}" alt="Hero Image">
                 <div class="th-hero-shape" data-ani="slideinup" data-ani-delay="0.7s">
                     <img src="{{ asset('/web/assets/img/shape/hero_shape_3.webp') }}" alt="">
                 </div>
@@ -502,6 +502,16 @@ Team Area
                     </div>
                     <h3 class="box-title"><a href="{{ route('members') }}">Mr. Hafas Ansar</a></h3>
                     <span class="team-desig">Business Development Manager</span>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/mohammed.jpeg') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Mohammed Khalid</a></h3>
+                    <span class="team-desig">Operations Manager</span>
                 </div>
             </div>
 

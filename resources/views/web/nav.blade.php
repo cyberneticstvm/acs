@@ -53,7 +53,7 @@
                 </div>
                 <div class="col-auto">
                     <div class="header-button">
-                        <button type="button" class="icon-btn searchBoxToggler"><i class="far fa-search"></i></button>
+                        <!--<button type="button" class="icon-btn searchBoxToggler"><i class="far fa-search"></i></button>-->
                         <a href="#" class="icon-btn sideMenuToggler d-none d-lg-block"><i class="far fa-bars"></i></a>
                         <a href="{{ route('contact') }}" class="th-btn border-radius">Request a quote</a>
                         <button class="icon-btn th-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>

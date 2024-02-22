@@ -233,6 +233,26 @@
                 </div>
             </div>
         </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-3">
+                <div class="product-big-img global-img">
+                    <div class="img"><img src="{{ asset('/web/assets/img/team/mohammed.jpeg') }}" alt="Product Image"></div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="product-about">
+                    <p class="text text-justify">Mr. Mohammed Khalid, equipped with a Bachelor of Business Administration from Heriot-Watt University, UK, boasts over 14 years of extensive experience. His professional focus centers on providing strategic advice in structuring UAE Mainland entities through the implementation of Corporate Holding Structures.</p>
+                    <p class="text text-justify">Mr. Khalid's proficiency in UAE Mainland entities, coupled with his specialization in Corporate Holding Structures, underscores his ability to provide tailored solutions to businesses seeking to establish a robust presence in the UAE. His expertise extends beyond traditional business setup services, encompassing management consulting and international business solutions to address the multifaceted needs of clients operating in a dynamic global environment.</p>
+                    <p class="text text-justify">Mr. Mohammed Khalid stands as a knowledgeable professional offering a comprehensive suite of services crucial for businesses navigating the complexities of the UAE business landscape. His academic background, combined with a decade of hands-on experience, positions him as a strategic advisor capable of providing valuable insights and practical solutions for clients seeking to establish and optimize their business operations in the region.</p>
+
+                    <div class="product_meta text-end">
+                        <span class="sku_wrapper">Mr. Mohammed Khalid</span>
+                        <span class="posted_in">Operations Manager</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 @endsection
