@@ -276,7 +276,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12">
-                        <p class="copyright-text text-white text-center">© {{ date('Y') }} <a href="{{ route('index') }}" class="text-gold">Aurega Group Limited</a>. All Rights Reserved.</p>
+                        <p class="copyright-text text-white text-center">© {{ date('Y') }} <a href="htps://auregagroup.com" class="text-gold">Aurega Group Limited</a>. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>

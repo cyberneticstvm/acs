@@ -295,7 +295,7 @@ About Area
                 <div class="wow fadeInLeft">
                     <div class="title-area mb-25">
                         <span class="sub-title style1">Know who we are</span>
-                        <h2 class="sec-title mb-20">Aurega Corporate Service</h2>
+                        <h2 class="sec-title mb-20">Aurega Corporate Service LLC</h2>
                         <p class="text-justify">At <a href="{{ route('index') }}">Aurega Group</a>, we take pride in being your premier partner for all your business setup Dubai needs in the UAE. With decades of experience in serving the global market, we have earned a reputation as one of the most trusted business setup advisory establishments worldwide. Our commitment to excellence and dedication to our clients have made us a preferred choice for individuals, associations, and large corporations seeking to establish their presence in this thriving region.</p>
                     </div>
                     <div class="checklist style2">

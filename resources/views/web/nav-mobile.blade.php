@@ -42,7 +42,7 @@
                     <ul class="sub-menu">
                         <li><a href="{{ route('blogs', 'Blog') }}">Blogs</a></li>
                         <li><a href="{{ route('members') }}">Team Members</a></li>
-                        <li><a href="{{ route('partners') }}">Our Partenrs</a></li>
+                        <li><a href="{{ route('partners') }}">Our Partners</a></li>
                         <li><a href="{{ route('careers') }}">Careers</a></li>
                     </ul>
                 </li>
