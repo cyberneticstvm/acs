@@ -44,6 +44,9 @@ Route::middleware(['web'])->group(function () {
         Route::post('/blog/comment', 'blogComment')->name('blog.comment');
         Route::post('/contact', 'contactSubmit')->name('contact.submit');
         Route::get('/response', 'responseMessage')->name('response.message');
+
+        Route::post('/sitemap.xml', 'sitemap')->name('sitemap');
+        Route::get('/robots.txt', 'robots')->name('robots');
     });
 });
 

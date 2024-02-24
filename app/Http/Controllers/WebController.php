@@ -255,4 +255,14 @@ class WebController extends Controller
         $canonical_url = "https://www.auregacs.com/response";
         return view('web.response', compact('title', 'keywords', 'description', 'canonical_url'));
     }
+
+    public function sitemap()
+    {
+        return response()->view('sitemap')->header('Content-Type', 'text/xml');
+    }
+
+    public function robots()
+    {
+        return response()->view('robots')->header('Content-Type', 'text/plain');
+    }
 }
