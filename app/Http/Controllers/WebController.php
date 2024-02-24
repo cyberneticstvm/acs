@@ -258,11 +258,11 @@ class WebController extends Controller
 
     public function sitemap()
     {
-        return response()->view('sitemap')->header('Content-Type', 'text/xml');
+        return response()->view('web.sitemap')->header('Content-Type', 'text/xml');
     }
 
     public function robots()
     {
-        return response()->view('robots')->header('Content-Type', 'text/plain');
+        return response()->view('web.robots')->header('Content-Type', 'text/plain');
     }
 }
