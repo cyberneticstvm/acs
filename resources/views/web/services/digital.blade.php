@@ -3,12 +3,12 @@
 <div class="breadcumb-wrapper " data-bg-src="{{ asset('/web/assets/img/bg/bg6.webp') }}">
     <div class="container">
         <div class="breadcumb-content">
-            <h2 class="breadcumb-title">Digital Marketing and Software Consulting Service</h2>
+            <h2 class="breadcumb-title">Digital Marketing & Web Development</h2>
             <div class="breadcumb-menu-wrapper">
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('index') }}">Home</a></li>
                     <li>Services</li>
-                    <li>Digital Marketing and Software Consulting Service</li>
+                    <li>Digital Marketing & Web Development</li>
                 </ul>
             </div>
         </div>

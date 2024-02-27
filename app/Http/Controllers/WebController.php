@@ -127,7 +127,7 @@ class WebController extends Controller
 
     function digital()
     {
-        $title = 'Digital Marketing and Software Consulting in UAE | Aurega';
+        $title = 'Digital Marketing & Web Development in UAE | Aurega';
         $canonical_url = "https://www.auregacs.com/services/digital-merkting-and-software-consulting";
         $description = "Digital Marketing and Software Consultants in UAE";
         $keywords = "Digital Marketing, Software Consulting, Web Development, Software Development, Mobile App Development";

@@ -385,7 +385,7 @@ Counter Area
             <div class="th-counterup wow fadeInLeft">
                 <div class="inner">
                     <div class="content">
-                        <h3 class="counter"><span class="odometer" data-count="15">00</span>
+                        <h3 class="counter"><span class="odometer" data-count="30">00</span>
                             <span class="counter-number">+</span>
                         </h3>
                         <p class="counter-card_text">Years in Business</p>
