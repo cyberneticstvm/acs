@@ -606,7 +606,7 @@ Feature Area
             <div class="col-xl-7 wow fadeInLeft">
                 <div class="pe-xl-5">
                     <div class="title-area text-center text-xl-start mb-25">
-                        <span class="sub-title style1">Experience and Experts</span>
+                        <span class="sub-title style1 text-white">Experience and Experts</span>
                         <h2 class="sec-title text-white">30+ Years of Experience in Business Consulting Services</h2>
                         <p class="text-justify">Aurega Corporate Service has established itself as the one-stop shop for companies seeking business solutions. Our services cover every aspect of business setup, from seamless licensing processes to customised value-added solutions. With flexible payment plans and tailored services, we empower companies to promote, sustain and accelerate their operations.</p>
                     </div>
