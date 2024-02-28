@@ -37,7 +37,7 @@
                         <img src="{{ asset('/web/assets/img/normal/arab.svg') }}" alt="Aurega Business consulting">
                     </div>
                     <div class="th-experience jump">
-                        <h3 class="experience-year"><span class="counter-number">15</span>+</h3>
+                        <h3 class="experience-year"><span class="counter-number">30</span>+</h3>
                         <p class="experience-text">Years Experience In the Industry.</p>
                     </div>
                 </div>
