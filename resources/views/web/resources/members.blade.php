@@ -253,6 +253,28 @@
                 </div>
             </div>
         </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-3">
+                <div class="product-big-img global-img">
+                    <div class="img"><img src="{{ asset('/web/assets/img/team/alisha.png') }}" alt="Product Image"></div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="product-about">
+                    <p class="text text-justify">Ms. Alisha Rai holds the esteemed position of Client Servicing at Aurega, where she plays a pivotal role in fostering robust client relationships. Her primary focus revolves around understanding and addressing the unique needs of each client, thereby delivering exceptional service with a commitment to excellence.</p>
+                    <p class="text text-justify">In her capacity, Ms. Rai's responsibilities extend beyond client interactions to encompass efficient resource management, identification of opportunities, and facilitating seamless communication between Aurega and its clients. She prides herself on promptly addressing inquiries, resolving customer concerns, and consistently delivering a superior client experience.</p>
+                    <p class="text text-justify">Ms. Alisha Rai brings a wealth of experience and specialized skills in corporate services to her role, contributing valuable expertise to the organization. Her dedication as Client Servicing at Aurega is characterized by well-informed guidance and outstanding service delivery, ensuring the highest levels of client satisfaction and success.</p>
+                    <p class="text text-justify">Through her proactive approach and unwavering commitment, Ms. Rai continues to play an instrumental role in driving client-centric initiatives and fostering long-lasting partnerships at Aurega.</p>
+
+                    <div class="product_meta text-end">
+                        <span class="sku_wrapper">Ms. Alisha Rai</span>
+                        <span class="posted_in">Client Servicing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 @endsection
