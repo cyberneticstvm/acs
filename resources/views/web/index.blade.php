@@ -518,7 +518,7 @@ Team Area
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInUp">
                     <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/alisha.jpeg') }}" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/alisha.jpg') }}" alt="Team">
                     </div>
                     <h3 class="box-title"><a href="{{ route('members') }}">Ms. Alisha Rai</a></h3>
                     <span class="team-desig">Client Servicing</span>
