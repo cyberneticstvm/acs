@@ -373,7 +373,7 @@ Counter Area
             <div class="th-counterup wow fadeInLeft">
                 <div class="inner">
                     <div class="content">
-                        <h3 class="counter"><span class="odometer" data-count="5,000">00</span>
+                        <h3 class="counter"><span class="odometer" data-count="20,000">00</span>
                             <span class="counter-number">+</span>
                         </h3>
                         <p class="counter-card_text">Satisfied Customers</p>
@@ -512,6 +512,16 @@ Team Area
                     </div>
                     <h3 class="box-title"><a href="{{ route('members') }}">Mr. Mohammed Khalid</a></h3>
                     <span class="team-desig">Operations Manager</span>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/alisha.jpeg') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Ms. Alisha Rai</a></h3>
+                    <span class="team-desig">Client Servicing</span>
                 </div>
             </div>
 
