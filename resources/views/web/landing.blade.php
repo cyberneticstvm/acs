@@ -209,23 +209,23 @@ Booking Area
                     <h3 class="sec-title mb-10">Book An Appointment</h3>
                     <div class="row">
                         <div class="form-group col-lg-12 col-sm-6 border-1">
-                            <textarea class="form-control" placeholder="Your Message"></textarea>
+                            <textarea class="form-control" placeholder="Your Message" name="message"></textarea>
                             <i class="fa-regular fa-message"></i>
                         </div>
                         <div class="form-group col-lg-4 col-sm-6">
-                            <input type="text" class="form-control" name="name" id="name4" placeholder="Full Name">
+                            <input type="text" class="form-control" name="name" maxlength="50" placeholder="Full Name">
                             <i class="fa-light fa-user"></i>
                         </div>
                         <div class="form-group col-lg-4 col-sm-6">
-                            <input type="text" placeholder="Your Email" class="form-control">
+                            <input type="text" placeholder="Your Email" name="email" class="form-control">
                             <i class="fa-light fa-envelope"></i>
                         </div>
                         <div class="form-group col-lg-4 col-sm-6">
-                            <input type="number" class="form-control" name="phone" id="phone" placeholder="Phone Number with Country Code">
+                            <input type="text" class="form-control" name="phone_number" maxlength="15" placeholder="Phone Number with Country Code">
                             <i class="fa-regular fa-phone"></i>
                         </div>
                         <div class="form-group col-lg-4 col-sm-6">
-                            <select name="service" id="service" class="form-select nice-select">
+                            <select name="service" id="service" class="form-select nice-select" name="service">
                                 <option value="" disabled selected hidden>Select Service</option>
                                 @forelse($services as $key => $item)
                                 <option value="{{ $item->name }}">{{ $item->name }}</option>
