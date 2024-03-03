@@ -265,4 +265,14 @@ class WebController extends Controller
     {
         return response()->view('web.robots')->header('Content-Type', 'text/plain');
     }
+
+    public function landing()
+    {
+        $title = "Business Setup in Dubai | Company Formation in UAE | Aurega";
+        $description = "Your Gateway to Seamless Business Setup in UAE | Discover a seamless business setup experience in UAE with Aurega Group. Your trusted gateway to success.";
+        $keywords = "business setup dubai, company formation in dubai, business set up in uae, company setup dubai, business setup uae, business setup services in dubai, business set up companies in uae, business setup in dubai uae";
+        $canonical_url = "https://www.auregacs.com/landing";
+        $services = Category::all();
+        return view('web.landing', compact('title', 'description', 'keywords', 'canonical_url', 'services'));
+    }
 }

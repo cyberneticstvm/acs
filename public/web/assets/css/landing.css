@@ -1,0 +1,23 @@
+.header-layout3 .menu-area:after,
+.th-header .sticky-wrapper.sticky {
+    background: #000 !important;
+}
+
+.header-layout3 .menu-area:before,
+.header-layout3 .menu-area:after {
+    background-color: #000 !important;
+}
+
+textarea {
+    background-color: var(--smoke-color) !important;
+}
+
+.widget-area {
+    padding-top: 20% !important;
+}
+
+@media (max-width: 767px) {
+    .widget-area {
+        margin-top: 55% !important;
+    }
+}
