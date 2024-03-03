@@ -176,7 +176,7 @@ Hero Area
 
             <div class="th-hero-slide">
                 <div class="th-hero-bg ">
-                    <img src="assets/img/hero/hero_overlay_3_1.png" alt="Hero Image">
+                    <img src="{{ asset('/web/assets/img/hero/hero_overlay_3_1.png') }}" alt="Hero Image">
                 </div>
                 <div class="container">
                     <div class="row align-items-end">
@@ -188,7 +188,7 @@ Hero Area
                                 <p class="hero-text" data-ani="slideinup" data-ani-delay="0.5s">Your Gateway to Seamless Business Setup in UAE</p>
                                 <div class="btn-group  justify-content-center justify-content-lg-start" data-ani="slideinup" data-ani-delay="0.6s">
                                     <a href="{{ route('about') }}" class="th-btn radius-none">Discover More</a>
-                                    <a href="{{ route('business.consulting') }}" class="th-btn th-border radius-none">Our Services</a>
+                                    <a href="{{ route('business.consulting') }}" class="th-btn radius-none">Our Services</a>
                                 </div>
                             </div>
                         </div>

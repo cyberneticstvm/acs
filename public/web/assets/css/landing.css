@@ -16,6 +16,11 @@ textarea {
     padding-top: 20% !important;
 }
 
+.th-btn {
+    background-color: var(--gold-color) !important;
+    color: #fff !important;
+}
+
 @media (max-width: 767px) {
     .widget-area {
         margin-top: 55% !important;
