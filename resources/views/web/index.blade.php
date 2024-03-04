@@ -445,35 +445,6 @@ Team Area
                     <span class="team-desig">Client Engagement Manager</span>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-box wow fadeInUp">
-                    <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/acs-team/2.png') }}" alt="Team">
-                    </div>
-                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Renil Thomas</a></h3>
-                    <span class="team-desig">Accountant (VAT & TAX)</span>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-box wow fadeInUp">
-                    <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/acs-team/1.png') }}" alt="Team">
-                    </div>
-                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Joseph Camano</a></h3>
-                    <span class="team-desig">Client Relations Executive</span>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-box wow fadeInUp">
-                    <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/acs-team/3.png') }}" alt="Team">
-                    </div>
-                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Purushothaman Arunagiri</a></h3>
-                    <span class="team-desig">Accounts and Admin Manager </span>
-                </div>
-            </div>
 
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInUp">
@@ -482,26 +453,6 @@ Team Area
                     </div>
                     <h3 class="box-title"><a href="{{ route('members') }}">Mr. Shihan Banadra</a></h3>
                     <span class="team-desig">Attorney-at-Law and Legal Consultant</span>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-box wow fadeInUp">
-                    <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/ribin.jpg') }}" alt="Team">
-                    </div>
-                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Mohamed Ribin</a></h3>
-                    <span class="team-desig">Team Leader Operations</span>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-box wow fadeInUp">
-                    <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/hafas.jpg') }}" alt="Team">
-                    </div>
-                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Hafas Ansar</a></h3>
-                    <span class="team-desig">Business Development Manager</span>
                 </div>
             </div>
 
@@ -518,10 +469,60 @@ Team Area
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInUp">
                     <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/acs-team/3.png') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Purushothaman Arunagiri</a></h3>
+                    <span class="team-desig">Accounts and Admin Manager </span>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/ribin.png') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Mohamed Ribin</a></h3>
+                    <span class="team-desig">Team Leader Operations</span>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/acs-team/1.png') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Joseph Camano</a></h3>
+                    <span class="team-desig">Client Relations Executive</span>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
                         <img src="{{ asset('/web/assets/img/team/alisha.png') }}" alt="Team">
                     </div>
                     <h3 class="box-title"><a href="{{ route('members') }}">Ms. Alisha Rai</a></h3>
                     <span class="team-desig">Client Servicing</span>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/acs-team/2.png') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Renil Thomas</a></h3>
+                    <span class="team-desig">Accountant (VAT & TAX)</span>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="th-team team-box wow fadeInUp">
+                    <div class="team-img">
+                        <img src="{{ asset('/web/assets/img/team/hafas.jpg') }}" alt="Team">
+                    </div>
+                    <h3 class="box-title"><a href="{{ route('members') }}">Mr. Hafas Ansar</a></h3>
+                    <span class="team-desig">Business Development Manager</span>
                 </div>
             </div>
 

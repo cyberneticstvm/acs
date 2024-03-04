@@ -112,67 +112,6 @@
         <div class="row mt-5">
             <div class="col-lg-3">
                 <div class="product-big-img global-img">
-                    <div class="img"><img src="{{ asset('/web/assets/img/team/acs-team/2.png') }}" alt="Product Image"></div>
-                </div>
-            </div>
-            <div class="col-lg-9">
-                <div class="product-about">
-                    <p class="text text-justify">Mr. Renil Thomas, holding the position of Accountant - VAT & Tax at Aurega Accounting and Tax Advisory L.L.C., possesses a robust educational background and professional experience conducive to his role. With a Master of Business Administration (MBA) degree in Finance and Financial Management Services from Bharathiar University, Coimbatore, and a Bachelor of Commerce (B.Com) degree specializing in Finance and Taxation from MES College Erumely, Mr. Thomas demonstrates a comprehensive understanding of financial principles and tax regulations.</p>
-                    <p class="text text-justify">In his capacity as an Accountant - VAT & Tax, Mr. Thomas is entrusted with various responsibilities aimed at ensuring financial compliance and optimizing cash flows. His duties encompass the preparation of monthly, quarterly, and yearly financial statements, including Income Statements, Balance Sheets, and Cash Flow Statements. Moreover, he collaborates with stakeholders to devise strategies for cash flow optimization and actively participates in month-end, quarter-end, and year-end closing activities.</p>
-                    <p class="text text-justify">Mr. Thomas exhibits proficiency in handling local financial and taxation policies, independently managing tax planning, declarations, and submission of audit reports to relevant authorities. He maintains effective communication and coordination with tax authorities, financial institutions, and internal/external auditors to ensure compliance with regulatory requirements. Furthermore, Mr. Thomas oversees document verification processes, ensuring the accuracy of accounting records and tax compliance, while also assisting in budget management and legal agreements coordination.</p>
-                    <p class="text text-justify">In addition to his core responsibilities, Mr. Thomas supports the Finance Manager in enhancing the finance function, contributing to financial planning, forecasting, reporting, and analysis efforts. He diligently manages departmental information and documents, adhering to internal controls, policies, and statutory requirements.</p>
-                    <p class="text text-justify">Mr. Renil Thomas's academic qualifications and professional expertise position him as a valuable asset within Aurega. His proficiency in financial management and taxation, coupled with his commitment to excellence, underscores his ability to navigate the complexities of VAT and tax-related matters effectively.</p>
-
-                    <div class="product_meta text-end">
-                        <span class="sku_wrapper">Mr. Renil Thomas</span>
-                        <span class="posted_in">Accountant (VAT & TAX)</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-lg-3">
-                <div class="product-big-img global-img">
-                    <div class="img"><img src="{{ asset('/web/assets/img/team/acs-team/1.png') }}" alt="Product Image"></div>
-                </div>
-            </div>
-            <div class="col-lg-9">
-                <div class="product-about">
-                    <p class="text text-justify">Mr. Joseph Camano presently holds the position of Client Relations Executive at Aurega. In this capacity, his primary responsibilities include fostering strong client relationships and overseeing various visa transactions. He demonstrates a commitment to understanding the unique needs of each client and excels in delivering exceptional service as their main point of contact.</p>
-                    <p class="text text-justify">Mr. Camano's role extends beyond client interactions to encompass efficient resource management, opportunity identification, and facilitation of seamless communication between the company and its clients. He takes pride in promptly addressing inquiries, resolving customer concerns, and consistently providing a superior client experience.</p>
-                    <p class="text text-justify">Drawing from his accumulated experience and specialized skills in corporate services, Mr. Camano contributes valuable expertise to his role. His dedication as Client Relations Executive at Aurega Corporate Services L.L.C. is centered on offering well-informed guidance and outstanding service, thereby ensuring the highest levels of client satisfaction and success.</p>
-
-                    <div class="product_meta text-end">
-                        <span class="sku_wrapper">Mr. Joseph Camano</span>
-                        <span class="posted_in">Client Relations Executive</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mt-5">
-            <div class="col-lg-3">
-                <div class="product-big-img global-img">
-                    <div class="img"><img src="{{ asset('/web/assets/img/team/acs-team/3.png') }}" alt="Product Image"></div>
-                </div>
-            </div>
-            <div class="col-lg-9">
-                <div class="product-about">
-                    <p class="text text-justify">Mr. Purushothaman Arunagiri holds the position of Accounts and Admin Manager at Aurega, where he demonstrates a self-managed and result-oriented approach. His professional background encompasses a comprehensive skill set and extensive experience spanning various domains including financial analysis, profit and loss management, project management office (PMO) functions, estimating, forecasting, administration, budgeting, warranty management, client relations, business finance operations, and process management in the Business Process Services (BPS) industry.</p>
-                    <p class="text text-justify">Mr. Arunagiri has accumulated a total of 15 years of experience in managing large-scale industrial and commercial projects, with notable achievements in financial operations and project management. His specific areas of expertise include accounts payable, accounts receivable, general ledger management, payroll administration, fixed assets management, inventory control, cash flow management, and financial analysis. He possesses proficiency in handling accounting and finance operations within a computerized environment, including the preparation of financial reports and management information system (MIS) reporting.</p>
-                    <p class="text text-justify">With a proven track record in overseeing projects valued up to $25 million, Mr. Arunagiri brings a wealth of experience and expertise to his role at Aurega. His multifaceted skills and extensive background make him a valuable asset in driving financial efficiency and project success within the organization.</p>
-
-                    <div class="product_meta text-end">
-                        <span class="sku_wrapper">Mr. Purushothaman Arunagiri</span>
-                        <span class="posted_in">Accounts and Admin Manager</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mt-5">
-            <div class="col-lg-3">
-                <div class="product-big-img global-img">
                     <div class="img"><img src="{{ asset('/web/assets/img/team/acs-team/14.png') }}" alt="Product Image"></div>
                 </div>
             </div>
@@ -187,48 +126,6 @@
                     <div class="product_meta text-end">
                         <span class="sku_wrapper">Mr. Shihan Banadra</span>
                         <span class="posted_in">Attorney-at-Law and Legal Consultant</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mt-5">
-            <div class="col-lg-3">
-                <div class="product-big-img global-img">
-                    <div class="img"><img src="{{ asset('/web/assets/img/team/ribin.jpg') }}" alt="Product Image"></div>
-                </div>
-            </div>
-            <div class="col-lg-9">
-                <div class="product-about">
-                    <p class="text text-justify">Mr. Mohamed Ribin, currently serving as the Team Leader Operations at Aurega, brings a wealth of expertise and academic qualifications to his role. Holding a Bachelor of Commerce (B.Com) degree with a specialization in Finance and Accounting, Mr. Ribin possesses a strong foundation in financial principles and management.</p>
-                    <p class="text text-justify">Furthermore, his ongoing pursuit of the ACCA (Association of Chartered Certified Accountants) qualification demonstrates his commitment to continuous professional development and further enhances his proficiency in financial and accounting matters.</p>
-                    <p class="text text-justify">In his capacity as Team Leader Operations, Mr. Ribin assumes a pivotal role in overseeing and optimizing various operational aspects within Aurega Corporate Services L.L.C. His responsibilities align closely with the typical job profile in Finance & Operations and in the services industry, encompassing strategic planning, resource management, process improvement, quality assurance, customer relationship management, risk management, vendor management, team leadership, financial management, and compliance and regulatory affairs.</p>
-                    <p class="text text-justify">Mr. Ribin's educational background, complemented by his leadership position at Aurega, underscores his dedication to professional growth and his unwavering commitment to excellence in operational management within the organization. Through his leadership and expertise, he plays a crucial role in driving operational excellence, optimizing resources, and delivering high-quality services that exceed customer expectations.</p>
-                    <p class="text text-justify">Overall, Mr. Ribin's combination of academic qualifications, ongoing professional development, and leadership capabilities positions him as a valuable asset to Aurega, contributing significantly to the organization's success in the services industry.</p>
-
-                    <div class="product_meta text-end">
-                        <span class="sku_wrapper">Mr. Mohamed Ribin</span>
-                        <span class="posted_in">Team Leader Operations</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mt-5">
-            <div class="col-lg-3">
-                <div class="product-big-img global-img">
-                    <div class="img"><img src="{{ asset('/web/assets/img/team/hafas.jpg') }}" alt="Product Image"></div>
-                </div>
-            </div>
-            <div class="col-lg-9">
-                <div class="product-about">
-                    <p class="text text-justify">Mr. Hafas Ansar holds multiple roles within the professional sphere, notably serving as a Company Incorporation Specialist, Golden Visa Specialist, and Business Development Manager at Aurega Corporate Services L.L.C. Simultaneously, he is undertaking studies towards an MBA in Logistics, Materials, and Supply Chain Management from Bharathiar University.</p>
-                    <p class="text text-justify">As a proficient Business Development Manager, exhibits a strong dedication to propelling business growth and expansion. His multifaceted role involves strategic activities focused on identifying and capitalizing on new opportunities for revenue generation and market penetration. With a keen eye for market analysis, Mr. Ansar conducts thorough research to discern emerging trends and assess competitive landscapes. Leveraging various channels, he excels in lead generation, effectively building a pipeline of potential clients and opportunities.</p>
-                    <p class="text text-justify">Mr. Ansar's emphasis on nurturing client relationships fosters trust and credibility, leading to enduring partnerships and repeat business. A skilled negotiator, he adeptly navigates strategic discussions to secure favorable terms and partnerships. Actively seeking out strategic collaborations, Mr. Ansar harnesses synergies to drive mutual growth and success. Overall, his blend of analytical acumen, relationship-building skills, and strategic vision makes him a valuable asset in achieving business objectives.</p>
-
-                    <div class="product_meta text-end">
-                        <span class="sku_wrapper">Mr. Hafas Ansar</span>
-                        <span class="posted_in">Business Development Manager</span>
                     </div>
                 </div>
             </div>
@@ -257,6 +154,65 @@
         <div class="row mt-5">
             <div class="col-lg-3">
                 <div class="product-big-img global-img">
+                    <div class="img"><img src="{{ asset('/web/assets/img/team/acs-team/3.png') }}" alt="Product Image"></div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="product-about">
+                    <p class="text text-justify">Mr. Purushothaman Arunagiri holds the position of Accounts and Admin Manager at Aurega, where he demonstrates a self-managed and result-oriented approach. His professional background encompasses a comprehensive skill set and extensive experience spanning various domains including financial analysis, profit and loss management, project management office (PMO) functions, estimating, forecasting, administration, budgeting, warranty management, client relations, business finance operations, and process management in the Business Process Services (BPS) industry.</p>
+                    <p class="text text-justify">Mr. Arunagiri has accumulated a total of 15 years of experience in managing large-scale industrial and commercial projects, with notable achievements in financial operations and project management. His specific areas of expertise include accounts payable, accounts receivable, general ledger management, payroll administration, fixed assets management, inventory control, cash flow management, and financial analysis. He possesses proficiency in handling accounting and finance operations within a computerized environment, including the preparation of financial reports and management information system (MIS) reporting.</p>
+                    <p class="text text-justify">With a proven track record in overseeing projects valued up to $25 million, Mr. Arunagiri brings a wealth of experience and expertise to his role at Aurega. His multifaceted skills and extensive background make him a valuable asset in driving financial efficiency and project success within the organization.</p>
+
+                    <div class="product_meta text-end">
+                        <span class="sku_wrapper">Mr. Purushothaman Arunagiri</span>
+                        <span class="posted_in">Accounts and Admin Manager</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-3">
+                <div class="product-big-img global-img">
+                    <div class="img"><img src="{{ asset('/web/assets/img/team/ribin.png') }}" alt="Product Image"></div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="product-about">
+                    <p class="text text-justify">Mr. Mohamed Ribin, currently serving as the Team Leader Operations at Aurega, brings a wealth of expertise and academic qualifications to his role. Holding a Bachelor of Commerce (B.Com) degree with a specialization in Finance and Accounting, Mr. Ribin possesses a strong foundation in financial principles and management.</p>
+                    <p class="text text-justify">Furthermore, his ongoing pursuit of the ACCA (Association of Chartered Certified Accountants) qualification demonstrates his commitment to continuous professional development and further enhances his proficiency in financial and accounting matters.</p>
+                    <p class="text text-justify">In his capacity as Team Leader Operations, Mr. Ribin assumes a pivotal role in overseeing and optimizing various operational aspects within Aurega Corporate Services L.L.C. His responsibilities align closely with the typical job profile in Finance & Operations and in the services industry, encompassing strategic planning, resource management, process improvement, quality assurance, customer relationship management, risk management, vendor management, team leadership, financial management, and compliance and regulatory affairs.</p>
+                    <p class="text text-justify">Mr. Ribin's educational background, complemented by his leadership position at Aurega, underscores his dedication to professional growth and his unwavering commitment to excellence in operational management within the organization. Through his leadership and expertise, he plays a crucial role in driving operational excellence, optimizing resources, and delivering high-quality services that exceed customer expectations.</p>
+                    <p class="text text-justify">Overall, Mr. Ribin's combination of academic qualifications, ongoing professional development, and leadership capabilities positions him as a valuable asset to Aurega, contributing significantly to the organization's success in the services industry.</p>
+
+                    <div class="product_meta text-end">
+                        <span class="sku_wrapper">Mr. Mohamed Ribin</span>
+                        <span class="posted_in">Team Leader Operations</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-3">
+                <div class="product-big-img global-img">
+                    <div class="img"><img src="{{ asset('/web/assets/img/team/acs-team/1.png') }}" alt="Product Image"></div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="product-about">
+                    <p class="text text-justify">Mr. Joseph Camano presently holds the position of Client Relations Executive at Aurega. In this capacity, his primary responsibilities include fostering strong client relationships and overseeing various visa transactions. He demonstrates a commitment to understanding the unique needs of each client and excels in delivering exceptional service as their main point of contact.</p>
+                    <p class="text text-justify">Mr. Camano's role extends beyond client interactions to encompass efficient resource management, opportunity identification, and facilitation of seamless communication between the company and its clients. He takes pride in promptly addressing inquiries, resolving customer concerns, and consistently providing a superior client experience.</p>
+                    <p class="text text-justify">Drawing from his accumulated experience and specialized skills in corporate services, Mr. Camano contributes valuable expertise to his role. His dedication as Client Relations Executive at Aurega Corporate Services L.L.C. is centered on offering well-informed guidance and outstanding service, thereby ensuring the highest levels of client satisfaction and success.</p>
+
+                    <div class="product_meta text-end">
+                        <span class="sku_wrapper">Mr. Joseph Camano</span>
+                        <span class="posted_in">Client Relations Executive</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-3">
+                <div class="product-big-img global-img">
                     <div class="img"><img src="{{ asset('/web/assets/img/team/alisha.png') }}" alt="Product Image"></div>
                 </div>
             </div>
@@ -270,6 +226,47 @@
                     <div class="product_meta text-end">
                         <span class="sku_wrapper">Ms. Alisha Rai</span>
                         <span class="posted_in">Client Servicing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-3">
+                <div class="product-big-img global-img">
+                    <div class="img"><img src="{{ asset('/web/assets/img/team/acs-team/2.png') }}" alt="Product Image"></div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="product-about">
+                    <p class="text text-justify">Mr. Renil Thomas, holding the position of Accountant - VAT & Tax at Aurega Accounting and Tax Advisory L.L.C., possesses a robust educational background and professional experience conducive to his role. With a Master of Business Administration (MBA) degree in Finance and Financial Management Services from Bharathiar University, Coimbatore, and a Bachelor of Commerce (B.Com) degree specializing in Finance and Taxation from MES College Erumely, Mr. Thomas demonstrates a comprehensive understanding of financial principles and tax regulations.</p>
+                    <p class="text text-justify">In his capacity as an Accountant - VAT & Tax, Mr. Thomas is entrusted with various responsibilities aimed at ensuring financial compliance and optimizing cash flows. His duties encompass the preparation of monthly, quarterly, and yearly financial statements, including Income Statements, Balance Sheets, and Cash Flow Statements. Moreover, he collaborates with stakeholders to devise strategies for cash flow optimization and actively participates in month-end, quarter-end, and year-end closing activities.</p>
+                    <p class="text text-justify">Mr. Thomas exhibits proficiency in handling local financial and taxation policies, independently managing tax planning, declarations, and submission of audit reports to relevant authorities. He maintains effective communication and coordination with tax authorities, financial institutions, and internal/external auditors to ensure compliance with regulatory requirements. Furthermore, Mr. Thomas oversees document verification processes, ensuring the accuracy of accounting records and tax compliance, while also assisting in budget management and legal agreements coordination.</p>
+                    <p class="text text-justify">In addition to his core responsibilities, Mr. Thomas supports the Finance Manager in enhancing the finance function, contributing to financial planning, forecasting, reporting, and analysis efforts. He diligently manages departmental information and documents, adhering to internal controls, policies, and statutory requirements.</p>
+                    <p class="text text-justify">Mr. Renil Thomas's academic qualifications and professional expertise position him as a valuable asset within Aurega. His proficiency in financial management and taxation, coupled with his commitment to excellence, underscores his ability to navigate the complexities of VAT and tax-related matters effectively.</p>
+
+                    <div class="product_meta text-end">
+                        <span class="sku_wrapper">Mr. Renil Thomas</span>
+                        <span class="posted_in">Accountant (VAT & TAX)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-3">
+                <div class="product-big-img global-img">
+                    <div class="img"><img src="{{ asset('/web/assets/img/team/hafas.jpg') }}" alt="Product Image"></div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="product-about">
+                    <p class="text text-justify">Mr. Hafas Ansar holds multiple roles within the professional sphere, notably serving as a Company Incorporation Specialist, Golden Visa Specialist, and Business Development Manager at Aurega Corporate Services L.L.C. Simultaneously, he is undertaking studies towards an MBA in Logistics, Materials, and Supply Chain Management from Bharathiar University.</p>
+                    <p class="text text-justify">As a proficient Business Development Manager, exhibits a strong dedication to propelling business growth and expansion. His multifaceted role involves strategic activities focused on identifying and capitalizing on new opportunities for revenue generation and market penetration. With a keen eye for market analysis, Mr. Ansar conducts thorough research to discern emerging trends and assess competitive landscapes. Leveraging various channels, he excels in lead generation, effectively building a pipeline of potential clients and opportunities.</p>
+                    <p class="text text-justify">Mr. Ansar's emphasis on nurturing client relationships fosters trust and credibility, leading to enduring partnerships and repeat business. A skilled negotiator, he adeptly navigates strategic discussions to secure favorable terms and partnerships. Actively seeking out strategic collaborations, Mr. Ansar harnesses synergies to drive mutual growth and success. Overall, his blend of analytical acumen, relationship-building skills, and strategic vision makes him a valuable asset in achieving business objectives.</p>
+
+                    <div class="product_meta text-end">
+                        <span class="sku_wrapper">Mr. Hafas Ansar</span>
+                        <span class="posted_in">Business Development Manager</span>
                     </div>
                 </div>
             </div>
