@@ -379,9 +379,9 @@
     </div>
 
     <div id="QuickView" class="white-popup mfp-hide">
-        <div class="container bg-white">
+        <div class="container bg-white popupForm">
             <div class="row gx-60">
-                <div class="col-lg-12 align-self-center">
+                <div class="col align-self-center">
                     <div class="appointment-form style2">
                         <h3 class="form-title text-center">Booking Appointment</h3>
                         <form method="post" action="{{ route('landing.form.submit') }}">
@@ -399,7 +399,7 @@
                                     <i class="fa-light fa-phone"></i>
                                     <input type="text" placeholder="Your Phone Number with country Code" class="form-control" name="phone_number" required>
                                 </div>
-                                <div class="form-group col-12">
+                                <!--<div class="form-group col-12">
                                     <i class="fa-regular fa-tag"></i>
                                     <select name="service" id="service" class="form-select nice-select" required>
                                         <option value="">Select Service</option>
@@ -412,7 +412,7 @@
                                 <div class="form-group col-12">
                                     <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write message...." required></textarea>
                                     <i class="fal fa-comment"></i>
-                                </div>
+                                </div>-->
                                 <div class="form-btn col-12">
                                     <button class="th-btn fw-btn">Appointment Now</button>
                                 </div>

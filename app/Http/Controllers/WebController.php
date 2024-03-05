@@ -255,8 +255,8 @@ class WebController extends Controller
             'name' => 'required',
             'email' => 'required|email:rfs,dns',
             'phone_number' => 'required',
-            'service' => 'required',
-            'message' => 'required',
+            //'service' => 'required',
+            //'message' => 'required',
         ]);
         $input = $request->all();
         try {
