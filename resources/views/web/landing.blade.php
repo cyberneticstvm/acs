@@ -90,12 +90,12 @@
     <!--==============================
      Preloader
   ==============================-->
-    <div class="preloader ">
-        <!--<button class="th-btn preloaderCls">Cancel Preloader </button>-->
+    <!--<div class="preloader ">
+        <button class="th-btn preloaderCls">Cancel Preloader </button>
         <div class="preloader-inner">
             <span class="loader"></span>
         </div>
-    </div>
+    </div>-->
     <header class="th-header  header-layout2 header-absolute">
         <div class="header-top">
             <div class="container th-container">

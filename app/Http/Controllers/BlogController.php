@@ -6,12 +6,15 @@ use App\Models\Blog;
 use App\Models\Category;
 use App\Models\Comment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class BlogController extends Controller
 {
     public function index()
     {
         $blogs = Blog::latest()->paginate(10);
+        if (Auth::id())
+            $blogs = Blog::latest()->get();
         return view('admin.blog.index', compact('blogs'));
     }
 
