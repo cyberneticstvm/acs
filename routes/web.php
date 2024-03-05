@@ -49,6 +49,7 @@ Route::middleware(['web'])->group(function () {
         Route::get('/robots.txt', 'robots')->name('robots');
 
         Route::get('landing', 'landing')->name('landing');
+        Route::post('landing', 'landingSubmit')->name('landing.form.submit');
     });
 });
 

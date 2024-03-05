@@ -191,38 +191,43 @@
                     </div>
                 </div>
                 <div class="col-xl-5 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
-                    <div class="appointment-form style2">
-                        <h3 class="form-title text-center">Booking Appointment</h3>
-                        <div class="row">
-                            <div class="form-group col-12">
-                                <i class="fa-light fa-user"></i>
-                                <input type="text" placeholder="Your Name" class="form-control">
-                            </div>
-                            <div class="form-group col-12">
-                                <i class="fa-light fa-envelope"></i>
-                                <input type="email" placeholder="Your Email" class="form-control">
-                            </div>
-                            <div class="form-group col-12">
-                                <i class="fa-light fa-phone"></i>
-                                <input type="text" placeholder="Your Phone Number with country Code" class="form-control">
-                            </div>
-                            <div class="form-group col-12">
-                                <i class="fa-regular fa-tag"></i>
-                                <select name="subject" id="subject" class="form-select nice-select">
-                                    <option value="" disabled="" selected="" hidden="">Select Service</option>
-
-                                </select>
-
-                            </div>
-                            <div class="form-group col-12">
-                                <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write message...."></textarea>
-                                <i class="fal fa-comment"></i>
-                            </div>
-                            <div class="form-btn col-12">
-                                <button class="th-btn fw-btn">Appointment Now</button>
+                    <form method="post" action="{{ route('landing.form.submit') }}">
+                        @csrf
+                        <div class="appointment-form style2">
+                            <h3 class="form-title text-center">Booking Appointment</h3>
+                            <div class="row">
+                                <div class="form-group col-12">
+                                    <i class="fa-light fa-user"></i>
+                                    <input type="text" placeholder="Your Name" class="form-control" name="name" required>
+                                </div>
+                                <div class="form-group col-12">
+                                    <i class="fa-light fa-envelope"></i>
+                                    <input type="email" placeholder="Your Email" class="form-control" name="email" required>
+                                </div>
+                                <div class="form-group col-12">
+                                    <i class="fa-light fa-phone"></i>
+                                    <input type="text" placeholder="Your Phone Number with country Code" class="form-control" name="mobile" required>
+                                </div>
+                                <div class="form-group col-12">
+                                    <i class="fa-regular fa-tag"></i>
+                                    <select name="service" id="service" class="form-select nice-select" required>
+                                        <option value="">Select Service</option>
+                                        @forelse($services as $key => $service)
+                                        <option value="{{ $service->name }}">{{ $service->name }}</option>
+                                        @empty
+                                        @endforelse
+                                    </select>
+                                </div>
+                                <div class="form-group col-12">
+                                    <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write message...." required></textarea>
+                                    <i class="fal fa-comment"></i>
+                                </div>
+                                <div class="form-btn col-12">
+                                    <button class="th-btn fw-btn">Appointment Now</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -379,35 +384,41 @@
                 <div class="col-lg-12 align-self-center">
                     <div class="appointment-form style2">
                         <h3 class="form-title text-center">Booking Appointment</h3>
-                        <div class="row">
-                            <div class="form-group col-12">
-                                <i class="fa-light fa-user"></i>
-                                <input type="text" placeholder="Your Name" class="form-control">
+                        <form method="post" action="{{ route('landing.form.submit') }}">
+                            @csrf
+                            <div class="row">
+                                <div class="form-group col-12">
+                                    <i class="fa-light fa-user"></i>
+                                    <input type="text" placeholder="Your Name" class="form-control" name="name" required>
+                                </div>
+                                <div class="form-group col-12">
+                                    <i class="fa-light fa-envelope"></i>
+                                    <input type="email" placeholder="Your Email" class="form-control" name="email" required>
+                                </div>
+                                <div class="form-group col-12">
+                                    <i class="fa-light fa-phone"></i>
+                                    <input type="text" placeholder="Your Phone Number with country Code" class="form-control" name="mobile" required>
+                                </div>
+                                <div class="form-group col-12">
+                                    <i class="fa-regular fa-tag"></i>
+                                    <select name="service" id="service" class="form-select nice-select" required>
+                                        <option value="">Select Service</option>
+                                        <option value="">Select Service</option>
+                                        @forelse($services as $key => $service)
+                                        <option value="{{ $service->name }}">{{ $service->name }}</option>
+                                        @empty
+                                        @endforelse
+                                    </select>
+                                </div>
+                                <div class="form-group col-12">
+                                    <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write message...." required></textarea>
+                                    <i class="fal fa-comment"></i>
+                                </div>
+                                <div class="form-btn col-12">
+                                    <button class="th-btn fw-btn">Appointment Now</button>
+                                </div>
                             </div>
-                            <div class="form-group col-12">
-                                <i class="fa-light fa-envelope"></i>
-                                <input type="email" placeholder="Your Email" class="form-control">
-                            </div>
-                            <div class="form-group col-12">
-                                <i class="fa-light fa-phone"></i>
-                                <input type="text" placeholder="Your Phone Number with country Code" class="form-control">
-                            </div>
-                            <div class="form-group col-12">
-                                <i class="fa-regular fa-tag"></i>
-                                <select name="subject" id="subject" class="form-select nice-select">
-                                    <option value="" disabled="" selected="" hidden="">Select Service</option>
-
-                                </select>
-
-                            </div>
-                            <div class="form-group col-12">
-                                <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write message...."></textarea>
-                                <i class="fal fa-comment"></i>
-                            </div>
-                            <div class="form-btn col-12">
-                                <button class="th-btn fw-btn">Appointment Now</button>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>

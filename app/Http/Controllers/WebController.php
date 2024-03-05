@@ -4,12 +4,14 @@ namespace App\Http\Controllers;
 
 use App\Mail\BlogCommentEmail;
 use App\Mail\ContactUsEmail;
+use App\Mail\LeadFormSubmitEmail;
 use App\Mail\RequestCallbackEmail;
 use App\Models\Blog;
 use App\Models\Callback;
 use App\Models\Category;
 use App\Models\Comment;
 use App\Models\Contact;
+use App\Models\Lead;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -245,6 +247,25 @@ class WebController extends Controller
             return redirect()->route('response.message')->with("error", $e->getMessage());
         }
         return redirect()->route('response.message')->with("success", "Comments posted successfully.");
+    }
+
+    public function landingSubmit(Request $request)
+    {
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'required|email:rfs,dns',
+            'mobile' => 'required',
+            'service' => 'required',
+            'message' => 'required',
+        ]);
+        $input = $request->all();
+        try {
+            Lead::create($input);
+            Mail::to($this->email)->send(new LeadFormSubmitEmail($request));
+        } catch (Exception $e) {
+            return redirect()->route('response.message')->with("error", $e->getMessage());
+        }
+        return redirect()->route('response.message')->with("success", "Thank You! We have received your message successfully. We will get in touch with you shortly.");
     }
 
     function responseMessage()
