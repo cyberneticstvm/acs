@@ -254,7 +254,7 @@ class WebController extends Controller
         $this->validate($request, [
             'name' => 'required',
             'email' => 'required|email:rfs,dns',
-            'mobile' => 'required',
+            'phone_number' => 'required',
             'service' => 'required',
             'message' => 'required',
         ]);

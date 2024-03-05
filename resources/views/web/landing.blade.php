@@ -206,7 +206,7 @@
                                 </div>
                                 <div class="form-group col-12">
                                     <i class="fa-light fa-phone"></i>
-                                    <input type="text" placeholder="Your Phone Number with country Code" class="form-control" name="mobile" required>
+                                    <input type="text" placeholder="Your Phone Number with country Code" class="form-control" name="phone_number" required>
                                 </div>
                                 <div class="form-group col-12">
                                     <i class="fa-regular fa-tag"></i>
@@ -397,12 +397,11 @@
                                 </div>
                                 <div class="form-group col-12">
                                     <i class="fa-light fa-phone"></i>
-                                    <input type="text" placeholder="Your Phone Number with country Code" class="form-control" name="mobile" required>
+                                    <input type="text" placeholder="Your Phone Number with country Code" class="form-control" name="phone_number" required>
                                 </div>
                                 <div class="form-group col-12">
                                     <i class="fa-regular fa-tag"></i>
                                     <select name="service" id="service" class="form-select nice-select" required>
-                                        <option value="">Select Service</option>
                                         <option value="">Select Service</option>
                                         @forelse($services as $key => $service)
                                         <option value="{{ $service->name }}">{{ $service->name }}</option>
