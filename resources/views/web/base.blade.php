@@ -74,10 +74,10 @@
         <div class="mystickyelement-lists-wrap">
             <ul class="mystickyelements-lists mystickyno-minimize">
                 <li id="mystickyelements-social-whatsapp" class="mystickyelements-social-icon-li mystickyelements-social-whatsapp  element-desktop-on element-mobile-on">
-                    <span class="mystickyelements-social-icon social-whatsapp social-custom" style="background: #D4AF37">
+                    <span class="mystickyelements-social-icon social-whatsapp social-custom" style="background: #d8b06e">
                         <a href="https://api.whatsapp.com/send?phone=971528686158&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
                     </span>
-                    <span class="mystickyelements-social-text" style="background: #D4AF37;">
+                    <span class="mystickyelements-social-text" style="background: #d8b06e;">
                         <a href="https://api.whatsapp.com/send?phone=971528686158&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank" rel="noopener">WhatsApp</a>
                     </span>
                 </li>

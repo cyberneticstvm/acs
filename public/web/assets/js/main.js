@@ -58,7 +58,7 @@
         });
     }
 
-    /*---------- 03. Mobile Menu Active ----------*/ 
+    /*---------- 03. Mobile Menu Active ----------*/
     $.fn.thmobilemenu = function (options) {
         var opt = $.extend({
             menuToggleBtn: ".th-menu-toggle",
@@ -147,8 +147,8 @@
 
     $(".th-menu-wrapper").thmobilemenu();
 
-     /*---------- 04. Sticky fix ----------*/ 
-     $(window).scroll(function () {
+    /*---------- 04. Sticky fix ----------*/
+    $(window).scroll(function () {
         var topPos = $(this).scrollTop();
         if (topPos > 500) {
             $('.sticky-wrapper').addClass('sticky');
@@ -156,30 +156,30 @@
             $('.sticky-wrapper').removeClass('sticky')
         }
     })
-          /*----------- 04.1.  One Page Nav ----------*/ 
-          function onePageNav(element) {
-            if ($(element).length > 0) {
-                $(element).each(function () {
+    /*----------- 04.1.  One Page Nav ----------*/
+    function onePageNav(element) {
+        if ($(element).length > 0) {
+            $(element).each(function () {
                 var link = $(this).find('a');
                 $(this).find(link).each(function () {
                     $(this).on('click', function () {
-                    var target = $(this.getAttribute('href'));
-                    if (target.length) {
-                        event.preventDefault();
-                        $('html, body').stop().animate({
-                        scrollTop: target.offset().top - 10
-                        }, 1000);
-                    };
-        
-                    }); 
-                });
-                })
-            }
-        };
-        onePageNav('.onepage-nav');
-        onePageNav('.scroll-down');
+                        var target = $(this.getAttribute('href'));
+                        if (target.length) {
+                            event.preventDefault();
+                            $('html, body').stop().animate({
+                                scrollTop: target.offset().top - 10
+                            }, 1000);
+                        };
 
-    /*---------- 05. Scroll To Top ----------*/ 
+                    });
+                });
+            })
+        }
+    };
+    onePageNav('.onepage-nav');
+    onePageNav('.scroll-down');
+
+    /*---------- 05. Scroll To Top ----------*/
     if ($('.scroll-top').length > 0) {
 
         var scrollTopbtn = document.querySelector('.scroll-top');
@@ -259,7 +259,7 @@
         // Check for arrow wrapper
         if (d("arrows") == true) {
             if (!thSlide.closest(".arrow-wrap").length) {
-                thSlide.closest(".container").parent().addClass("arrow-wrap");  
+                thSlide.closest(".container").parent().addClass("arrow-wrap");
             }
         }
 
@@ -423,7 +423,7 @@
     });
 
 
-    /*----------- 08. Custom Animaiton For Slider ----------*/  
+    /*----------- 08. Custom Animaiton For Slider ----------*/
     $('[data-ani-duration]').each(function () {
         var durationTime = $(this).data('ani-duration');
         $(this).css('animation-duration', durationTime);
@@ -627,9 +627,9 @@
         midClick: true,
     });
 
-    $(".popup-content").on("click", function () {
+    /*$(".popup-content").on("click", function () {
         $(".slick-slider").slick("refresh");
-    });
+    });*/
 
     /*---------- 14. Section Position ----------*/
     // Interger Converter
@@ -675,8 +675,8 @@
         });
     }
 
-     /*----------- 15. Filter ----------*/  
-     $(".filter-active").imagesLoaded(function () {
+    /*----------- 15. Filter ----------*/
+    $(".filter-active").imagesLoaded(function () {
         var $filter = ".filter-active",
             $filterItem = ".filter-item",
             $filterMenu = ".filter-menu-active";
@@ -770,23 +770,23 @@
     });
     new WOW().init();
 
-     /* ==================================================
-               # Ripples
-            ===============================================*/
-  
-  $('.th-hero-bg').ripples({   
-    resolution: 512,
-    dropRadius: 20,
-    perturbance: 0.04, 
-  });
+    /* ==================================================
+              # Ripples
+           ===============================================*/
 
-   /* ==================================================
-               # Bubble Burst 
-            ===============================================*/ 
+    $('.th-hero-bg').ripples({
+        resolution: 512,
+        dropRadius: 20,
+        perturbance: 0.04,
+    });
 
-//   $(".hero-animated-bubble img").hover(function() { 
-//     $(this).addClass("bubble-burst"); 
-// });  
+    /* ==================================================
+                # Bubble Burst 
+             ===============================================*/
+
+    //   $(".hero-animated-bubble img").hover(function() { 
+    //     $(this).addClass("bubble-burst"); 
+    // });  
 
 
 
@@ -803,7 +803,7 @@
         });
     };
 
-    /*---------- 16. TH Tab ----------*/ 
+    /*---------- 16. TH Tab ----------*/
     $.fn.thTab = function (options) {
         var opt = $.extend(
             {
@@ -924,7 +924,7 @@
     if ($(".hero-indicator3").length) {
         $(".hero-indicator3").thTab({
             sliderTab: true,
-            tabButton: ".indicatior-btn", 
+            tabButton: ".indicatior-btn",
         });
     }
 
@@ -936,7 +936,7 @@
             indicator: !1
         }, t);
         $(this).each(function () {
-            var t = $(this), s = t.find(a.tabButton); 
+            var t = $(this), s = t.find(a.tabButton);
             if ((s.on("click", function (t) {
                 t.preventDefault();
                 var s = $(this);
@@ -965,40 +965,40 @@
         }),
 
 
-        /*---------- 17. Circle Progress ----------*/     
+        /*---------- 17. Circle Progress ----------*/
         $(document).ready(function () {
             function animateElements() {
-                 $('.progressbar').each(function () {
-                     var elementPos = $(this).offset().top;
-                     var topOfWindow = $(window).scrollTop();
-                     var percent = $(this).find('.circle').attr('data-percent');
-                     var percentage = parseInt(percent, 10) / parseInt(100, 10);
-                     var animate = $(this).data('animate');
-                     if (elementPos < topOfWindow + $(window).height() - 30 && !animate) {
-                         $(this).data('animate', true);
-                         $(this).find('.circle').circleProgress({
-                         startAngle: -Math.PI / 2,
-                         value: percent / 100,
-                         size: 130,  
-                         thickness: 4,
-                         emptyFill: "#ECF1F5", 
-                         fill: {
-                             color: '#0181F5' 
-                         }
-                         }).on('circle-animation-progress', function (event, progress, stepValue) {
-                         $(this).find('.circle-num').text((stepValue*100).toFixed(0) + "%");
-                         }).stop();
-                     }
-                 });
-             }
-           
-             // Show animated elements
-             animateElements();
-             $(window).scroll(animateElements);
-         });
+                $('.progressbar').each(function () {
+                    var elementPos = $(this).offset().top;
+                    var topOfWindow = $(window).scrollTop();
+                    var percent = $(this).find('.circle').attr('data-percent');
+                    var percentage = parseInt(percent, 10) / parseInt(100, 10);
+                    var animate = $(this).data('animate');
+                    if (elementPos < topOfWindow + $(window).height() - 30 && !animate) {
+                        $(this).data('animate', true);
+                        $(this).find('.circle').circleProgress({
+                            startAngle: -Math.PI / 2,
+                            value: percent / 100,
+                            size: 130,
+                            thickness: 4,
+                            emptyFill: "#ECF1F5",
+                            fill: {
+                                color: '#0181F5'
+                            }
+                        }).on('circle-animation-progress', function (event, progress, stepValue) {
+                            $(this).find('.circle-num').text((stepValue * 100).toFixed(0) + "%");
+                        }).stop();
+                    }
+                });
+            }
+
+            // Show animated elements
+            animateElements();
+            $(window).scroll(animateElements);
+        });
 
 
-    /*----------- 18. Shape Mockup ----------*/ 
+    /*----------- 18. Shape Mockup ----------*/
     $.fn.shapeMockup = function () {
         var $shape = $(this);
         $shape.each(function () {
@@ -1163,12 +1163,12 @@
             $line.get(0).style.setProperty("--pos-x", $left);
 
         }
-        linePos(); 
+        linePos();
     };
 
     // Call On Load
     if ($(".indicator-active").length) {
-        $(".indicator-active").indicator(); 
+        $(".indicator-active").indicator();
     }
     if ($('.testi-card-tab').length) {
         $('.testi-card-tab').thTab({
@@ -1249,15 +1249,15 @@
                 $qty.val(currentVal - 1);
             }
         });
-    }); 
+    });
 
 
-    /*----------- 00. Right Click Disable ----------*/  
+    /*----------- 00. Right Click Disable ----------*/
     //   window.addEventListener('contextmenu', function (e) {  
     //     // do something here...
     //     e.preventDefault();     
     //   }, false); 
-    /*----------- 00. Inspect Element Disable ----------*/  
+    /*----------- 00. Inspect Element Disable ----------*/
     //   document.onkeydown = function (e) {   
     //     if (event.keyCode == 123) {
     //       return false;

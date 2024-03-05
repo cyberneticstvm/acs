@@ -87,6 +87,15 @@
             </ul>
         </div>
     </div>
+
+
+
+    <!--********************************
+   		Code Start From Here 
+	******************************** -->
+
+
+
     <!--==============================
      Preloader
   ==============================-->
@@ -96,7 +105,23 @@
             <span class="loader"></span>
         </div>
     </div>
-    <header class="th-header  header-layout2 header-absolute">
+    <!--==============================
+    Mobile Menu
+  ============================== -->
+    <div class="th-menu-wrapper">
+        <div class="th-menu-area">
+            <div class="mobile-logo">
+                <a href="{{ route('landing') }}"><img src="{{ asset('/web/assets/img/aurega-logo-small.webp') }}" alt="Aurega"></a>
+                <div class="close-menu">
+                    <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==============================
+	Header Area
+==============================-->
+    <header class="th-header header-layout3 header-absolute onepage-nav">
         <div class="header-top">
             <div class="container th-container">
                 <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
@@ -109,7 +134,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-auto d-none d-lg-block">
+                    <div class="col-auto">
                         <div class="social-links"><span class="social-title">Follow Us On:</span>
                             <a href="https://www.facebook.com/auregagroup/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                             <a href="https://twitter.com/Auregagroup" target="_blank"><i class="fab fa-x"></i></a>
@@ -123,103 +148,48 @@
         </div>
         <!-- Main Menu -->
         <div class="sticky-wrapper">
-            <div class="container th-container">
-                <div class="menu-area">
+            <div class="menu-area">
+                <div class="container th-container">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="{{ route('index') }}"><img src="{{ asset('/web/assets/img/aurega-logo-small.webp') }}" alt="Aurega"></a>
+                                <a href="{{ route('landing') }}"><img src="{{ asset('/web/assets/img/aurega-logo-small.webp') }}" alt="Aurega"></a>
                             </div>
                         </div>
                         <div class="col-auto me-lg-auto">
                         </div>
                         <div class="col-auto">
                             <div class="header-button">
-                                <!--<button type="button" class="icon-btn searchBoxToggler"><i class="far fa-search"></i></button>
-                                <a href="#" class="icon-btn sideMenuToggler d-none d-lg-block"><i class="far fa-bars"></i></a>-->
-                                <a href="{{ route('contact') }}" class="th-btn border-radius">Request a quote</a>
-                                <!--<button class="icon-btn th-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>-->
+                                <a href="{{ route('contact') }}" class="th-btn style2 radius-none">Contact Us</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="logo-shape"></div>
     </header>
-    <div class="th-menu-wrapper">
-        <div class="th-menu-area">
-            <div class="mobile-logo">
-                <a href="{{ route('landing') }}"><img src="{{ asset('/web/assets/img/aurega-logo-small.webp') }}" alt="Aurega"></a>
-                <div class="close-menu">
-                    <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="space why-area2 bg-top-center background-image" style="background-image: url('{{ asset('/web/assets/img/bg/bgg.png') }}');">
-        <div class="container mt-5">
-            <div class="row justify-content-end">
-                <div class="col-xl-7 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                    <div class="pe-xl-5">
-                        <div class="title-area text-center text-xl-start mb-25">
-                            <!--<span class="sub-title style1">Aurega Corporate Services LLC</span>-->
-                            <h2 class="sec-title text-dark">Business Setup in Dubai</h2>
-                            <p class="text-justify">Navigating the complexities of establishing a business in the UAE can pose considerable challenges. However, with over t30 Years extensive experience and a track record of serving over 20,000 clients, our expert consultants stand ready to guide you through every step of the process.</p>
-                            <p class="text-justify">With over 30 years of experience in the industry, we've proudly assisted over 20,000 satisfied clients. Our commitment is to swiftly facilitate the establishment of your dream company in Dubai, leveraging our extensive expertise and friendly team members. We excel in delivering seamless and cost-effective business solutions customized to your specific requirements. Our track record of numerous awards underscores our reputation as the foremost service provider in the UAE.</p>
-                        </div>
-                    </div>
-                    <div class="info-card-wrap style2">
-                        <div class="info-card">
-                            <div class="info-card_icon">
-                                <i class="fa-solid fa-phone"></i>
-                            </div>
-                            <div class="info-card_content">
-                                <p class="info-card_text text-dark">Phone Number:</p>
-                                <a href="tel:+971528686158" class="info-card_link">+(971) 52 868 6158</a>
-                            </div>
-                        </div>
-                        <div class="info-card">
-                            <div class="info-card_icon">
-                                <i class="fa-solid fa-envelope"></i>
-                            </div>
-                            <div class="info-card_content">
-                                <p class="info-card_text text-dark">Email Address</p>
-                                <a href="mailto:mkt@auregagroup.com" class="info-card_link">mkt@auregagroup.com</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
-                    <div class="appointment-form style2">
-                        <h3 class="form-title text-center">Booking Appointment</h3>
-                        <div class="row">
-                            <div class="form-group col-12">
-                                <i class="fa-light fa-user"></i>
-                                <input type="text" placeholder="Your Name" class="form-control">
-                            </div>
-                            <div class="form-group col-12">
-                                <i class="fa-light fa-envelope"></i>
-                                <input type="email" placeholder="Your Email" class="form-control">
-                            </div>
-                            <div class="form-group col-12">
-                                <i class="fa-light fa-phone"></i>
-                                <input type="text" placeholder="Your Phone Number with country Code" class="form-control">
-                            </div>
-                            <div class="form-group col-12">
-                                <i class="fa-regular fa-tag"></i>
-                                <select name="subject" id="subject" class="form-select nice-select">
-                                    <option value="" disabled="" selected="" hidden="">Select Service</option>
+    <!--==============================
+Hero Area
+==============================-->
+    <div class="th-hero-wrapper  hero-3" data-bg-src="{{ asset('/web/assets/img/bg/bg1.webp') }}">
+        <div class="hero-slider-3 th-carousel " data-slide-show="1" data-md-slide-show="1" data-fade="true">
 
-                                </select>
-
-                            </div>
-                            <div class="form-group col-12">
-                                <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write message...."></textarea>
-                                <i class="fal fa-comment"></i>
-                            </div>
-                            <div class="form-btn col-12">
-                                <button class="th-btn fw-btn">Appointment Now</button>
+            <div class="th-hero-slide">
+                <div class="th-hero-bg ">
+                    <img src="{{ asset('/web/assets/img/hero/hero_overlay_3_1.png') }}" alt="Hero Image">
+                </div>
+                <div class="container">
+                    <div class="row align-items-end">
+                        <div class="col-lg-12">
+                            <div class="hero-style3">
+                                <!--<span class="hero-subtitle text-gold" data-ani="slideindown" data-ani-delay="0.7s">Comprehensive Service Offerings</span>-->
+                                <h1 class="hero-title mb-0" data-ani="slideinleft" data-ani-delay="0.3s">Aurega</h1>
+                                <h1 class="hero-title" data-ani="slideinleft" data-ani-delay="0.4s">Business Setup in Dubai</h1>
+                                <p class="hero-text" data-ani="slideinup" data-ani-delay="0.5s">Your Gateway to Seamless Business Setup in UAE</p>
+                                <div class="btn-group  justify-content-center justify-content-lg-start" data-ani="slideinup" data-ani-delay="0.6s">
+                                    <a href="{{ route('about') }}" class="th-btn radius-none">Discover More</a>
+                                    <a href="{{ route('business.consulting') }}" class="th-btn radius-none">Our Services</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -227,6 +197,53 @@
             </div>
         </div>
     </div>
+
+    <!--======== / Hero Section ========-->
+    <!--==============================
+Booking Area  
+==============================-->
+    <div class="booking-section" data-pos-for=".service-sec" data-sec-pos="bottom-half">
+        <div class="container">
+            <form action="mail.php" method="POST" class="booking-form ajax-contact wow fadeInUp">
+                <div class="input-wrap">
+                    <h3 class="sec-title mb-10">Book An Appointment</h3>
+                    <div class="row">
+                        <div class="form-group col-lg-12 col-sm-6 border-1">
+                            <textarea class="form-control" placeholder="Your Message" name="message"></textarea>
+                            <i class="fa-regular fa-message"></i>
+                        </div>
+                        <div class="form-group col-lg-4 col-sm-6">
+                            <input type="text" class="form-control" name="name" maxlength="50" placeholder="Full Name">
+                            <i class="fa-light fa-user"></i>
+                        </div>
+                        <div class="form-group col-lg-4 col-sm-6">
+                            <input type="text" placeholder="Your Email" name="email" class="form-control">
+                            <i class="fa-light fa-envelope"></i>
+                        </div>
+                        <div class="form-group col-lg-4 col-sm-6">
+                            <input type="text" class="form-control" name="phone_number" maxlength="15" placeholder="Phone Number with Country Code">
+                            <i class="fa-regular fa-phone"></i>
+                        </div>
+                        <div class="form-group col-lg-4 col-sm-6">
+                            <select name="service" id="service" class="form-select nice-select" name="service">
+                                <option value="" disabled selected hidden>Select Service</option>
+                                @forelse($services as $key => $item)
+                                <option value="{{ $item->name }}">{{ $item->name }}</option>
+                                @empty
+                                @endforelse
+                            </select>
+                        </div>
+                        <div class="form-btn col-lg-4 col-sm-6">
+                            <button class="th-btn fw-btn radius-none">Appointment Now</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--==============================
+	Footer Area
+==============================-->
     <div class="overflow-hidden" data-bg-src="asset('/web/assets/img/bg/counter_bg_1.jpg') }}">
         <div class="container">
             <div class="counter-sec">
@@ -373,48 +390,6 @@
         </svg>
     </div>
 
-    <div id="QuickView" class="white-popup mfp-hide">
-        <div class="container bg-white">
-            <div class="row gx-60">
-                <div class="col-lg-12 align-self-center">
-                    <div class="appointment-form style2">
-                        <h3 class="form-title text-center">Booking Appointment</h3>
-                        <div class="row">
-                            <div class="form-group col-12">
-                                <i class="fa-light fa-user"></i>
-                                <input type="text" placeholder="Your Name" class="form-control">
-                            </div>
-                            <div class="form-group col-12">
-                                <i class="fa-light fa-envelope"></i>
-                                <input type="email" placeholder="Your Email" class="form-control">
-                            </div>
-                            <div class="form-group col-12">
-                                <i class="fa-light fa-phone"></i>
-                                <input type="text" placeholder="Your Phone Number with country Code" class="form-control">
-                            </div>
-                            <div class="form-group col-12">
-                                <i class="fa-regular fa-tag"></i>
-                                <select name="subject" id="subject" class="form-select nice-select">
-                                    <option value="" disabled="" selected="" hidden="">Select Service</option>
-
-                                </select>
-
-                            </div>
-                            <div class="form-group col-12">
-                                <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write message...."></textarea>
-                                <i class="fal fa-comment"></i>
-                            </div>
-                            <div class="form-btn col-12">
-                                <button class="th-btn fw-btn">Appointment Now</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button title="Close (Esc)" type="button" class="mfp-close text-dark">X</button>
-        </div>
-    </div>
-
     <!--******************************** 
 			Code End  Here 
 	******************************** -->
@@ -465,14 +440,6 @@
             $(".mystickyelements-fixed").mouseleave(function() {
                 $("#mystickyelements-social-whatsapp").removeClass("elements-active elements-hover-active");
                 $(".mystickyelements-fixed").removeClass("mystickyelements-on-click");
-            });
-
-            $.magnificPopup.open({
-                items: {
-                    src: '#QuickView',
-                    type: 'inline'
-                },
-                modal: true
             });
         })
     </script>

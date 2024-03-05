@@ -3,17 +3,32 @@
     background: #000 !important;
 }
 
-.header-layout3 .menu-area:before,
-.header-layout3 .menu-area:after {
-    background-color: #000 !important;
+.header-layout2 .menu-area:before {
+    content: none !important;
+}
+
+.header-layout3 .sticky-wrapper {
+    background: #000 !important;
 }
 
 textarea {
     background-color: var(--smoke-color) !important;
 }
 
-.widget-area {
+/*.widget-area {
     padding-top: 20% !important;
+}
+@media (max-width: 767px) {
+    .widget-area {
+        margin-top: 55% !important;
+    }
+}*/
+
+.header-links li,
+.header-links span,
+.header-links p,
+.header-links a {
+    color: #fff !important;
 }
 
 .th-btn {
@@ -21,8 +36,6 @@ textarea {
     color: #fff !important;
 }
 
-@media (max-width: 767px) {
-    .widget-area {
-        margin-top: 55% !important;
-    }
+.header-layout2 .menu-area:before {
+    background-color: #000 !important;
 }
