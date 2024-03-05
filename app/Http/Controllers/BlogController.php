@@ -12,9 +12,7 @@ class BlogController extends Controller
 {
     public function index()
     {
-        $blogs = Blog::latest()->paginate(10);
-        if (Auth::id())
-            $blogs = Blog::latest()->get();
+        $blogs = Blog::latest()->get();
         return view('admin.blog.index', compact('blogs'));
     }
 
