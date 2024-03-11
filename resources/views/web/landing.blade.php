@@ -157,16 +157,16 @@
             </div>
         </div>
     </div>
-    <div class="space why-area2 bg-top-center background-image" style="background-image: url('{{ asset('/web/assets/img/bg/bgg.png') }}');">
+    <div class="space why-area2 bg-top-center background-image" style="background-image: url('{{ asset('/web/assets/img/bg/1.png') }}');">
         <div class="container mt-5">
             <div class="row justify-content-end">
                 <div class="col-xl-7 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
                     <div class="pe-xl-5">
                         <div class="title-area text-center text-xl-start mb-25">
                             <!--<span class="sub-title style1">Aurega Corporate Services LLC</span>-->
-                            <h2 class="sec-title text-dark">Business Setup in Dubai</h2>
-                            <p class="text-justify">Navigating the complexities of establishing a business in the UAE can pose considerable challenges. However, with over t30 Years extensive experience and a track record of serving over 20,000 clients, our expert consultants stand ready to guide you through every step of the process.</p>
-                            <p class="text-justify">With over 30 years of experience in the industry, we've proudly assisted over 20,000 satisfied clients. Our commitment is to swiftly facilitate the establishment of your dream company in Dubai, leveraging our extensive expertise and friendly team members. We excel in delivering seamless and cost-effective business solutions customized to your specific requirements. Our track record of numerous awards underscores our reputation as the foremost service provider in the UAE.</p>
+                            <h2 class="sec-title text-white">Business Setup in Dubai</h2>
+                            <p class="text-justify text-white">Navigating the complexities of establishing a business in the UAE can pose considerable challenges. However, with over 30 Years extensive experience and a track record of serving over 20,000 clients, our expert consultants stand ready to guide you through every step of the process.</p>
+                            <p class="text-justify text-white">With over 30 years of experience in the industry, we've proudly assisted over 20,000 satisfied clients. Our commitment is to swiftly facilitate the establishment of your dream company in Dubai, leveraging our extensive expertise and friendly team members. We excel in delivering seamless and cost-effective business solutions customized to your specific requirements. Our track record of numerous awards underscores our reputation as the foremost service provider in the UAE.</p>
                         </div>
                     </div>
                     <div class="info-card-wrap style2">
@@ -175,8 +175,8 @@
                                 <i class="fa-solid fa-phone"></i>
                             </div>
                             <div class="info-card_content">
-                                <p class="info-card_text text-dark">Phone Number:</p>
-                                <a href="tel:+971528686158" class="info-card_link">+(971) 52 868 6158</a>
+                                <p class="info-card_text text-white">Phone Number:</p>
+                                <a href="tel:+971528686158" class="info-card_link text-white">+(971) 52 868 6158</a>
                             </div>
                         </div>
                         <div class="info-card">
@@ -184,8 +184,8 @@
                                 <i class="fa-solid fa-envelope"></i>
                             </div>
                             <div class="info-card_content">
-                                <p class="info-card_text text-dark">Email Address</p>
-                                <a href="mailto:mkt@auregagroup.com" class="info-card_link">mkt@auregagroup.com</a>
+                                <p class="info-card_text text-white">Email Address</p>
+                                <a href="mailto:mkt@auregagroup.com" class="info-card_link text-white">mkt@auregagroup.com</a>
                             </div>
                         </div>
                     </div>
@@ -477,13 +477,15 @@
                 $(".mystickyelements-fixed").removeClass("mystickyelements-on-click");
             });
 
-            $.magnificPopup.open({
-                items: {
-                    src: '#QuickView',
-                    type: 'inline'
-                },
-                modal: true
-            });
+            setTimeout(function() {
+                $.magnificPopup.open({
+                    items: {
+                        src: '#QuickView',
+                        type: 'inline'
+                    },
+                    modal: true
+                });
+            }, 20000);
         })
     </script>
 
