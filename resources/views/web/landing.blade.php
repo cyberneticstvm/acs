@@ -236,7 +236,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 mt-5">
-                    <h2>Your Gateway to Seamless Business Setup in UAE</h2>
+                    <h2 class="text-center">Your Gateway to Seamless Business Setup in UAE</h2>
                     <p class="text-center text-dark">
                         As specialists in company formation in Dubai, we understand the unique dynamics of the local business landscape.
                     </p>
