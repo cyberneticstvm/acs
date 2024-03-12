@@ -157,7 +157,7 @@
             </div>
         </div>
     </div>
-    <div class="space why-area2 bg-top-center background-image" style="background-image: url('{{ asset('/web/assets/img/bg/1.png') }}');">
+    <div class="space-top why-area2 bg-top-center background-image" style="background-image: url('{{ asset('/web/assets/img/bg/1.png') }}');">
         <div class="container mt-5">
             <div class="row justify-content-end">
                 <div class="col-xl-7 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
@@ -234,8 +234,15 @@
     </div>
     <div class="overflow-hidden" data-bg-src="asset('/web/assets/img/bg/counter_bg_1.jpg') }}">
         <div class="container">
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <h2>Your Gateway to Seamless Business Setup in UAE</h2>
+                    <p class="text-center text-dark">
+                        As specialists in company formation in Dubai, we understand the unique dynamics of the local business landscape.
+                    </p>
+                </div>
+            </div>
             <div class="counter-sec">
-
                 <div class="th-counterup wow fadeInLeft">
                     <div class="inner">
                         <div class="content">
@@ -246,8 +253,6 @@
                         </div>
                     </div>
                 </div>
-
-
                 <div class="th-counterup wow fadeInLeft">
                     <div class="inner">
                         <div class="content">
@@ -258,8 +263,6 @@
                         </div>
                     </div>
                 </div>
-
-
                 <div class="th-counterup wow fadeInLeft">
                     <div class="inner">
                         <div class="content">
@@ -270,8 +273,6 @@
                         </div>
                     </div>
                 </div>
-
-
                 <div class="th-counterup wow fadeInLeft">
                     <div class="inner">
                         <div class="content">
@@ -282,7 +283,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
