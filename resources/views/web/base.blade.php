@@ -282,6 +282,7 @@
                                     <p class="footer-info_text">
                                         <a href="tel:+971528686158" class="text-inherit">+(971) 52 868 6158</a>
                                         <a href="tel:+971506939558" class="text-inherit">+(971) 50 693 9558</a>
+                                        <a href="tel:+9714 349 4444" class="text-inherit">+(971) 4 349 4444</a>
                                     </p>
                                 </div>
                                 <p class="footer-info"><i class="fas fa-envelope"></i><a class="text-inherit" href="mailto:mkt@auregagroup.com">mkt@auregagroup.com</a></p>
