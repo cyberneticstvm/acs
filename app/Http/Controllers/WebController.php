@@ -180,8 +180,10 @@ class WebController extends Controller
         $canonical_url = "https://www.auregacs.com/resources/blog/" . $slug;
         $description = $blog->description;
         $keywords = $blog->keywords;
+        $num1 = rand(1, 99);
+        $num2 = rand(1, 99);
         $blogs = Blog::where('id', '!=', $blog->id)->where('type', 'Blog')->where('status', 1)->latest()->limit(10)->get();
-        return view('web.resources.blog', compact('title', 'canonical_url', 'description', 'keywords', 'blog', 'blogs'));
+        return view('web.resources.blog', compact('title', 'canonical_url', 'description', 'keywords', 'blog', 'blogs', 'num1', 'num2'));
     }
 
     function contact()
@@ -235,14 +237,19 @@ class WebController extends Controller
             'email' => 'required|email:rfs,dns',
             'contact_number' => 'required',
             'comment' => 'required',
+            'answer' => 'required',
         ]);
         try {
-            $blog = Blog::findOrFail(decrypt($request->blog_id));
-            $input = $request->all();
-            $input['blog_id'] = $blog->id;
-            $input['status'] = 'pending';
-            $owner = Comment::create($input);
-            Mail::to($this->email)->send(new BlogCommentEmail($owner));
+            if ($request->answer != ($request->num1 + $request->num2)) :
+                throw new Exception("Validation Failed!");
+            else :
+                $blog = Blog::findOrFail(decrypt($request->blog_id));
+                $input = $request->except(array('num1', 'num2', 'answer', 'op'));
+                $input['blog_id'] = $blog->id;
+                $input['status'] = 'pending';
+                $owner = Comment::create($input);
+                Mail::to($this->email)->send(new BlogCommentEmail($owner));
+            endif;
         } catch (Exception $e) {
             return redirect()->route('response.message')->with("error", $e->getMessage());
         }

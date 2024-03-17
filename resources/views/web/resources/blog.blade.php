@@ -77,18 +77,48 @@
                             <div class="col-md-6 form-group">
                                 <i class="fal fa-user"></i>
                                 <input type="text" placeholder="Your Name*" name="name" class="form-control">
+                                @error('name')
+                                <small class="text-danger">{{ $errors->first('name') }}</small>
+                                @enderror
                             </div>
                             <div class="col-md-6 form-group">
                                 <i class="fal fa-envelope"></i>
                                 <input type="text" placeholder="Your Email*" name="email" class="form-control">
+                                @error('email')
+                                <small class="text-danger">{{ $errors->first('email') }}</small>
+                                @enderror
                             </div>
                             <div class="col-md-12 form-group">
                                 <i class="fal fa-mobile"></i>
                                 <input type="text" placeholder="Contact Number*" name="contact_number" class="form-control">
+                                @error('contact_number')
+                                <small class="text-danger">{{ $errors->first('contact_number') }}</small>
+                                @enderror
                             </div>
                             <div class="col-12 form-group">
                                 <i class="fa-sharp fa-light fa-comments"></i>
                                 <textarea placeholder="Write a Comment*" name="comment" class="form-control"></textarea>
+                                @error('comment')
+                                <small class="text-danger">{{ $errors->first('comment') }}</small>
+                                @enderror
+                            </div>
+                            <div class="row form-group">
+                                <label for="validate">Validate</label>
+                                <div class="col-md-3">
+                                    <input id="num1" name="num1" placeholder="0" type="text" value="{{ $num1 }}" class="text-center" readonly>
+                                </div>
+                                <div class="col-md-3">
+                                    <input id="op" name="op" placeholder="+" class="text-center" type="text" value="" readonly>
+                                </div>
+                                <div class="col-md-3">
+                                    <input id="num2" name="num2" class="text-center" placeholder="0" type="text" value="{{ $num2 }}" readonly>
+                                </div>
+                                <div class="col-md-3">
+                                    <input id="answer" name="answer" class="text-center" placeholder="0" type="text" value="">
+                                    @error('answer')
+                                    <small class="text-danger">{{ $errors->first('answer') }}</small>
+                                    @enderror
+                                </div>
                             </div>
                             <div class="col-12 form-group mb-0">
                                 <button class="th-btn btn-submit">Send Message</button>
