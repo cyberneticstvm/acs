@@ -41,8 +41,8 @@
                             <a href="{{ route('blogs.blog', $blog->slug) }}"><i class="fa-regular fa-calendar"></i>{{ $blog->created_at->format('d, M Y') }}</a>
                             <a href="{{ route('blogs.blog', $blog->slug) }}"><i class="fa-regular fa-comments"></i>comments({{ $blog->comments->count() }})</a>
                         </div>
-                        <h2 class="blog-title"><a href="{{ route('blogs.blog', $blog->slug) }}">{{ $blog->title }}</a>
-                        </h2>
+                        <h5 class=""><a href="{{ route('blogs.blog', $blog->slug) }}">{{ $blog->title }}</a>
+                        </h5>
                         <a href="{{ route('blogs.blog', $blog->slug) }}" class="th-btn border">READ MORE</a>
                     </div>
                 </div>
