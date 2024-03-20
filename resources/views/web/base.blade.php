@@ -58,7 +58,7 @@
     <!-- Slick Slider -->
     <link rel="stylesheet" href="{{ asset('/web/assets/css/slick.min.css') }}">
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="{{ asset('/web/assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('/web/assets/css/style.css?v=1') }}">
     <link rel="stylesheet" href="{{ asset('/web/assets/css/aurega.css') }}">
     <link rel="stylesheet" href="{{ asset('/web/assets/css/animation.css') }}">
     <link href="{{ asset('/web/assets/css/mystickyelement.css') }}" rel="stylesheet">
