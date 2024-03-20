@@ -290,7 +290,7 @@
             responsive: [{
                 breakpoint: 1600,
                 settings: {
-                    arrows: d("xl-arrows") ? true : false,
+                    arrows: d("xl-arrows") ? true : true,
                     dots: d("xl-dots") ? true : false,
                     slidesToShow: d("xl-slide-show") ?
                         d("xl-slide-show") : d("slide-show"),
@@ -301,7 +301,7 @@
             {
                 breakpoint: 1400,
                 settings: {
-                    arrows: d("ml-arrows") ? true : false,
+                    arrows: d("ml-arrows") ? true : true,
                     dots: d("ml-dots") ? true : false,
                     slidesToShow: d("ml-slide-show") ?
                         d("ml-slide-show") : d("slide-show"),
@@ -312,7 +312,7 @@
             {
                 breakpoint: 1200,
                 settings: {
-                    arrows: d("lg-arrows") ? true : false,
+                    arrows: d("lg-arrows") ? true : true,
                     dots: d("lg-dots") ? true : false,
                     slidesToShow: d("lg-slide-show") ?
                         d("lg-slide-show") : d("slide-show"),
@@ -324,7 +324,7 @@
             {
                 breakpoint: 992,
                 settings: {
-                    arrows: d("md-arrows") ? true : false,
+                    arrows: d("md-arrows") ? true : true,
                     dots: d("md-dots") ? true : false,
                     slidesToShow: d("md-slide-show") ?
                         d("md-slide-show") : 1,
@@ -336,7 +336,7 @@
             {
                 breakpoint: 768,
                 settings: {
-                    arrows: d("sm-arrows") ? true : false,
+                    arrows: d("sm-arrows") ? true : true,
                     dots: d("sm-dots") ? true : false,
                     slidesToShow: d("sm-slide-show") ?
                         d("sm-slide-show") : 1,
@@ -348,7 +348,7 @@
             {
                 breakpoint: 576,
                 settings: {
-                    arrows: d("xs-arrows") ? true : false,
+                    arrows: d("xs-arrows") ? true : true,
                     dots: d("xs-dots") ? true : false,
                     slidesToShow: d("xs-slide-show") ?
                         d("xs-slide-show") : 1,

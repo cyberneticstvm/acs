@@ -1073,7 +1073,7 @@ textarea.is-invalid {
   position: absolute;
   top: 50%;
   border: none;
-  left: var(--pos-x, -200px);
+  /*left: var(--pos-x, -200px);*/
   width: var(--icon-size, 56px);
   height: var(--icon-size, 56px);
   line-height: var(--icon-size, 56px);
@@ -1092,7 +1092,7 @@ textarea.is-invalid {
 }
 
 .slick-arrow.slick-next {
-  right: -200px;
+  right: 10px;
   left: auto;
 }
 
@@ -1105,19 +1105,20 @@ textarea.is-invalid {
   top: calc(50% - 30px);
 }
 
-.arrow-wrap .slick-arrow {
+/*.arrow-wrap .slick-arrow {
   opacity: 0;
   visibility: hidden;
-}
+}*/
 
 .arrow-wrap:hover .slick-arrow {
   opacity: 1;
   visibility: visible;
-  left: var(--pos-x, -100px);
+  left: 10px;
+  /*var(--pos-x, -100px);*/
 }
 
 .arrow-wrap:hover .slick-arrow.slick-next {
-  right: -100px;
+  right: 10px;
   left: auto;
 }
 
@@ -1191,7 +1192,7 @@ textarea.is-invalid {
 @media (max-width: 1399px) {
   .slick-arrow {
     --arrow-horizontal: 40px;
-    --pos-x: -17px;
+    --pos-x: 5px;
   }
 }
 
