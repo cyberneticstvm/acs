@@ -173,7 +173,7 @@
         <div class="row mt-5">
             <div class="col-lg-3">
                 <div class="product-big-img global-img">
-                    <div class="img"><img src="{{ asset('/web/assets/img/team/ribin.png') }}" alt="Product Image"></div>
+                    <div class="img"><img src="{{ asset('/web/assets/img/team/acs-team/ribin.jpeg') }}" alt="Product Image"></div>
                 </div>
             </div>
             <div class="col-lg-9">
@@ -186,7 +186,7 @@
 
                     <div class="product_meta text-end">
                         <span class="sku_wrapper">Mr. Mohamed Ribin</span>
-                        <span class="posted_in">Team Leader Operations</span>
+                        <span class="posted_in">Compliance / Money Laundering Reporting Officer</span>
                     </div>
                 </div>
             </div>

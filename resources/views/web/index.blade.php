@@ -479,10 +479,10 @@ Team Area
             <div class="col-sm-6 col-lg-4 col-xxl-3">
                 <div class="th-team team-box wow fadeInUp">
                     <div class="team-img">
-                        <img src="{{ asset('/web/assets/img/team/ribin.png') }}" alt="Team">
+                        <img src="{{ asset('/web/assets/img/team/acs-team/ribin.jpeg') }}" alt="Team">
                     </div>
                     <h3 class="box-title"><a href="{{ route('members') }}">Mr. Mohamed Ribin</a></h3>
-                    <span class="team-desig">Team Leader Operations</span>
+                    <span class="team-desig">Compliance / Money Laundering Reporting Officer</span>
                 </div>
             </div>
 
