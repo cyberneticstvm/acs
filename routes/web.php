@@ -32,7 +32,7 @@ Route::middleware(['web'])->group(function () {
         Route::get('/services/pro-service', 'pro')->name('pro.service');
         Route::get('/services/trademark-registration-and-intellectual-property', 'trademark')->name('trademark');
         Route::get('/services/hr-and-recruitment', 'hr')->name('hr.service');
-        Route::get('/services/digital-merkting-and-software-consulting', 'digital')->name('digital.service');
+        Route::get('/services/digital-marketing-web-development', 'digital')->name('digital.service');
 
         Route::get('/resources/partners', 'partners')->name('partners');
         Route::get('/resources/members', 'members')->name('members');
