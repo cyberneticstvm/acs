@@ -56,7 +56,7 @@
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://auregacs.com/services/digital-merkting-and-software-consulting</loc>
+        <loc>https://auregacs.com/services/digital-marketing-web-development</loc>
         <lastmod>2024-02-24T20:00:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
