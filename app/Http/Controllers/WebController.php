@@ -193,7 +193,9 @@ class WebController extends Controller
         $description = "Contact Aurega Corporate Services in Dubai UAE";
         $keywords = "";
         $services = Category::all();
-        return view('web.contact', compact('title', 'canonical_url', 'description', 'keywords', 'services'));
+        $num1 = rand(1, 99);
+        $num2 = rand(1, 99);
+        return view('web.contact', compact('title', 'canonical_url', 'description', 'keywords', 'services', 'num1', 'num2'));
     }
 
     function callback(Request $request)
@@ -216,14 +218,19 @@ class WebController extends Controller
         $this->validate($request, [
             'name' => 'required',
             'email' => 'required|email:rfs,dns',
-            'contact_number' => 'required',
+            'contact_number' => 'required|numeric',
             'message' => 'required',
             'service' => 'required',
+            'answer' => 'required',
         ]);
         try {
-            $input = $request->all();
-            $contact = Contact::create($input);
-            Mail::to($this->email)->send(new ContactUsEmail($contact));
+            if ($request->answer != ($request->num1 + $request->num2)) :
+                throw new Exception("Validation Failed!");
+            else :
+                $input = $request->all();
+                $contact = Contact::create($input);
+                Mail::to($this->email)->send(new ContactUsEmail($contact));
+            endif;
         } catch (Exception $e) {
             return redirect()->route('response.message')->with("error", $e->getMessage());
         }

@@ -112,6 +112,9 @@
                         <div class="form-group col-md-6">
                             <input type="text" class="form-control" name="contact_number" placeholder="Contact Number">
                             <i class="fal fa-mobile"></i>
+                            @error('contact_number')
+                            <small class="text-danger">{{ $errors->first('contact_number') }}</small>
+                            @enderror
                         </div>
                         <div class="form-group col-md-6">
                             <select name="service" class="form-select nice-select form-control">
@@ -127,14 +130,31 @@
                             <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write message...."></textarea>
                             <i class="fal fa-comment"></i>
                         </div>
-                        <div class="form-btn col-12">
-                            <button class="th-btn fw-btn btn-submit">Submit Now</button>
+                        <div class="col-12"><label>Validate</label></div>
+                        <div class="col-3 form-group">
+                            <input id="num1" name="num1" placeholder="0" type="text" value="{{ $num1 }}" class="text-center" readonly>
+                        </div>
+                        <div class="col-3 form-group">
+                            <input id="op" name="op" placeholder="+" class="text-center" type="text" value="" readonly>
+                        </div>
+                        <div class="col-3 form-group">
+                            <input id="num2" name="num2" class="text-center" placeholder="0" type="text" value="{{ $num2 }}" readonly>
+                        </div>
+                        <div class="col-3 form-group">
+                            <input id="answer" name="answer" class="text-center" placeholder="0" type="text" value="">
+                            @error('answer')
+                            <small class="text-danger">{{ $errors->first('answer') }}</small>
+                            @enderror
                         </div>
                     </div>
-                    <p class="form-messages mb-0 mt-3"></p>
-                </form>
+                    <div class="form-btn col-12">
+                        <button class="th-btn fw-btn btn-submit">Submit Now</button>
+                    </div>
             </div>
+            <p class="form-messages mb-0 mt-3"></p>
+            </form>
         </div>
+    </div>
     </div>
 </section>
 <div class="map-sec">
